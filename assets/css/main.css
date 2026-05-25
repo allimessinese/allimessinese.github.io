@@ -317,7 +317,6 @@ img { max-width: 100%; display: block; }
 }
 .article-hero-image {
   width: 100%;
-  max-width: 836px;
   height: 380px;
   overflow: hidden;
   margin: 2rem 0;
@@ -345,7 +344,7 @@ img { max-width: 100%; display: block; }
   color: var(--navy);
 }
 .article-detail-body {
-  max-width: 836px;
+  width: 100%;
   margin: 0 auto 0 0;
 }
 .article-detail-body h2 {
