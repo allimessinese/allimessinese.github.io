@@ -19,9 +19,9 @@ links:
 
 ## What I Learned
 
-Girls Into VC gave me my first structured immersion in how venture capital actually works, from fund mechanics and portfolio construction to how early-stage investors evaluate founders. The fellowship curriculum was rigorous and the speakers were the real thing — practitioners who had made the decisions, not just studied them.
+Girls Into VC gave me my first structured immersion in how venture capital actually works, from fund mechanics and portfolio construction to how early-stage investors evaluate founders. The fellowship curriculum was rigorous and the speakers were the real thing: practitioners who had made the decisions, not just studied them.
 
-Organising the Summit was a different kind of education. Pulling together 80+ people across logistics, programming, and speaker coordination — while keeping the energy of the day high and the content substantive — taught me more about execution than any course could. I learned how much of an event's success comes down to the hundred invisible decisions made in the weeks before anyone walks in the door.
+Organising the Summit was a different kind of education. Pulling together 80+ people across logistics, programming, and speaker coordination, while keeping the energy of the day high and the content substantive, taught me more about execution than any course could. I learned how much of an event's success comes down to the hundred invisible decisions made in the weeks before anyone walks in the door.
 
 Lan Fong's session on biotech investing stayed with me. She brought a depth and specificity to the space I was actively trying to enter, and hearing her perspective from inside the industry, rather than from the outside looking in, was exactly what I needed at that moment.
 

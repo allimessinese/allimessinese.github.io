@@ -20,18 +20,18 @@ This was my first experience running something at scale - managing people, depar
 
 ## Roles & Progression
 
-### Chairperson of the Strategy Committee *(Aug 2023 – May 2024)*
+### Chairperson of the Strategy Committee *(Aug 2023 to May 2024)*
 - Led a cross-functional team to develop a year-long strategic plan aligning short- and long-term goals, enhancing team performance by 25%
 - Facilitated collaboration between 4+ departments, ensuring the strategic framework met the diverse needs of the AI-focused organization
 - Spearheaded strategic initiatives resulting in improved team synergy and a 15% increase in project completion rates
 
-### Business Mentor *(Sep 2022 – Jul 2023)*
+### Business Mentor *(Sep 2022 to Jul 2023)*
 - Mentored the Partnership Department in securing 5+ strategic partnerships
 - Guided development of proposals and negotiation of collaboration agreements
 - Provided business development advice on marketing and fundraising, contributing to a 20% increase in external funding
 - Coached team members on market research, pitching, and networking
 
-### Co-Chief Operating Officer *(Aug 2021 – Sep 2022)*
+### Co-Chief Operating Officer *(Aug 2021 to Sep 2022)*
 - Led operational strategy for a team of 40, overseeing 4 departments: AI, Communications, Partnerships, and Finance
 - Improved cross-department collaboration and boosted project completion rates by 20%
 - Created proposals and marketing materials contributing to a 25% increase in external partner engagement

@@ -73,8 +73,8 @@ By the end of the competition, SPYKE existed as a functioning prototype: a cup w
 
 ## Awards
 
-**2nd place, Best Entrepreneurship** — iGEM Giant Jamboree 2022, Paris  
-**Finalist, Diagnostics Track** — iGEM Giant Jamboree 2022, Paris
+**2nd place, Best Entrepreneurship**, iGEM Giant Jamboree 2022, Paris
+**Finalist, Diagnostics Track**, iGEM Giant Jamboree 2022, Paris
 
 ---
 
