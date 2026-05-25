@@ -1,9 +1,9 @@
 - title: "Capacitive Biosensor for Detection of GHB"
-  year: 2023
+  year: 2022
   number: ""
   status: "Filed"
-  description: "A capacitive biosensor designed for rapid, low-cost detection of GHB (gamma-hydroxybutyrate) - a drug commonly used in drug-facilitated assault. Developed as part of the iGEM TU Delft project."
-  link: ""
+  description: "A capacitive biosensor designed for rapid, low-cost detection of GHB (gamma-hydroxybutyrate) - a drug commonly used in drug-facilitated assault. Filed September 30, 2022 as part of the iGEM TU Delft 2022 project (SPYKE)."
+  link: "https://2022.igem.wiki/tudelft/entrepreneurship"
   projects:
     - ghb-biosensor-igem
 
