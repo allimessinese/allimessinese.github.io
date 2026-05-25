@@ -11,6 +11,7 @@ city: "Delft"
 lat: 52.0116
 lng: 4.3571
 image: "/assets/images/bacillus-subtilis-microscopy.jpg"
+image_position: "center 48%"
 pdf: "/assets/bacillus-subtilis-thesis.pdf"
 ---
 
