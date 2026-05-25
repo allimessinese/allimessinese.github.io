@@ -1,41 +1,65 @@
 ---
 layout: default
 ---
-<div class="hero">
-  <div class="hero-inner">
-    <h1 class="hero-name">Allegra Messinese</h1>
-    <p class="hero-tagline">GTM @ Mithrl &nbsp;·&nbsp; MEng Bioengineering, UC Berkeley</p>
-    <p class="hero-bio">Bioengineer and operator. This is a living log of everything I've worked on — research, engineering, patents, publications, and roles — all in one place.</p>
-    <div class="hero-links">
-      <a href="/projects/" class="btn btn-white">View all projects</a>
-      <a href="/about/" class="btn btn-outline">About me</a>
-      <a href="mailto:allegra.messinese@gmail.com" class="btn btn-outline">Get in touch</a>
-    </div>
+<div class="masthead">
+  <div class="masthead-top">
+    <div class="masthead-meta-left">Berkeley, California</div>
+    <h1 class="masthead-name">Allegra Messinese</h1>
+    <div class="masthead-meta-right">Vol. I &nbsp;·&nbsp; 2026</div>
   </div>
+  <hr class="masthead-rule-thick">
+  <p class="masthead-tagline">GTM @ Mithrl &nbsp;·&nbsp; MEng Bioengineering, UC Berkeley &nbsp;·&nbsp; Biotech &amp; Startups</p>
+  <hr class="masthead-rule-thin">
+  <ul class="masthead-nav">
+    <li><a href="/projects/">Projects</a></li>
+    <li><a href="/publications/">Publications</a></li>
+    <li><a href="/patents/">Patents</a></li>
+    <li><a href="/about/">About</a></li>
+  </ul>
+  <hr class="masthead-rule-thin">
 </div>
 
-<p class="section-label">Explore</p>
-<div class="section-grid">
-  <a href="/projects/" class="section-card">
-    <div class="section-card-icon">⚗️</div>
-    <div class="section-card-title">Projects</div>
-    <div class="section-card-desc">Research, engineering & leadership</div>
+{% assign sorted = site.projects | sort: "year" | reverse %}
+{% assign featured = sorted | where: "featured", true | first %}
+{% assign rest = sorted | where: "featured", false %}
+
+<div class="article-grid" style="margin-top: 0;">
+  {% if featured %}
+  <a class="article-card feature" href="{{ featured.url }}">
+    <div class="article-image {{ featured.gradient | default: 'grad-1' }}">
+      {% if featured.image %}<img src="{{ featured.image | relative_url }}" alt="{{ featured.title }}">{% endif %}
+    </div>
+    <div class="article-body">
+      <span class="article-kicker">{{ featured.tags | first }}</span>
+      <h2 class="article-title">{{ featured.title }}</h2>
+      <div class="article-byline">{{ featured.role }}{% if featured.institution %} · {{ featured.institution }}{% endif %} · {{ featured.year }}</div>
+      <p class="article-summary">{{ featured.summary }}</p>
+      <span class="article-read-more">Read article</span>
+    </div>
   </a>
-  <a href="/publications/" class="section-card">
-    <div class="section-card-icon">📄</div>
-    <div class="section-card-title">Publications</div>
-    <div class="section-card-desc">Articles & papers</div>
+  {% assign display = rest | limit: 5 %}
+  {% else %}
+  {% assign display = sorted | limit: 6 %}
+  {% endif %}
+
+  {% for project in display %}
+  <a class="article-card" href="{{ project.url }}">
+    <div class="article-image {{ project.gradient | default: 'grad-1' }}">
+      {% if project.image %}<img src="{{ project.image | relative_url }}" alt="{{ project.title }}">{% endif %}
+    </div>
+    <div class="article-body">
+      <span class="article-kicker">{{ project.tags | first }}</span>
+      <h2 class="article-title">{{ project.title }}</h2>
+      <div class="article-byline">{{ project.role }}{% if project.institution %} · {{ project.institution }}{% endif %} · {{ project.year }}</div>
+      <p class="article-summary">{{ project.summary }}</p>
+      <span class="article-read-more">Read article</span>
+    </div>
   </a>
-  <a href="/patents/" class="section-card">
-    <div class="section-card-icon">🔬</div>
-    <div class="section-card-title">Patents</div>
-    <div class="section-card-desc">Filings & grants</div>
-  </a>
-  <a href="/about/" class="section-card">
-    <div class="section-card-icon">👤</div>
-    <div class="section-card-title">About</div>
-    <div class="section-card-desc">Bio & education</div>
-  </a>
+  {% endfor %}
+</div>
+
+<div style="text-align:center; padding: 2rem 0; border-bottom: 1px solid var(--rule);">
+  <a href="/projects/" style="font-size:0.68rem; font-weight:600; text-transform:uppercase; letter-spacing:0.14em; color:var(--navy); border:1px solid var(--navy); padding:0.5rem 1.5rem; transition: all 0.15s; display:inline-block;">View All Projects</a>
 </div>
 
 {{ content }}

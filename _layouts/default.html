@@ -8,7 +8,7 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% feed_meta %}
   {% seo %}
@@ -16,7 +16,7 @@
 <body>
   <nav class="nav">
     <div class="nav-inner">
-      <a class="nav-logo" href="{{ '/' | relative_url }}">Allegra Messinese</a>
+      <a class="nav-logo" href="{{ '/' | relative_url }}">A.M.</a>
       <ul class="nav-links">
         <li><a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>About</a></li>
         <li><a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects' %} class="active"{% endif %}>Projects</a></li>
@@ -30,13 +30,12 @@
   </main>
   <footer class="footer">
     <div class="footer-inner">
-      <p>
-        <a href="mailto:allegra.messinese@gmail.com">allegra.messinese@gmail.com</a>
-        &nbsp;·&nbsp;
+      <span class="footer-name">Allegra Messinese</span>
+      <div class="footer-links">
+        <a href="mailto:allegra.messinese@gmail.com">Email</a>
         <a href="https://linkedin.com/in/allegramessinese" target="_blank" rel="noopener">LinkedIn</a>
-        &nbsp;·&nbsp;
         <a href="https://github.com/allimessinese" target="_blank" rel="noopener">GitHub</a>
-      </p>
+      </div>
     </div>
   </footer>
 </body>
