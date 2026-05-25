@@ -35,21 +35,31 @@
   border: 2.5px solid #F7F6F1;   /* overridden per-marker via inline style */
   cursor: pointer;
   transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.2s ease,
-              opacity 0.3s ease;
+              opacity 0.25s ease;
   box-sizing: border-box;
 }
-.map-dot:hover {
-  transform: scale(1.4);
-}
+.map-dot:hover { transform: scale(1.4); }
 
 /* Pulse on load */
 @keyframes pulse {
-  0%   { transform: scale(1);    opacity: 1; }
-  50%  { transform: scale(1.5);  opacity: 0.6; }
-  100% { transform: scale(1);    opacity: 1; }
+  0%   { transform: scale(1);   opacity: 1; }
+  50%  { transform: scale(1.6); opacity: 0.55; }
+  100% { transform: scale(1);   opacity: 1; }
 }
-.map-dot.pulse { animation: pulse 0.6s ease-out 1; }
+.map-dot.pulse { animation: pulse 0.65s ease-out 1; }
+
+/* ── Category filter dimming ─────────────────────────────── */
+/* When a filter is active, dim ALL dots… */
+.map-wrapper[data-filter] .map-dot {
+  opacity: 0.15;
+}
+/* …then restore the matching category using the space-separated data-cats attribute */
+.map-wrapper[data-filter="research"] .map-dot[data-cats~="research"],
+.map-wrapper[data-filter="teaching"] .map-dot[data-cats~="teaching"],
+.map-wrapper[data-filter="startup"]  .map-dot[data-cats~="startup"],
+.map-wrapper[data-filter="vc"]       .map-dot[data-cats~="vc"] {
+  opacity: 1;
+}
 
 /* ── Recenter button ─────────────────────────────────────── */
 .recenter-btn {
@@ -122,7 +132,7 @@
   color: #767676;
   padding: 0.4rem 0.75rem 0.4rem 0.5rem;
   cursor: pointer;
-  transition: all 0.15s;
+  transition: all 0.2s ease;
   white-space: nowrap;
   line-height: 1;
 }
@@ -130,12 +140,15 @@
   border-color: #1A1A1A;
   color: #1A1A1A;
 }
-.legend-chip.active {
+/* Selected: filled navy, white text — clearly active */
+.legend-chip.selected {
+  background: #1A1A1A;
   border-color: #1A1A1A;
-  color: #1A1A1A;
+  color: #F7F6F1;
 }
-.legend-chip:not(.active) {
-  opacity: 0.45;
+/* Dimmed: another category is selected */
+.legend-chip.dimmed {
+  opacity: 0.35;
 }
 
 .legend-dot {
