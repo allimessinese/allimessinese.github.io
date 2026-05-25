@@ -1,14 +1,11 @@
 title: Allegra Messinese
 email: allegra.messinese@gmail.com
-description: Portfolio and project log — work, research, publications, and patents.
+description: "Bioengineer and operator. A living log of my projects, research, patents, and publications."
 url: "https://allimessinese.github.io"
 baseurl: ""
 github_username: allimessinese
 
 theme: minima
-
-minima:
-  skin: classic
 
 collections:
   projects:

@@ -1,9 +1,17 @@
-# Add your patents here. Each entry becomes a row on /patents/
-# Fields: title, year, number, status (Filed / Granted), description, link (optional)
-
-- title: "Example Patent Title"
+- title: "Capacitive Biosensor for Detection of GHB"
   year: 2023
-  number: "US12345678"
-  status: "Granted"
-  description: "Brief description of what the patent covers."
+  number: ""
+  status: "Filed"
+  description: "A capacitive biosensor designed for rapid, low-cost detection of GHB (gamma-hydroxybutyrate) — a drug commonly used in drug-facilitated assault. Developed as part of the iGEM TU Delft project."
   link: ""
+  projects:
+    - ghb-biosensor-igem
+
+- title: "Piezoelectric Cardiac Implant"
+  year: 2025
+  number: ""
+  status: "Filing in progress"
+  description: "A cardiac implant that converts mechanical energy from heart motion into localized electrical stimulation via the piezoelectric effect, designed to promote cardiac tissue regeneration."
+  link: ""
+  projects:
+    - piezoelectric-cardiac-implant
