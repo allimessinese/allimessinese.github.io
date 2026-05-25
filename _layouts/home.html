@@ -3,63 +3,170 @@ layout: default
 ---
 <div class="masthead">
   <div class="masthead-top">
-    <div class="masthead-meta-left">Berkeley, California</div>
+    <div class="masthead-meta-left">San Francisco, California</div>
     <h1 class="masthead-name">Allegra Messinese</h1>
     <div class="masthead-meta-right">Vol. I &nbsp;·&nbsp; 2026</div>
   </div>
   <hr class="masthead-rule-thick">
-  <p class="masthead-tagline">GTM @ Mithrl &nbsp;·&nbsp; MEng Bioengineering, UC Berkeley &nbsp;·&nbsp; Biotech &amp; Startups</p>
+  <p class="masthead-tagline">GTM @ Mithrl &nbsp;·&nbsp; MEng, UC Berkeley &nbsp;·&nbsp; Biotech &amp; Startups</p>
   <hr class="masthead-rule-thin">
   <ul class="masthead-nav">
-    <li><a href="/projects/">Projects</a></li>
-    <li><a href="/publications/">Publications</a></li>
-    <li><a href="/patents/">Patents</a></li>
-    <li><a href="/about/">About</a></li>
+    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+    <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+    <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
+    <li><a href="{{ '/patents/' | relative_url }}">Patents</a></li>
   </ul>
   <hr class="masthead-rule-thin">
 </div>
 
-{% assign sorted = site.projects | sort: "year" | reverse %}
-{% assign featured = sorted | where: "featured", true | first %}
-{% assign rest = sorted | where: "featured", false %}
-
-<div class="article-grid" style="margin-top: 0;">
-  {% if featured %}
-  <a class="article-card feature" href="{{ featured.url }}">
-    <div class="article-image {{ featured.gradient | default: 'grad-1' }}">
-      {% if featured.image %}<img src="{{ featured.image | relative_url }}" alt="{{ featured.title }}">{% endif %}
-    </div>
-    <div class="article-body">
-      <span class="article-kicker">{{ featured.tags | first }}</span>
-      <h2 class="article-title">{{ featured.title }}</h2>
-      <div class="article-byline">{{ featured.role }}{% if featured.institution %} · {{ featured.institution }}{% endif %} · {{ featured.year }}</div>
-      <p class="article-summary">{{ featured.summary }}</p>
-      <span class="article-read-more">Read article</span>
-    </div>
-  </a>
-  {% assign display = rest | limit: 5 %}
-  {% else %}
-  {% assign display = sorted | limit: 6 %}
-  {% endif %}
-
-  {% for project in display %}
-  <a class="article-card" href="{{ project.url }}">
-    <div class="article-image {{ project.gradient | default: 'grad-1' }}">
-      {% if project.image %}<img src="{{ project.image | relative_url }}" alt="{{ project.title }}">{% endif %}
-    </div>
-    <div class="article-body">
-      <span class="article-kicker">{{ project.tags | first }}</span>
-      <h2 class="article-title">{{ project.title }}</h2>
-      <div class="article-byline">{{ project.role }}{% if project.institution %} · {{ project.institution }}{% endif %} · {{ project.year }}</div>
-      <p class="article-summary">{{ project.summary }}</p>
-      <span class="article-read-more">Read article</span>
-    </div>
-  </a>
-  {% endfor %}
+<!-- ── About ── -->
+<div class="home-section">
+  <div class="home-section-label">
+    <span>About</span>
+    <a href="{{ '/about/' | relative_url }}">Full bio →</a>
+  </div>
+  <div class="home-about-box">
+    <div class="home-about-initial"><span>A.M.</span></div>
+    <p class="home-about-text">
+      Bioengineer and GTM operator based in San Francisco. Grew up in Milan, studied
+      Bioengineering at TU Delft, and completed my MEng at UC Berkeley — drawn to where
+      deep science meets early-stage startups. Most recently GTM Lead at Mithrl; previously
+      research, teaching, and investing across Europe, Southeast Asia, and the Bay Area.
+    </p>
+  </div>
 </div>
 
-<div style="text-align:center; padding: 2rem 0; border-bottom: 1px solid var(--rule);">
-  <a href="/projects/" style="font-size:0.68rem; font-weight:600; text-transform:uppercase; letter-spacing:0.14em; color:var(--navy); border:1px solid var(--navy); padding:0.5rem 1.5rem; transition: all 0.15s; display:inline-block;">View All Projects</a>
+<!-- ── Projects (map) ── -->
+<div class="home-section">
+  <div class="home-section-label">
+    <span>Projects</span>
+    <a href="{{ '/projects/' | relative_url }}">Explore all 14 →</a>
+  </div>
+  <div class="home-map-deck">
+    <h2>Fourteen projects. Seven cities. Three continents.</h2>
+    <p>Research &nbsp;·&nbsp; Teaching &nbsp;·&nbsp; Startups &nbsp;·&nbsp; Venture — from Milan to San Francisco</p>
+  </div>
+  <div id="home-map"></div>
+  <div class="home-map-cta"><a href="{{ '/projects/' | relative_url }}">Open interactive map →</a></div>
+</div>
+
+<!-- ── Publications ── -->
+<div class="home-section">
+  <div class="home-section-label">
+    <span>Publications</span>
+    <a href="{{ '/publications/' | relative_url }}">All publications →</a>
+  </div>
+  {% if site.data.publications and site.data.publications.size > 0 %}
+  <div class="home-pub-grid">
+    {% for pub in site.data.publications %}
+    <div class="home-pub-entry">
+      <span class="home-pub-journal">{{ pub.venue }}</span>
+      <div class="home-pub-title">{{ pub.title }}</div>
+      <div class="home-pub-meta">{% if pub.authors %}{{ pub.authors }} · {% endif %}{{ pub.year }}{% if pub.institution %} · {{ pub.institution }}{% endif %}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+
+<!-- ── Patents ── -->
+<div class="home-section">
+  <div class="home-section-label">
+    <span>Patents</span>
+    <a href="{{ '/patents/' | relative_url }}">All patents →</a>
+  </div>
+  <div class="home-patent-grid">
+    {% for patent in site.data.patents %}
+    {% assign is_filed = false %}
+    {% if patent.status == "Filed" %}{% assign is_filed = true %}{% endif %}
+    <div class="home-patent-entry">
+      <span class="home-patent-badge{% unless is_filed %} pending{% endunless %}">
+        {% if is_filed %}Filed {{ patent.year }}{% else %}Filing {{ patent.year }}{% endif %}
+      </span>
+      <div>
+        <div class="home-patent-title">{{ patent.title }}</div>
+        <div class="home-patent-meta">Co-inventor · {% if patent.number and patent.number != "" %}{{ patent.number }}{% else %}Filing in progress{% endif %}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
 </div>
 
 {{ content }}
+
+<!-- ── Home map init (Leaflet + MarkerCluster loaded via page.leaflet in default.html) ── -->
+<script>
+{% assign located = site.projects | where_exp: "p", "p.city != nil" | sort: "year" | reverse %}
+const homeProjectsData = [
+  {% for p in located %}
+  { city: {{ p.city | jsonify }}, lat: {{ p.lat }}, lng: {{ p.lng }}, category: {{ p.category | default: "research" | jsonify }} }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+
+document.addEventListener('DOMContentLoaded', function () {
+  const CATS = {
+    research: { color: '#B8D4EC', border: '#5C8DB5' },
+    teaching: { color: '#B4DEC8', border: '#4A9068' },
+    startup:  { color: '#F0B8CB', border: '#C4607A' },
+    vc:       { color: '#C8B8E8', border: '#7B5AAA' }
+  };
+
+  // Spread same-city markers
+  const cityGroups = {};
+  homeProjectsData.forEach(p => { (cityGroups[p.city] = cityGroups[p.city] || []).push(p); });
+  homeProjectsData.forEach(p => {
+    const g = cityGroups[p.city], n = g.length, i = g.indexOf(p);
+    if (n === 1) { p._lat = p.lat; p._lng = p.lng; }
+    else {
+      const angle = (i / n) * 2 * Math.PI - Math.PI / 2;
+      p._lat = p.lat + 0.005 * Math.cos(angle);
+      p._lng = p.lng + 0.005 * Math.sin(angle);
+    }
+  });
+
+  const map = L.map('home-map', {
+    center: [30, 12],
+    zoom: 2,
+    zoomControl: false,
+    minZoom: 2,
+    maxZoom: 10,
+    scrollWheelZoom: false,
+    worldCopyJump: true
+  });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    subdomains: 'abcd', maxZoom: 19
+  }).addTo(map);
+
+  L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+  const cluster = L.markerClusterGroup({
+    maxClusterRadius: 60,
+    disableClusteringAtZoom: 9,
+    spiderfyOnMaxZoom: false,
+    showCoverageOnHover: false,
+    zoomToBoundsOnClick: true,
+    iconCreateFunction: function (c) {
+      const n = c.getChildCount(), size = n >= 6 ? 40 : n >= 3 ? 32 : 26;
+      return L.divIcon({
+        className: '',
+        html: `<div class="hmap-dot" style="width:${size}px;height:${size}px;background:#1B3A6B;border-color:#F7F6F1;font-size:11px;color:#fff;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-weight:700;line-height:1;">${n}</div>`,
+        iconSize: [size, size], iconAnchor: [size / 2, size / 2]
+      });
+    }
+  });
+
+  homeProjectsData.forEach(p => {
+    const cat = CATS[p.category] || CATS.research;
+    cluster.addLayer(L.marker([p._lat, p._lng], {
+      icon: L.divIcon({
+        className: '',
+        html: `<div class="hmap-dot" style="width:16px;height:16px;background:${cat.color};border-color:${cat.border};"></div>`,
+        iconSize: [16, 16], iconAnchor: [8, 8]
+      })
+    }));
+  });
+
+  map.addLayer(cluster);
+});
+</script>

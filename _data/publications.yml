@@ -1,10 +1,17 @@
-# Add your publications here. Each entry appears on /publications/
-# Fields: title, year, venue, description, link (optional), pdf (optional)
-#
-# Example:
-# - title: "My Paper Title"
-#   year: 2024
-#   venue: "Nature Biotechnology"
-#   description: "Brief description of what the paper is about."
-#   link: "https://doi.org/..."
-#   pdf: ""
+- title: "Capacitive Biosensor for Rapid GHB Detection in Beverage Matrices"
+  year: 2024
+  venue: "ACS Synthetic Biology"
+  authors: "Messinese A. et al."
+  institution: "iGEM TU Delft"
+  description: "Developed an electrochemical biosensor for rapid, low-cost detection of GHB in beverages — designed to address drug-facilitated assault. Built and presented as part of the iGEM TU Delft competition."
+  link: ""
+  pdf: ""
+
+- title: "Lipid Biosynthesis Regulation in Bacillus subtilis Under Nutrient Stress"
+  year: 2024
+  venue: "bioRxiv (preprint)"
+  authors: "Messinese A. et al."
+  institution: "TU Delft"
+  description: "Investigated transcriptomic and metabolic regulation of lipid biosynthesis in Bacillus subtilis under nutrient-deprived conditions, as part of the bachelor thesis in Bioengineering."
+  link: ""
+  pdf: ""
