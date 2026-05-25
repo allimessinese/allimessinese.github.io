@@ -1,7 +1,7 @@
 ---
-title: "Lipid Biosynthesis Regulation in Bacillus subtilis - Bachelor Thesis"
+title: "Lipid Biosynthesis Regulation in Bacillus subtilis"
 year: 2024
-role: "Bachelor Thesis Student"
+role: "Bachelor Thesis"
 institution: "Delft University of Technology"
 summary: "Investigated the role of a poorly understood protein, YqhY, as a post-translational regulator of fatty acid synthesis in Bacillus subtilis using Gibson Assembly, GFP tagging, and fluorescence microscopy."
 tags: [microbiology, molecular biology, research, thesis]
