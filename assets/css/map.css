@@ -18,8 +18,14 @@
   filter: sepia(0.08) contrast(0.92) brightness(1.04) saturate(0.85);
 }
 
-/* Hide default Leaflet attribution */
+/* Hide default Leaflet attribution & cluster default styles */
 .leaflet-control-attribution { display: none; }
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large { background: none !important; box-shadow: none !important; }
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div { background: none !important; }
 
 /* ── Custom map dots ─────────────────────────────────────── */
 .map-dot {
@@ -36,24 +42,44 @@
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   color: #fff;
+  box-sizing: border-box;
 }
 .map-dot:hover {
-  transform: scale(1.4);
+  transform: scale(1.35);
   box-shadow: 0 4px 20px rgba(27, 58, 107, 0.55);
 }
-.map-dot.active {
-  background: #0D1B2A;
-  transform: scale(1.25);
-}
 
-/* Pulse animation on load */
+/* Pulse on load */
 @keyframes pulse {
   0%   { box-shadow: 0 0 0 0 rgba(27, 58, 107, 0.5); }
   70%  { box-shadow: 0 0 0 10px rgba(27, 58, 107, 0); }
   100% { box-shadow: 0 0 0 0 rgba(27, 58, 107, 0); }
 }
-.map-dot.pulse {
-  animation: pulse 2s ease-out 1;
+.map-dot.pulse { animation: pulse 2s ease-out 1; }
+
+/* ── Recenter button ─────────────────────────────────────── */
+.recenter-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+  background: #F7F6F1;
+  border: 1px solid #1A1A1A;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #1A1A1A;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  line-height: 1;
+}
+.recenter-btn:hover {
+  background: #1B3A6B;
+  color: #fff;
+  border-color: #1B3A6B;
 }
 
 /* ── Map hint ────────────────────────────────────────────── */
@@ -62,7 +88,7 @@
   bottom: 2.5rem;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -75,9 +101,7 @@
   transition: opacity 0.5s ease;
   white-space: nowrap;
 }
-.map-hint.hidden {
-  opacity: 0;
-}
+.map-hint.hidden { opacity: 0; pointer-events: none; }
 
 /* ── City panel ──────────────────────────────────────────── */
 .city-panel {
@@ -92,12 +116,10 @@
   flex-shrink: 0;
   z-index: 10;
 }
-.city-panel.open {
-  transform: translateX(0);
-}
+.city-panel.open { transform: translateX(0); }
 
 .panel-header {
-  padding: 1.625rem 1.625rem 1.25rem;
+  padding: 1.5rem 1.5rem 1.125rem;
   border-bottom: 1px solid #1A1A1A;
   display: flex;
   justify-content: space-between;
@@ -107,52 +129,46 @@
 }
 .panel-city {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.625rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: #0D1B2A;
   letter-spacing: -0.03em;
   line-height: 1.1;
 }
 .panel-count {
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: #1B3A6B;
-  margin-top: 0.25rem;
+  margin-top: 0.3rem;
 }
 .panel-close {
   background: none;
   border: none;
   cursor: pointer;
   color: #767676;
-  font-size: 1rem;
+  font-size: 0.95rem;
   padding: 0.25rem;
   line-height: 1;
   transition: color 0.15s;
   flex-shrink: 0;
-  margin-top: 0.25rem;
 }
 .panel-close:hover { color: #1A1A1A; }
 
-.panel-projects {
-  overflow-y: auto;
-  flex: 1;
-}
+.panel-projects { overflow-y: auto; flex: 1; }
 
 .panel-project {
   display: block;
-  padding: 1.375rem 1.625rem;
+  padding: 1.25rem 1.5rem;
   border-bottom: 1px solid #CCC9BC;
   color: #1A1A1A;
   transition: background 0.15s;
 }
-.panel-project:hover {
-  background: #fff;
-  text-decoration: none;
-}
+.panel-project:hover { background: #fff; text-decoration: none; }
+
 .panel-project-kicker {
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.16em;
@@ -162,7 +178,7 @@
 }
 .panel-project-title {
   font-family: 'Playfair Display', Georgia, serif;
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 700;
   color: #0D1B2A;
   line-height: 1.25;
@@ -170,10 +186,10 @@
   letter-spacing: -0.01em;
 }
 .panel-project-meta {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   color: #767676;
   font-style: italic;
-  margin-bottom: 0.625rem;
+  margin-bottom: 0.6rem;
 }
 .panel-project-summary {
   font-size: 0.78rem;
@@ -186,7 +202,7 @@
   overflow: hidden;
 }
 .panel-read-more {
-  font-size: 0.62rem;
+  font-size: 0.6rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -199,13 +215,8 @@
 
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 700px) {
-  .map-wrapper {
-    flex-direction: column;
-  }
-  #world-map {
-    flex: 1;
-    min-height: 0;
-  }
+  .map-wrapper { flex-direction: column; }
+  #world-map { flex: 1; min-height: 0; }
   .city-panel {
     width: 100%;
     height: 55vh;
@@ -214,10 +225,7 @@
     transform: translateY(100%);
     flex-shrink: 0;
   }
-  .city-panel.open {
-    transform: translateY(0);
-  }
-  .map-hint {
-    bottom: 1.25rem;
-  }
+  .city-panel.open { transform: translateY(0); }
+  .map-hint { bottom: 1.25rem; }
+  .recenter-btn { top: 0.75rem; left: 0.75rem; }
 }
