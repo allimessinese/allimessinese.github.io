@@ -529,7 +529,6 @@ img { max-width: 100%; display: block; }
   border-top: 2px solid var(--rule-dark);
   padding-top: 1.25rem;
 }
-.masthead + .home-section { margin-top: 0; }
 .home-section-label {
   font-size: 0.58rem;
   font-weight: 700;
