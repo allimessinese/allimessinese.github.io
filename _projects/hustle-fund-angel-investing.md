@@ -11,7 +11,7 @@ city: "San Francisco"
 lat: 37.7749
 lng: -122.4194
 image: "/assets/images/camp-hustle.jpg"
-image_position: "center 40%"
+image_position: "center 25%"
 links:
   - label: "Angel Squad"
     url: "https://www.hustlefund.vc/squad"
@@ -35,7 +35,7 @@ Camp Hustle is an annual gathering organised by Hustle Fund, bringing together o
 
 The format is deliberately intimate. Speakers share what actually happened in their deals, what they got wrong, what they would do differently. The emphasis is on case studies over hypotheticals, and on specificity over inspiration. It is one of the few investing events where the substance of the programming is treated as seriously as the networking around it.
 
-I attended with the **Girls Into VC at Berkeley** chapter.
+I attended with the **[Girls Into VC at Berkeley](/projects/girls-into-vc-fellowship/)** chapter.
 
 ![Camp Hustle 2025](/assets/images/camp-hustle-sign.jpg)
 
