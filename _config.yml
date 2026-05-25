@@ -1,0 +1,27 @@
+title: Allegra Messinese
+email: allegra.messinese@gmail.com
+description: Portfolio and project log — work, research, publications, and patents.
+url: "https://allimessinese.github.io"
+baseurl: ""
+github_username: allimessinese
+
+theme: minima
+
+minima:
+  skin: classic
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

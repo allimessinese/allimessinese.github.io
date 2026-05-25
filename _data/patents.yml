@@ -1,0 +1,9 @@
+# Add your patents here. Each entry becomes a row on /patents/
+# Fields: title, year, number, status (Filed / Granted), description, link (optional)
+
+- title: "Example Patent Title"
+  year: 2023
+  number: "US12345678"
+  status: "Granted"
+  description: "Brief description of what the patent covers."
+  link: ""
