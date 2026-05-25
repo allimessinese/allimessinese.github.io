@@ -1,5 +1,5 @@
 ---
-title: "SPYKE: GHB Biosensor for Drink Spiking Detection - iGEM TU Delft 2022"
+title: "SPYKE: GHB Biosensor for Drink Spiking Detection, iGEM TU Delft 2022"
 year: 2022
 role: "CFO & Business Lead"
 institution: "TU Delft / iGEM"
