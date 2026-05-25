@@ -49,6 +49,8 @@ Overexpression with IPTG showed that 97% of cells had detectable foci, with appr
 
 The *B. subtilis* arm could not be completed within the 15-week window and became the starting point for my follow-on research internship.
 
+![Thesis defense at TU Delft - Greg presenting the final slide with GFP microscopy data and his written recommendation](/assets/images/bacillus-subtilis-defense.jpg)
+
 ## Interpretation
 
 Taken together, the data support a model in which **YqhY acts as a post-translational feedback regulator of ACC**: when malonyl-CoA accumulates, YqhY transitions from a diffuse cytoplasmic state into a focal complex that inhibits ACC - halting further malonyl-CoA production. When the pathway runs normally, YqhY remains inactive and distributed. The focal state is visible as bright GFP spots concentrated at specific subcellular locations.

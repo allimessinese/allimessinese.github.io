@@ -379,6 +379,13 @@ img { max-width: 100%; display: block; }
 }
 .article-detail-body li { margin-bottom: 0.5rem; line-height: 1.75; font-size: 0.975rem; }
 .article-detail-body strong { color: var(--navy-dark); font-weight: 600; }
+.article-detail-body img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+  border: 1px solid var(--rule-dark);
+}
 /* Pull quote */
 .article-detail-body blockquote {
   border-left: 3px solid var(--navy);
