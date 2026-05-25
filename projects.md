@@ -142,8 +142,112 @@ document.addEventListener('DOMContentLoaded', function () {
   recenterBtn.addEventListener('click', function () {
     map.setView([28, 15], 2);
     closePanel();
-    hint.classList.remove('hidden');
+    if (!tourActive) hint.classList.remove('hidden');
   });
+
+  // ── Tour Mode ─────────────────────────────────────────────
+  const tourStops = [
+    { label: "San Francisco Bay Area", cities: ["San Francisco"], lat: 37.7749, lng: -122.4194, zoom: 11 },
+    { label: "Emeryville",             cities: ["Emeryville"],    lat: 37.8309, lng: -122.2854, zoom: 12 },
+    { label: "Zaragoza",               cities: ["Zaragoza"],      lat: 41.6488, lng: -0.8891,   zoom: 12 },
+    { label: "Paris",                  cities: ["Paris"],         lat: 48.8566, lng: 2.3522,    zoom: 11 },
+    { label: "Delft",                  cities: ["Delft"],         lat: 52.0116, lng: 4.3571,    zoom: 12 },
+    { label: "Milan",                  cities: ["Milan"],         lat: 45.4642, lng: 9.1900,    zoom: 11 },
+    { label: "Bali",                   cities: ["Bali"],          lat: -8.3405, lng: 115.0920,  zoom: 10 }
+  ];
+
+  let tourActive   = false;
+  let tourIndex    = 0;
+  let tourLine     = null;
+  let tourScrollCd = false;
+
+  const tourBtn      = document.getElementById('tour-btn');
+  const tourControls = document.getElementById('tour-controls');
+  const tourLabel    = document.getElementById('tour-label');
+  const tourPrev     = document.getElementById('tour-prev');
+  const tourNext     = document.getElementById('tour-next');
+  const tourExit     = document.getElementById('tour-exit');
+
+  function goToTourStop(index) {
+    tourIndex = Math.max(0, Math.min(tourStops.length - 1, index));
+    const stop = tourStops[tourIndex];
+
+    // Show projects for this city
+    const cityProjects = projectsData.filter(p => stop.cities.includes(p.city));
+    if (cityProjects.length) showPanel(stop.label, cityProjects);
+    else closePanel();
+
+    map.flyTo([stop.lat, stop.lng], stop.zoom, { animate: true, duration: 1.5 });
+
+    // Update controls
+    tourLabel.textContent = stop.label + '  ·  ' + (tourIndex + 1) + ' / ' + tourStops.length;
+    tourPrev.disabled = (tourIndex === 0);
+    tourNext.disabled = (tourIndex === tourStops.length - 1);
+  }
+
+  function enterTourMode() {
+    tourActive = true;
+    tourIndex  = 0;
+
+    // Disable scroll-to-zoom; tour owns the scroll
+    map.scrollWheelZoom.disable();
+
+    // Draw dashed path connecting all stops
+    const latlngs = tourStops.map(function(s) { return [s.lat, s.lng]; });
+    tourLine = L.polyline(latlngs, {
+      color:     '#1B3A6B',
+      weight:    1.5,
+      dashArray: '6 10',
+      opacity:   0.45
+    }).addTo(map);
+
+    // Swap UI
+    tourBtn.classList.add('hidden');
+    tourControls.classList.add('visible');
+    hint.classList.add('hidden');
+
+    goToTourStop(0);
+  }
+
+  function exitTourMode() {
+    tourActive = false;
+
+    // Restore scroll zoom
+    map.scrollWheelZoom.enable();
+
+    // Remove path line
+    if (tourLine) { map.removeLayer(tourLine); tourLine = null; }
+
+    // Swap UI back
+    tourControls.classList.remove('visible');
+    tourBtn.classList.remove('hidden');
+
+    closePanel();
+    map.flyTo([28, 15], 2, { animate: true, duration: 1.2 });
+  }
+
+  // Scroll over map advances tour stops (with cooldown)
+  document.getElementById('world-map').addEventListener('wheel', function (e) {
+    if (!tourActive) return;
+    e.preventDefault();
+    if (tourScrollCd) return;
+
+    tourScrollCd = true;
+    setTimeout(function() { tourScrollCd = false; }, 1200);
+
+    if (e.deltaY > 0) {
+      // Scroll down → next city (east)
+      if (tourIndex < tourStops.length - 1) goToTourStop(tourIndex + 1);
+    } else {
+      // Scroll up → previous city (west)
+      if (tourIndex > 0) goToTourStop(tourIndex - 1);
+    }
+  }, { passive: false });
+
+  tourBtn.addEventListener('click', enterTourMode);
+  tourPrev.addEventListener('click', function () { if (tourIndex > 0) goToTourStop(tourIndex - 1); });
+  tourNext.addEventListener('click', function () { if (tourIndex < tourStops.length - 1) goToTourStop(tourIndex + 1); });
+  tourExit.addEventListener('click', exitTourMode);
 
 });
 </script>

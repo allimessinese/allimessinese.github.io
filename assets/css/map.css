@@ -213,6 +213,91 @@
   text-underline-offset: 3px;
 }
 
+/* ── Tour button ─────────────────────────────────────────── */
+.tour-btn {
+  position: absolute;
+  top: 3.75rem;
+  left: 1rem;
+  z-index: 1000;
+  background: #1B3A6B;
+  border: 1px solid #1B3A6B;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #F7F6F1;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.15s;
+  line-height: 1;
+}
+.tour-btn:hover {
+  background: #0D1B2A;
+  border-color: #0D1B2A;
+}
+.tour-btn.hidden { display: none; }
+
+/* ── Tour controls bar ───────────────────────────────────── */
+.tour-controls {
+  position: absolute;
+  bottom: 2.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  background: #F7F6F1;
+  border: 1px solid #1A1A1A;
+  padding: 0.55rem 1rem;
+  white-space: nowrap;
+}
+.tour-controls.visible { display: flex; }
+
+.tour-nav {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  color: #1B3A6B;
+  padding: 0 0.2rem;
+  font-weight: 700;
+  transition: color 0.15s;
+  line-height: 1;
+}
+.tour-nav:hover  { color: #0D1B2A; }
+.tour-nav:disabled { color: #CCC9BC; cursor: default; }
+
+.tour-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #1A1A1A;
+  min-width: 210px;
+  text-align: center;
+}
+
+.tour-exit {
+  background: none;
+  border: none;
+  border-left: 1px solid #CCC9BC;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #767676;
+  cursor: pointer;
+  padding: 0 0 0 0.75rem;
+  margin-left: 0.25rem;
+  transition: color 0.15s;
+  line-height: 1;
+}
+.tour-exit:hover { color: #1A1A1A; }
+
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 700px) {
   .map-wrapper { flex-direction: column; }
@@ -228,4 +313,11 @@
   .city-panel.open { transform: translateY(0); }
   .map-hint { bottom: 1.25rem; }
   .recenter-btn { top: 0.75rem; left: 0.75rem; }
+  .tour-btn { top: 3.25rem; left: 0.75rem; }
+  .tour-controls {
+    bottom: 1.5rem;
+    gap: 0.35rem;
+    padding: 0.5rem 0.75rem;
+  }
+  .tour-label { min-width: 160px; font-size: 0.55rem; }
 }
