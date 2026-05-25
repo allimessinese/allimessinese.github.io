@@ -1,9 +1,9 @@
 ---
-title: "SPYKE: GHB Biosensor for Drink Spiking Detection, iGEM TU Delft 2022"
+title: "SPYKE: GHB Biosensor for Drink Spiking Detection"
 year: 2022
-role: "CFO & Business Lead"
-institution: "TU Delft / iGEM"
-summary: "CFO and Business Lead for SPYKE, a patented bioelectronic GHB biosensor built at iGEM 2022. 2nd place Best Entrepreneurship, finalist in the Diagnostics track. First patent, first product from ideation to prototype."
+role: "CFO & Entrepreneurship Lead"
+institution: "iGEM TU Delft 2022"
+summary: "CFO and Entrepreneurship Lead for SPYKE, a patented bioelectronic GHB biosensor built at iGEM 2022. 2nd place Best Entrepreneurship, finalist in the Diagnostics track. First patent, first product from ideation to prototype."
 tags: [synthetic biology, biosensor, entrepreneurship, patented, iGEM]
 gradient: grad-2
 category: research
@@ -22,7 +22,7 @@ links:
 
 This was my first exposure to entrepreneurship and commercialisation, and it fundamentally changed how I think about research. Taking a scientific idea and pressure-testing it against real markets, regulatory frameworks, and funding realities, within the constraints of a student competition, compressed years of business learning into a few months.
 
-It was also my first experience seeing a product travel the full arc from ideation to a functioning prototype. Watching the biology team get the BlcR-electrode system to produce a measurable capacitance signal, while simultaneously building the business case for bringing it to nightclubs, made the connection between bench science and real-world impact viscerally concrete.
+It was also my first experience seeing a product travel the full arc from ideation to a functioning prototype. Watching the the BlcR-electrode system to produce a measurable capacitance signal, while simultaneously building the business case for bringing it to nightclubs, made the connection between bench science and real-world impact viscerally concrete.
 
 The patent was a first too: understanding what is protectable, why timing matters, and what a priority filing actually secures was a crash course in IP strategy that has shaped how I approach every product-stage project since.
 
@@ -33,6 +33,12 @@ Drink spiking with GHB (gamma-hydroxybutyric acid) surged across Western Europe 
 Our team at TU Delft built **SPYKE**: a bioelectronic sensor integrated directly into a drinking cup that monitors for GHB passively and continuously, triggering an orange LED warning the moment it detects the drug.
 
 At the **2022 iGEM Giant Jamboree in Paris**, SPYKE was awarded **2nd place for Best Entrepreneurship** and reached the finals in the **Diagnostics track**.
+
+## Project Video
+
+<div class="project-video-wrap">
+  <iframe src="https://video.igem.org/videos/embed/vLu8GTB1WF5BTAhzbzZkGk" title="SPYKE iGEM TU Delft 2022" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+</div>
 
 ## The Science
 
@@ -47,7 +53,7 @@ We engineered a sensor around this behaviour:
 
 The team validated BlcR immobilisation with atomic force microscopy and demonstrated measurable capacitance changes when GHB analogues were introduced. Five measurement techniques were used across the validation process: fluorescence assays, isothermal titration calorimetry, electrophoresis mobility shift assays, atomic force microscopy, and electrical measurements.
 
-## My Role: CFO and Business Lead
+## My Role: CFO and Entrepreneurship Lead
 
 My work sat at the intersection of commercialisation, fundraising, and stakeholder strategy.
 
@@ -71,12 +77,6 @@ By the end of the competition, SPYKE existed as a functioning prototype: a cup w
 **Finalist, Diagnostics Track** — iGEM Giant Jamboree 2022, Paris
 
 ---
-
-## Project Video
-
-<div class="project-video-wrap">
-  <iframe src="https://video.igem.org/videos/embed/vLu8GTB1WF5BTAhzbzZkGk" title="SPYKE iGEM TU Delft 2022" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
-</div>
 
 ## Team Wiki
 
