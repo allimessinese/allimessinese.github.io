@@ -11,7 +11,7 @@ city: "San Francisco"
 lat: 37.7749
 lng: -122.4194
 image: "/assets/images/chemomicrobiome-demo-day.jpg"
-image_position: "center 30%"
+image_position: "center bottom"
 links:
   - label: "Nucleate Activator"
     url: "https://nucleate.org/activator/"
