@@ -1,5 +1,5 @@
 ---
-title: "Girls Into VC Fellowship and Summit, UC Berkeley"
+title: "Girls Into VC"
 year: 2025
 role: "Fellow and Summit Organiser"
 institution: "Girls Into VC at Berkeley"
