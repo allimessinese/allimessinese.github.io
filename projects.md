@@ -149,6 +149,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const tourStops = [
     { label: "San Francisco Bay Area", cities: ["San Francisco"], lat: 37.7749, lng: -122.4194, zoom: 11 },
     { label: "Emeryville",             cities: ["Emeryville"],    lat: 37.8309, lng: -122.2854, zoom: 12 },
+    { label: "Berkeley",               cities: ["Berkeley"],      lat: 37.8716, lng: -122.2727, zoom: 13 },
     { label: "Zaragoza",               cities: ["Zaragoza"],      lat: 41.6488, lng: -0.8891,   zoom: 12 },
     { label: "Paris",                  cities: ["Paris"],         lat: 48.8566, lng: 2.3522,    zoom: 11 },
     { label: "Delft",                  cities: ["Delft"],         lat: 52.0116, lng: 4.3571,    zoom: 12 },
