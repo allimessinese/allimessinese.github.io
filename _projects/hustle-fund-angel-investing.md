@@ -65,8 +65,8 @@ Camp Hustle was how I got introduced to Hustle Fund's **Angel Squad**, and I joi
 
 Angel Squad is a co-investing community built around Hustle Fund's deal flow. Members invest alongside the fund into pre-seed companies, with a minimum check size of \$1,000. Across the community, over \$30M has been deployed into 70+ companies to date. The network spans 2,000+ members across 40+ countries, with a significant concentration of operators, founders, and early-career investors who are writing their first or second checks.
 
-The model is designed for people who want to build an investing track record without waiting until they are managing a fund. You learn by doing, alongside a community of people at different stages of the same journey, with access to Hustle Fund's sourcing and diligence infrastructure.
+The model is designed for people who want to build a real understanding of early-stage investing before they deploy capital. Hustle Fund's team shares deal flow, their own diligence, and the reasoning behind their decisions. Members can co-invest alongside the fund, but access to the decision-making process is the more valuable part.
 
-For me, the appeal is the combination of deal flow and community. Writing checks into early-stage companies is one thing. Being able to discuss the decisions with 2,000 other people who are doing the same, across different sectors and geographies, is what makes the learning compound.
+I joined to understand how investment decisions actually get made. Reading about VC frameworks is one thing; watching a fund evaluate a real company, seeing what questions get asked and which signals matter, is different in kind. That is what I am building through Angel Squad: a genuine intuition for how early-stage bets come together, grounded in real deal flow rather than theory.
 
-My investing focus is at the intersection of biotech, deep tech, and founder-market fit. The science matters, but so does whether the founder is the right person to build the company. Camp Hustle clarified the framework; Angel Squad is where I am putting it to work.
+My focus is on companies at the intersection of biotech, deep tech, and strong founder-market fit. The science has to work, but the founder question matters just as much. Camp Hustle sharpened the framework; Angel Squad is where I am stress-testing it.
