@@ -5,6 +5,7 @@ role: "Co-COO → Business Mentor → Chair of Strategy Committee"
 institution: "Team Epoch, TU Delft"
 summary: "Held three successive leadership roles over nearly three years in an AI-focused student organization of 40 people — starting as Partnership Manager, rising to Co-COO overseeing 4 departments, then Business Mentor, and finally Chairperson of the Strategy Committee."
 tags: [leadership, strategy, operations, AI]
+gradient: grad-2
 ---
 
 ## Overview

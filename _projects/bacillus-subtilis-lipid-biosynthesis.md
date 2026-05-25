@@ -5,6 +5,7 @@ role: "Bachelor Thesis Student"
 institution: "Delft University of Technology"
 summary: "Investigated the regulatory role of a key protein in lipid biosynthesis in Bacillus subtilis using cloning and fluorescence microscopy. Optimized imaging protocols achieving a 15% increase in data accuracy."
 tags: [microbiology, molecular biology, research, thesis]
+gradient: grad-4
 ---
 
 ## Overview

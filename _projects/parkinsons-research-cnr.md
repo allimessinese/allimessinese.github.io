@@ -5,6 +5,7 @@ role: "Assistant to Researcher"
 institution: "Consiglio Nazionale delle Ricerche (CNR)"
 summary: "Assisted in Parkinson's Disease research at Italy's National Research Council, performing histology and biochemical experiments and contributing to a 15% increase in data accuracy."
 tags: [neuroscience, research, histology]
+gradient: grad-9
 links:
   - label: "CNR — Consiglio Nazionale delle Ricerche"
     url: "https://www.cnr.it"

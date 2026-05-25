@@ -5,6 +5,7 @@ role: "GTM"
 institution: "Mithrl"
 summary: "Supporting early-stage research from discovery to preclinical development at an AI-enabled biotech company in the San Francisco Bay Area."
 tags: [GTM, biotech, business, current]
+gradient: grad-8
 links:
   - label: "Mithrl"
     url: "https://mithrl.com"

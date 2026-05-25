@@ -5,6 +5,7 @@ role: "Angel Squad Member"
 institution: "Hustle Fund"
 summary: "Angel investing in early-stage startups through Hustle Fund's Angel Squad — a community of operators and builders writing their first checks into hilariously early companies."
 tags: [investing, venture capital, startups]
+gradient: grad-5
 links:
   - label: "Hustle Fund"
     url: "https://www.hustlefund.vc"

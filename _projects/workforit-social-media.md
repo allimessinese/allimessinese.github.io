@@ -5,6 +5,7 @@ role: "Social Media Manager"
 institution: "WorkForIt"
 summary: "Developed and executed a comprehensive LinkedIn editorial strategy for a student-company platform, increasing engagement by 30% and audience reach by 25%."
 tags: [marketing, content, social media, growth]
+gradient: grad-3
 ---
 
 ## Overview

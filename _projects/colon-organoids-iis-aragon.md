@@ -5,6 +5,7 @@ role: "Research Intern"
 institution: "Instituto de Investigación Sanitaria Aragón (IIS Aragón)"
 summary: "Contributed to isolation and development of colon organoids and monitored pig fetus liver decellularization. Observed a pioneering transplantation procedure involving a revascularized pig liver scaffold."
 tags: [regenerative medicine, organoids, research]
+gradient: grad-7
 links:
   - label: "IIS Aragón"
     url: "https://www.iisaragon.es"

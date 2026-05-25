@@ -5,6 +5,7 @@ role: "Head Teaching Assistant"
 institution: "Delft University of Technology"
 summary: "Held multiple teaching roles at TU Delft over 1.5 years across Computational Science and Physics, supporting 100+ students with Python, Jupyter Notebooks, Optics, and Quantum Physics."
 tags: [teaching, computational science, physics, Python]
+gradient: grad-7
 ---
 
 ## Overview

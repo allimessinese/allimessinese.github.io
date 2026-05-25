@@ -2,15 +2,19 @@
 layout: default
 ---
 <article>
-  <header class="project-detail-header">
-    <h1>{{ page.title }}</h1>
-    <div class="project-meta-row">
-      <span class="meta-pill year">{{ page.year }}</span>
-      {% if page.role %}<span class="meta-pill role">{{ page.role }}</span>{% endif %}
-      {% if page.institution %}<span class="meta-pill inst">{{ page.institution }}</span>{% endif %}
-      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+  <div class="project-hero {% if page.image == blank or page.image == nil %}{{ page.gradient | default: 'grad-1' }}{% endif %}"
+       {% if page.image %}style="background-image: url('{{ page.image | relative_url }}')"{% endif %}>
+    {% if page.image %}<div class="project-hero-overlay"></div>{% endif %}
+    <div class="project-hero-content">
+      <h1>{{ page.title }}</h1>
+      <div class="project-meta-row">
+        <span class="meta-pill year">{{ page.year }}</span>
+        {% if page.role %}<span class="meta-pill role">{{ page.role }}</span>{% endif %}
+        {% if page.institution %}<span class="meta-pill inst">{{ page.institution }}</span>{% endif %}
+        {% for tag in page.tags %}<span class="meta-pill tag-light">{{ tag }}</span>{% endfor %}
+      </div>
     </div>
-  </header>
+  </div>
 
   <div class="project-detail-content">
     {{ content }}

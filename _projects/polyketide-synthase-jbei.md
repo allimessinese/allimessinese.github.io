@@ -5,6 +5,7 @@ role: "Research Affiliate"
 institution: "Joint BioEnergy Institute (Keasling Lab)"
 summary: "Engineered polyketide synthases in Bacillus subtilis to optimize the biosynthesis of bio-based compounds. Designed and executed 50+ cloning experiments across three bacterial chassis, constructing 5+ biosynthetic pathway variants."
 tags: [synthetic biology, metabolic engineering, research]
+gradient: grad-3
 links:
   - label: "Joint BioEnergy Institute"
     url: "https://www.jbei.org"

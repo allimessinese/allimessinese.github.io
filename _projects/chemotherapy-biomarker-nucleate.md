@@ -5,6 +5,7 @@ role: "Scientific Activator"
 institution: "Nucleate Bay Area"
 summary: "Assessed the commercialization potential of a biomarker-based technology for predicting chemotherapy toxicity in colon cancer patients. Conducted customer discovery, competitive landscape analysis, and regulatory pathway mapping."
 tags: [commercialization, oncology, business, biomarker]
+gradient: grad-5
 links:
   - label: "Nucleate"
     url: "https://nucleate.xyz"

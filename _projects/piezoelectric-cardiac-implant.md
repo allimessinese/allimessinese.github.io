@@ -5,6 +5,7 @@ role: "Project Manager"
 institution: "UC Berkeley"
 summary: "Led a cross-functional bioengineering team to design a cardiac implant that harvests electrical energy from heart motion via piezoelectric materials to promote cardiac regeneration — resulting in an in vitro-tested prototype."
 tags: [biomedical engineering, cardiac, piezoelectric, engineering]
+gradient: grad-1
 links:
   - label: "UC Berkeley Bioengineering"
     url: "https://bioeng.berkeley.edu"
