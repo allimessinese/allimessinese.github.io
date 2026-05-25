@@ -61,7 +61,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const hint        = document.getElementById('map-hint');
   const closeBtn    = document.getElementById('panel-close');
   const recenterBtn = document.getElementById('recenter-btn');
-  const mapWrapper  = document.querySelector('.map-wrapper');
 
   // ── Panel rendering ───────────────────────────────────────
   function buildCard(p, showCity) {
@@ -81,37 +80,13 @@ document.addEventListener('DOMContentLoaded', function () {
     hint.classList.add('hidden');
     panelName.textContent  = label;
     panelCount.textContent = projects.length === 1 ? '1 project' : `${projects.length} projects`;
-    panelList.innerHTML    = projects.map(p => buildCard(p, showCity || false)).join('');
+    panelList.innerHTML    = projects.map(p => buildCard(p, showCity)).join('');
     panel.classList.add('open');
   }
 
   function closePanel() { panel.classList.remove('open'); }
 
-  // ── Hover: scale the corresponding dot on the map ─────────
-  const markerMap = {}; // url → marker
-
-  function highlightDot(url, on) {
-    const marker = markerMap[url];
-    if (!marker) return;
-    const el = marker.getElement();
-    if (!el) return; // marker is currently inside a cluster — skip
-    const dot = el.querySelector('.map-dot');
-    if (!dot) return;
-    dot.style.transform = on ? 'scale(2.4)' : '';
-    el.style.zIndex     = on ? '9999' : '';
-  }
-
-  // Event delegation — works for dynamically generated cards
-  panelList.addEventListener('mouseover', function (e) {
-    const card = e.target.closest('.panel-project[data-url]');
-    if (card) highlightDot(card.dataset.url, true);
-  });
-  panelList.addEventListener('mouseout', function (e) {
-    const card = e.target.closest('.panel-project[data-url]');
-    if (card) highlightDot(card.dataset.url, false);
-  });
-
-  // ── Spread co-located markers ─────────────────────────────
+  // ── Spread co-located markers (0.005° offset) ─────────────
   const cityGroups = {};
   projectsData.forEach(p => {
     if (!cityGroups[p.city]) cityGroups[p.city] = [];
@@ -119,8 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   projectsData.forEach(p => {
-    const group = cityGroups[p.city];
-    const n = group.length, idx = group.indexOf(p);
+    const group = cityGroups[p.city], n = group.length, idx = group.indexOf(p);
     if (n === 1) {
       p._lat = p.lat; p._lng = p.lng;
     } else {
@@ -130,54 +104,58 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  // ── Marker cluster group ──────────────────────────────────
-  // Numbers at world/region zoom; individual colored dots at zoom 13+
-  const clusterGroup = L.markerClusterGroup({
-    maxClusterRadius:        60,
-    disableClusteringAtZoom: 13,
-    spiderfyOnMaxZoom:       false,
-    showCoverageOnHover:     false,
-    zoomToBoundsOnClick:     true,
-    removeOutsideVisibleBounds: true,
+  // ── Per-category cluster groups ───────────────────────────
+  // Each category lives in its own cluster group so filter counts
+  // are always accurate (Teaching cluster only counts teaching markers).
+  const clusterGroups = {};
+  const markerMap     = {}; // url → marker, for hover highlighting
+  let   activeCategory = null;
 
-    iconCreateFunction: function (cluster) {
-      const children = cluster.getAllChildMarkers();
-      // Record all categories present, find dominant for color
-      const counts = {};
-      children.forEach(m => {
-        const c = (m.options.projectData || {}).category || 'research';
-        counts[c] = (counts[c] || 0) + 1;
-      });
-      const dominant = Object.entries(counts).sort((a, b) => b[1] - a[1])[0][0];
-      const allCats  = Object.keys(counts).join(' ');
-      const cat  = CATS[dominant] || CATS.research;
-      const n    = cluster.getChildCount();
-      const size = n >= 6 ? 40 : n >= 3 ? 32 : 26;
-      return L.divIcon({
-        className: '',
-        html: `<div class="map-dot" data-cat="${dominant}" data-cats="${allCats}" style="width:${size}px;height:${size}px;background:${cat.color};border-color:${cat.border};font-size:11px;color:#2a2a2a;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-weight:700;line-height:1;">${n}</div>`,
-        iconSize:   [size, size],
-        iconAnchor: [size / 2, size / 2]
-      });
-    }
+  function makeClusterGroup(cat) {
+    const catData = CATS[cat];
+    const group = L.markerClusterGroup({
+      maxClusterRadius:        60,
+      disableClusteringAtZoom: 13,
+      spiderfyOnMaxZoom:       false,
+      showCoverageOnHover:     false,
+      zoomToBoundsOnClick:     true,
+      removeOutsideVisibleBounds: true,
+      iconCreateFunction: function (cluster) {
+        const n    = cluster.getChildCount();
+        const size = n >= 6 ? 40 : n >= 3 ? 32 : 26;
+        return L.divIcon({
+          className: '',
+          html: `<div class="map-dot" data-cat="${cat}" style="width:${size}px;height:${size}px;background:${catData.color};border-color:${catData.border};font-size:11px;color:#2a2a2a;display:flex;align-items:center;justify-content:center;font-family:Inter,sans-serif;font-weight:700;line-height:1;">${n}</div>`,
+          iconSize:   [size, size],
+          iconAnchor: [size / 2, size / 2]
+        });
+      }
+    });
+
+    group.on('clusterclick', function (a) {
+      const children = a.layer.getAllChildMarkers();
+      const projects = children.map(m => m.options.projectData).filter(Boolean);
+      const cities   = [...new Set(projects.map(p => p.city))];
+      const label    = cities.length === 1 ? cities[0]
+                     : cities.length <= 3  ? cities.join(' · ')
+                     : `${cities.length} cities`;
+      showPanel(label, projects, false);
+    });
+
+    return group;
+  }
+
+  Object.keys(CATS).forEach(cat => {
+    clusterGroups[cat] = makeClusterGroup(cat);
+    map.addLayer(clusterGroups[cat]);
   });
 
-  clusterGroup.on('clusterclick', function (a) {
-    const children = a.layer.getAllChildMarkers();
-    const projects = children.map(m => m.options.projectData).filter(Boolean);
-    const cities   = [...new Set(projects.map(p => p.city))];
-    const label    = cities.length === 1 ? cities[0]
-                   : cities.length <= 3  ? cities.join(' · ')
-                   : `${cities.length} cities`;
-    showPanel(label, projects, false);
-  });
-
-  // ── Build individual markers ──────────────────────────────
+  // ── Build markers ─────────────────────────────────────────
   projectsData.forEach(p => {
     const cat  = CATS[p.category] || CATS.research;
     const icon = L.divIcon({
       className: '',
-      html: `<div class="map-dot pulse" data-cat="${p.category}" data-cats="${p.category}" style="width:18px;height:18px;background:${cat.color};border-color:${cat.border};"></div>`,
+      html: `<div class="map-dot pulse" data-cat="${p.category}" style="width:18px;height:18px;background:${cat.color};border-color:${cat.border};"></div>`,
       iconSize:   [18, 18],
       iconAnchor: [9, 9]
     });
@@ -185,43 +163,71 @@ document.addEventListener('DOMContentLoaded', function () {
     const marker = L.marker([p._lat, p._lng], { icon, projectData: p });
     marker.on('click', function (e) {
       L.DomEvent.stopPropagation(e);
-      // Clicking a dot clears any active category filter and shows city
       clearFilter();
       showPanel(p.city, cityGroups[p.city], false);
     });
 
-    clusterGroup.addLayer(marker);
+    clusterGroups[p.category || 'research'].addLayer(marker);
     markerMap[p.url] = marker;
   });
 
-  map.addLayer(clusterGroup);
+  // ── Hover: scale dot or its parent cluster ────────────────
+  // Walks the .__parent chain until it finds a visible element.
+  // Works whether the marker is unclustered (zoom 13+) or inside
+  // a cluster at lower zoom levels.
+  function getVisibleEl(marker) {
+    if (marker.getElement()) return marker.getElement();
+    let c = marker.__parent;
+    while (c) {
+      if (c.getElement && c.getElement()) return c.getElement();
+      c = c.__parent;
+    }
+    return null;
+  }
 
-  // ── Category filter ───────────────────────────────────────
-  // Click a chip → highlight that category, dim others, show all
-  // projects of that category in the panel.
-  // Click same chip again → clear filter, close panel.
-  let activeCategory = null;
+  function highlightDot(url, on) {
+    const marker = markerMap[url];
+    if (!marker) return;
+    const el = getVisibleEl(marker);
+    if (!el) return;
+    const dot = el.querySelector('.map-dot');
+    if (!dot) return;
+    dot.style.transform = on ? 'scale(2.4)' : '';
+    el.style.zIndex     = on ? '9999' : '';
+  }
 
+  panelList.addEventListener('mouseover', function (e) {
+    const card = e.target.closest('.panel-project[data-url]');
+    if (card) highlightDot(card.dataset.url, true);
+  });
+  panelList.addEventListener('mouseout', function (e) {
+    const card = e.target.closest('.panel-project[data-url]');
+    if (card) highlightDot(card.dataset.url, false);
+  });
+
+  // ── Filter logic ──────────────────────────────────────────
   function clearFilter() {
     activeCategory = null;
-    delete mapWrapper.dataset.filter;
-    document.querySelectorAll('.legend-chip').forEach(c => c.classList.remove('selected', 'dimmed'));
+    Object.keys(CATS).forEach(c => {
+      if (!map.hasLayer(clusterGroups[c])) map.addLayer(clusterGroups[c]);
+    });
+    document.querySelectorAll('.legend-chip')
+      .forEach(ch => ch.classList.remove('selected', 'dimmed'));
   }
 
   function setFilter(cat) {
     const same = (activeCategory === cat);
     clearFilter();
-    if (same) {
-      closePanel();
-      return;
-    }
+    if (same) { closePanel(); return; }
+
     activeCategory = cat;
-    mapWrapper.dataset.filter = cat;
-    document.querySelectorAll('.legend-chip').forEach(chip => {
-      if (chip.dataset.cat === cat) chip.classList.add('selected');
-      else chip.classList.add('dimmed');
+    Object.keys(CATS).forEach(c => {
+      if (c !== cat) map.removeLayer(clusterGroups[c]);
     });
-    // Show all projects of this category, with city in meta
+    document.querySelectorAll('.legend-chip').forEach(ch => {
+      ch.classList.add(ch.dataset.cat === cat ? 'selected' : 'dimmed');
+    });
+
     const projects = projectsData.filter(p => p.category === cat);
     showPanel(CATS[cat].label, projects, true);
   }
@@ -237,7 +243,7 @@ document.addEventListener('DOMContentLoaded', function () {
     legend.appendChild(chip);
   });
 
-  // ── Controls ──────────────────────────────────────────────
+  // ── Controls ─────────────────────────────────────────────
   closeBtn.addEventListener('click', function () {
     clearFilter();
     closePanel();

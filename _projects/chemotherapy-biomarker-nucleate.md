@@ -6,7 +6,7 @@ institution: "Nucleate Bay Area"
 summary: "Assessed the commercialization potential of a biomarker-based technology for predicting chemotherapy toxicity in colon cancer patients. Conducted customer discovery, competitive landscape analysis, and regulatory pathway mapping."
 tags: [commercialization, oncology, business, biomarker]
 gradient: grad-5
-category: research
+category: startup
 city: "Berkeley"
 lat: 37.8716
 lng: -122.2727

@@ -48,18 +48,6 @@
 }
 .map-dot.pulse { animation: pulse 0.65s ease-out 1; }
 
-/* ── Category filter dimming ─────────────────────────────── */
-/* When a filter is active, dim ALL dots… */
-.map-wrapper[data-filter] .map-dot {
-  opacity: 0.15;
-}
-/* …then restore the matching category using the space-separated data-cats attribute */
-.map-wrapper[data-filter="research"] .map-dot[data-cats~="research"],
-.map-wrapper[data-filter="teaching"] .map-dot[data-cats~="teaching"],
-.map-wrapper[data-filter="startup"]  .map-dot[data-cats~="startup"],
-.map-wrapper[data-filter="vc"]       .map-dot[data-cats~="vc"] {
-  opacity: 1;
-}
 
 /* ── Recenter button ─────────────────────────────────────── */
 .recenter-btn {
