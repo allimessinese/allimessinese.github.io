@@ -6,6 +6,9 @@ institution: "Consiglio Nazionale delle Ricerche (CNR)"
 summary: "Assisted in Parkinson's Disease research at Italy's National Research Council, performing histology and biochemical experiments and contributing to a 15% increase in data accuracy."
 tags: [neuroscience, research, histology]
 gradient: grad-9
+city: "Milan"
+lat: 45.4642
+lng: 9.1900
 links:
   - label: "CNR — Consiglio Nazionale delle Ricerche"
     url: "https://www.cnr.it"

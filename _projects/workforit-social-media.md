@@ -6,6 +6,9 @@ institution: "WorkForIt"
 summary: "Developed and executed a comprehensive LinkedIn editorial strategy for a student-company platform, increasing engagement by 30% and audience reach by 25%."
 tags: [marketing, content, social media, growth]
 gradient: grad-3
+city: "Milan"
+lat: 45.4642
+lng: 9.1900
 ---
 
 ## Overview

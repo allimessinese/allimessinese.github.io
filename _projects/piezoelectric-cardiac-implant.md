@@ -7,6 +7,9 @@ summary: "Led a cross-functional bioengineering team to design a cardiac implant
 tags: [biomedical engineering, cardiac, piezoelectric, engineering]
 gradient: grad-1
 featured: true
+city: "Berkeley"
+lat: 37.8716
+lng: -122.2727
 links:
   - label: "UC Berkeley Bioengineering"
     url: "https://bioeng.berkeley.edu"

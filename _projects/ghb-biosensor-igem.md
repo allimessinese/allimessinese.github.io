@@ -6,6 +6,9 @@ institution: "TU Delft / iGEM"
 summary: "Developed a patented capacitive biosensor for detecting GHB (gamma-hydroxybutyrate) as part of the international iGEM competition. Led the entrepreneurial strategy, securing €100K+ in funding and 10+ partnerships across biotech and pharma."
 tags: [synthetic biology, biosensor, business, patented, iGEM]
 gradient: grad-2
+city: "Paris"
+lat: 48.8566
+lng: 2.3522
 links:
   - label: "iGEM TU Delft"
     url: "https://igem.org"

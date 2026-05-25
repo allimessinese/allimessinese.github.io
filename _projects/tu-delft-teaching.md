@@ -6,6 +6,9 @@ institution: "Delft University of Technology"
 summary: "Held multiple teaching roles at TU Delft over 1.5 years across Computational Science and Physics, supporting 100+ students with Python, Jupyter Notebooks, Optics, and Quantum Physics."
 tags: [teaching, computational science, physics, Python]
 gradient: grad-7
+city: "Delft"
+lat: 52.0116
+lng: 4.3571
 ---
 
 ## Overview

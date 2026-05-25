@@ -6,6 +6,9 @@ institution: "Girls Into VC at Berkeley"
 summary: "Selected for a competitive fellowship aimed at closing the gender gap in venture capital. Trained in due diligence, VC finance, investment research, and industry analysis while building a global network of female leaders."
 tags: [venture capital, fellowship, leadership]
 gradient: grad-6
+city: "Berkeley"
+lat: 37.8716
+lng: -122.2727
 links:
   - label: "Girls Into VC"
     url: "https://www.girlsintovc.com"
