@@ -21,11 +21,9 @@ links:
 
 Girls Into VC gave me my first structured immersion in how venture capital actually works, from fund mechanics and portfolio construction to how early-stage investors evaluate founders. The fellowship curriculum was rigorous and the speakers were the real thing: practitioners who had made the decisions, not just studied them.
 
-Organising the Summit was a different kind of education. Pulling together 80+ people across logistics, programming, and speaker coordination, while keeping the energy of the day high and the content substantive, taught me more about execution than any course could. I learned how much of an event's success comes down to the hundred invisible decisions made in the weeks before anyone walks in the door.
+Organising the Summit sharpened a different set of skills. In the months before the event I owned logistics: coordinating venues, managing timelines, handling speaker communications, and keeping the moving parts of an 80-person day from falling apart. On the day itself my role shifted to speaker management, making sure each session ran on time, speakers had what they needed, and transitions were smooth. It taught me that good events feel effortless to attendees because someone absorbed all the friction beforehand.
 
-Lan Fong's session on biotech investing stayed with me. She brought a depth and specificity to the space I was actively trying to enter, and hearing her perspective from inside the industry, rather than from the outside looking in, was exactly what I needed at that moment.
-
-Aravinda Seshadri's legal session was unexpectedly one of the most practical hours of the summit. Watching a room of aspiring founders suddenly understand what a SAFE note actually is, or why entity structure matters from day one, was a reminder that access to clear, grounded legal knowledge is itself a form of equity.
+The programming choices also mattered. Bringing together a biotech investor, a startup lawyer, a pitch competition, and structured networking was a deliberate design decision: the goal was a day where a first-year student and a VC partner could both leave having learned something. Watching that actually happen was its own form of validation.
 
 ## About Girls Into VC
 
@@ -42,15 +40,19 @@ The event drew **80+ attendees** from firms and organisations including Google, 
 **Programme highlights:**
 
 - Fireside chats with VCs and angel investors on deal flow, conviction, and career paths into venture
-- A legal session with Aravinda Seshadri breaking down entity structure, SAFE notes, and early-stage legal decisions for founders on tight budgets
-- A biotech investing conversation with Lan Fong, covering the intersection of science and capital allocation in life sciences
+- A biotech investing conversation with Lan Fong on science-to-capital translation in life sciences
+- A legal session with Aravinda Seshadri on entity structure, SAFE notes, and early-stage legal decisions for founders on tight budgets
 - Roundtables and structured networking sessions
 - A pitch competition judged by Capella Kerst, Anastasiia Brovkina, Summer Hua, and Krupa Adusumilli
+
+![Fireside session at the Girls Into VC Summit](/assets/images/givc-fireside.jpg)
+
+Lan Fong's biotech investing session was one of the most technically grounded conversations of the day. She brought real specificity to how science becomes a fundable thesis, how biotech timelines shape portfolio construction, and what it actually takes to evaluate a life sciences deal. For a room with a range of backgrounds, that level of substance landed well.
+
+Aravinda Seshadri's legal session achieved something harder: making complex material immediately actionable. She broke down entity formation, SAFE structures, and early-stage legal decisions in plain language, and the room shifted noticeably as people moved from abstract awareness of these concepts to concrete understanding. That kind of clarity is what distinguishes a useful session from a good-sounding one.
 
 The day was built around a simple idea: that the conversations happening inside top VC firms should also be happening in rooms like this one.
 
 ## Community
 
 Girls Into VC runs on the energy of people who genuinely believe the funding gap is fixable and are willing to do the work to fix it. Being part of the Berkeley chapter team, from planning to execution to the conversations after the last session ended, reinforced why community-building is its own form of leverage in an industry where relationships are the infrastructure.
-
-Proud to be part of it.
