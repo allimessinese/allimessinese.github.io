@@ -20,12 +20,21 @@ const projectsData = [
     institution: {{ p.institution | default: "" | jsonify }},
     summary:     {{ p.summary     | jsonify }},
     tags:        {{ p.tags        | jsonify }},
-    gradient:    {{ p.gradient    | default: "grad-1" | jsonify }}
+    gradient:    {{ p.gradient    | default: "grad-1" | jsonify }},
+    category:    {{ p.category    | default: "research" | jsonify }}
   }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ];
 
 document.addEventListener('DOMContentLoaded', function () {
+
+  // ── Category config ───────────────────────────────────────
+  const CATS = {
+    research: { label: 'Research & Science', color: '#B8D4EC', border: '#5C8DB5' },
+    teaching: { label: 'Teaching',           color: '#B4DEC8', border: '#4A9068' },
+    startup:  { label: 'Startups & GTM',     color: '#F0B8CB', border: '#C4607A' },
+    vc:       { label: 'Venture & Investing', color: '#C8B8E8', border: '#7B5AAA' }
+  };
 
   // ── Map init ──────────────────────────────────────────────
   const map = L.map('world-map', {
@@ -45,13 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
   L.control.zoom({ position: 'bottomright' }).addTo(map);
 
   // ── UI refs ───────────────────────────────────────────────
-  const panel      = document.getElementById('city-panel');
-  const panelName  = document.getElementById('panel-city-name');
-  const panelCount = document.getElementById('panel-count');
-  const panelList  = document.getElementById('panel-projects');
-  const hint       = document.getElementById('map-hint');
-  const closeBtn   = document.getElementById('panel-close');
-  const recenterBtn= document.getElementById('recenter-btn');
+  const panel       = document.getElementById('city-panel');
+  const panelName   = document.getElementById('panel-city-name');
+  const panelCount  = document.getElementById('panel-count');
+  const panelList   = document.getElementById('panel-projects');
+  const hint        = document.getElementById('map-hint');
+  const closeBtn    = document.getElementById('panel-close');
+  const recenterBtn = document.getElementById('recenter-btn');
 
   // ── Show panel ────────────────────────────────────────────
   function showPanel(label, projects) {
@@ -60,195 +69,99 @@ document.addEventListener('DOMContentLoaded', function () {
     panelCount.textContent = projects.length === 1 ? '1 project' : `${projects.length} projects`;
     panelList.innerHTML = projects.map(p => {
       const meta = [p.role, p.institution, p.year].filter(Boolean).join(' · ');
+      const cat  = CATS[p.category] || CATS.research;
       return `
         <a class="panel-project" href="${p.url}">
-          <span class="panel-project-kicker">${(p.tags && p.tags[0]) || ''}</span>
+          <span class="panel-project-kicker" style="color:${cat.border}">${(p.tags && p.tags[0]) || ''}</span>
           <div class="panel-project-title">${p.title}</div>
           <div class="panel-project-meta">${meta}</div>
           <p class="panel-project-summary">${p.summary}</p>
-          <span class="panel-read-more">Read article</span>
+          <span class="panel-read-more" style="color:${cat.border}">Read article →</span>
         </a>`;
     }).join('');
     panel.classList.add('open');
   }
 
-  function closePanel() {
-    panel.classList.remove('open');
-  }
+  function closePanel() { panel.classList.remove('open'); }
 
-  function cityLabel(cities) {
-    if (cities.length === 1) return cities[0];
-    if (cities.length <= 3) return cities.join(' · ');
-    return `${cities.length} Cities`;
-  }
+  // ── Spread co-located markers ─────────────────────────────
+  // Projects sharing the same city get offset in a small circle
+  // so each dot is individually clickable when zoomed in.
+  const cityGroups = {};
+  projectsData.forEach(p => {
+    if (!cityGroups[p.city]) cityGroups[p.city] = [];
+    cityGroups[p.city].push(p);
+  });
 
-  // ── Marker cluster group ──────────────────────────────────
-  const clusterGroup = L.markerClusterGroup({
-    maxClusterRadius: 60,
-    spiderfyOnMaxZoom: false,
-    showCoverageOnHover: false,
-    zoomToBoundsOnClick: true,   // zoom into cluster on click
-    removeOutsideVisibleBounds: true,
-
-    iconCreateFunction: function (cluster) {
-      const count = cluster.getChildCount();
-      const size  = count >= 6 ? 42 : count >= 3 ? 34 : 26;
-      return L.divIcon({
-        className: '',
-        html: `<div class="map-dot" style="width:${size}px;height:${size}px;font-size:11px;line-height:${size}px;">${count}</div>`,
-        iconSize:   [size, size],
-        iconAnchor: [size / 2, size / 2]
-      });
+  projectsData.forEach(p => {
+    const group = cityGroups[p.city];
+    const n     = group.length;
+    const idx   = group.indexOf(p);
+    if (n === 1) {
+      p._lat = p.lat; p._lng = p.lng;
+    } else {
+      const angle = (idx / n) * 2 * Math.PI - Math.PI / 2;
+      const r = 0.018;
+      p._lat = p.lat + r * Math.cos(angle);
+      p._lng = p.lng + r * Math.sin(angle);
     }
   });
 
-  // Cluster clicked → zoom in AND show projects in panel
-  clusterGroup.on('clusterclick', function (a) {
-    const children = a.layer.getAllChildMarkers();
-    const projects = children.map(m => m.options.projectData);
-    const cities   = [...new Set(projects.map(p => p.city))];
-    showPanel(cityLabel(cities), projects);
-    // zoomToBoundsOnClick handles the zoom automatically
+  // ── One layer group per category ──────────────────────────
+  const layers        = {};
+  const activeFilters = new Set(Object.keys(CATS));
+  Object.keys(CATS).forEach(cat => {
+    layers[cat] = L.layerGroup().addTo(map);
   });
 
-  // ── Individual project markers ────────────────────────────
-  projectsData.forEach(function (p) {
+  // ── Build markers ─────────────────────────────────────────
+  projectsData.forEach(p => {
+    const cat  = CATS[p.category] || CATS.research;
     const icon = L.divIcon({
       className: '',
-      html: `<div class="map-dot pulse" style="width:14px;height:14px;"></div>`,
+      html: `<div class="map-dot pulse" style="width:14px;height:14px;background:${cat.color};border-color:${cat.border};box-shadow:0 2px 8px ${cat.border}55;"></div>`,
       iconSize:   [14, 14],
       iconAnchor: [7, 7]
     });
 
-    const marker = L.marker([p.lat, p.lng], { icon, projectData: p });
-
+    const marker = L.marker([p._lat, p._lng], { icon });
     marker.on('click', function (e) {
       L.DomEvent.stopPropagation(e);
-      // Show all projects at this exact location
-      const siblings = projectsData.filter(x => x.lat === p.lat && x.lng === p.lng);
-      showPanel(p.city, siblings);
+      showPanel(p.city, cityGroups[p.city]);
     });
 
-    clusterGroup.addLayer(marker);
+    layers[p.category || 'research'].addLayer(marker);
   });
 
-  map.addLayer(clusterGroup);
+  // ── Filter legend (generated from CATS) ──────────────────
+  const legend = document.getElementById('map-legend');
+  Object.entries(CATS).forEach(([key, cat]) => {
+    const chip = document.createElement('button');
+    chip.className    = 'legend-chip active';
+    chip.dataset.cat  = key;
+    chip.innerHTML    = `<span class="legend-dot" style="background:${cat.color};border-color:${cat.border};"></span>${cat.label}`;
+    chip.addEventListener('click', function () {
+      if (activeFilters.has(key)) {
+        activeFilters.delete(key);
+        map.removeLayer(layers[key]);
+        chip.classList.remove('active');
+      } else {
+        activeFilters.add(key);
+        map.addLayer(layers[key]);
+        chip.classList.add('active');
+      }
+    });
+    legend.appendChild(chip);
+  });
 
   // ── Controls ──────────────────────────────────────────────
   closeBtn.addEventListener('click', closePanel);
-
   map.on('click', closePanel);
-
   recenterBtn.addEventListener('click', function () {
     map.setView([28, 15], 2);
     closePanel();
-    if (!tourActive) hint.classList.remove('hidden');
+    hint.classList.remove('hidden');
   });
-
-  // ── Tour Mode ─────────────────────────────────────────────
-  const tourStops = [
-    { label: "San Francisco Bay Area", cities: ["San Francisco"], lat: 37.7749, lng: -122.4194, zoom: 11 },
-    { label: "Emeryville",             cities: ["Emeryville"],    lat: 37.8309, lng: -122.2854, zoom: 12 },
-    { label: "Berkeley",               cities: ["Berkeley"],      lat: 37.8716, lng: -122.2727, zoom: 13 },
-    { label: "Zaragoza",               cities: ["Zaragoza"],      lat: 41.6488, lng: -0.8891,   zoom: 12 },
-    { label: "Paris",                  cities: ["Paris"],         lat: 48.8566, lng: 2.3522,    zoom: 11 },
-    { label: "Delft",                  cities: ["Delft"],         lat: 52.0116, lng: 4.3571,    zoom: 12 },
-    { label: "Milan",                  cities: ["Milan"],         lat: 45.4642, lng: 9.1900,    zoom: 11 },
-    { label: "Bali",                   cities: ["Bali"],          lat: -8.3405, lng: 115.0920,  zoom: 10 }
-  ];
-
-  let tourActive   = false;
-  let tourIndex    = 0;
-  let tourLine     = null;
-  let tourScrollCd = false;
-
-  const tourBtn      = document.getElementById('tour-btn');
-  const tourControls = document.getElementById('tour-controls');
-  const tourLabel    = document.getElementById('tour-label');
-  const tourPrev     = document.getElementById('tour-prev');
-  const tourNext     = document.getElementById('tour-next');
-  const tourExit     = document.getElementById('tour-exit');
-
-  function goToTourStop(index) {
-    tourIndex = Math.max(0, Math.min(tourStops.length - 1, index));
-    const stop = tourStops[tourIndex];
-
-    // Show projects for this city
-    const cityProjects = projectsData.filter(p => stop.cities.includes(p.city));
-    if (cityProjects.length) showPanel(stop.label, cityProjects);
-    else closePanel();
-
-    map.flyTo([stop.lat, stop.lng], stop.zoom, { animate: true, duration: 1.5 });
-
-    // Update controls
-    tourLabel.textContent = stop.label + '  ·  ' + (tourIndex + 1) + ' / ' + tourStops.length;
-    tourPrev.disabled = (tourIndex === 0);
-    tourNext.disabled = (tourIndex === tourStops.length - 1);
-  }
-
-  function enterTourMode() {
-    tourActive = true;
-    tourIndex  = 0;
-
-    // Disable scroll-to-zoom; tour owns the scroll
-    map.scrollWheelZoom.disable();
-
-    // Draw dashed path connecting all stops
-    const latlngs = tourStops.map(function(s) { return [s.lat, s.lng]; });
-    tourLine = L.polyline(latlngs, {
-      color:     '#1B3A6B',
-      weight:    1.5,
-      dashArray: '6 10',
-      opacity:   0.45
-    }).addTo(map);
-
-    // Swap UI
-    tourBtn.classList.add('hidden');
-    tourControls.classList.add('visible');
-    hint.classList.add('hidden');
-
-    goToTourStop(0);
-  }
-
-  function exitTourMode() {
-    tourActive = false;
-
-    // Restore scroll zoom
-    map.scrollWheelZoom.enable();
-
-    // Remove path line
-    if (tourLine) { map.removeLayer(tourLine); tourLine = null; }
-
-    // Swap UI back
-    tourControls.classList.remove('visible');
-    tourBtn.classList.remove('hidden');
-
-    closePanel();
-    map.flyTo([28, 15], 2, { animate: true, duration: 1.2 });
-  }
-
-  // Scroll over map advances tour stops (with cooldown)
-  document.getElementById('world-map').addEventListener('wheel', function (e) {
-    if (!tourActive) return;
-    e.preventDefault();
-    if (tourScrollCd) return;
-
-    tourScrollCd = true;
-    setTimeout(function() { tourScrollCd = false; }, 1200);
-
-    if (e.deltaY > 0) {
-      // Scroll down → next city (east)
-      if (tourIndex < tourStops.length - 1) goToTourStop(tourIndex + 1);
-    } else {
-      // Scroll up → previous city (west)
-      if (tourIndex > 0) goToTourStop(tourIndex - 1);
-    }
-  }, { passive: false });
-
-  tourBtn.addEventListener('click', enterTourMode);
-  tourPrev.addEventListener('click', function () { if (tourIndex > 0) goToTourStop(tourIndex - 1); });
-  tourNext.addEventListener('click', function () { if (tourIndex < tourStops.length - 1) goToTourStop(tourIndex + 1); });
-  tourExit.addEventListener('click', exitTourMode);
 
 });
 </script>

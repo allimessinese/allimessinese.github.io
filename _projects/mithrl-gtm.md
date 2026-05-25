@@ -6,6 +6,7 @@ institution: "Mithrl"
 summary: "Supporting early-stage research from discovery to preclinical development at an AI-enabled biotech company in the San Francisco Bay Area."
 tags: [GTM, biotech, business, current]
 gradient: grad-8
+category: startup
 city: "San Francisco"
 lat: 37.7749
 lng: -122.4194

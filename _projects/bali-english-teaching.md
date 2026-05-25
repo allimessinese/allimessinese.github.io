@@ -7,6 +7,7 @@ city: "Bali"
 lat: -8.3405
 lng: 115.0920
 gradient: grad-3
+category: teaching
 summary: "Developed and delivered a two-week English curriculum for a 5th-grade class in Bali, integrating local culture into lessons and fostering cross-cultural awareness."
 tags: [volunteering, teaching, community]
 ---

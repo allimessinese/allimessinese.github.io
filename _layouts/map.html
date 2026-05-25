@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/map.css' | relative_url }}">
 </head>
@@ -30,15 +29,8 @@
     <div id="world-map"></div>
 
     <button class="recenter-btn" id="recenter-btn">⊙ &nbsp;World view</button>
-    <button class="tour-btn" id="tour-btn">Begin journey →</button>
     <div class="map-hint" id="map-hint">Click a dot to explore</div>
-
-    <div class="tour-controls" id="tour-controls">
-      <button class="tour-nav" id="tour-prev" disabled>←</button>
-      <span class="tour-label" id="tour-label"></span>
-      <button class="tour-nav" id="tour-next">→</button>
-      <button class="tour-exit" id="tour-exit">Exit tour ✕</button>
-    </div>
+    <div class="map-legend" id="map-legend"></div>
 
     <aside class="city-panel" id="city-panel">
       <div class="panel-header">
@@ -53,7 +45,6 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   {{ content }}
 </body>
 </html>

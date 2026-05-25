@@ -6,6 +6,7 @@ institution: "Hustle Fund"
 summary: "Angel investing in early-stage startups through Hustle Fund's Angel Squad — a community of operators and builders writing their first checks into hilariously early companies."
 tags: [investing, venture capital, startups]
 gradient: grad-5
+category: vc
 city: "San Francisco"
 lat: 37.7749
 lng: -122.4194

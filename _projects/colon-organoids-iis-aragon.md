@@ -6,6 +6,7 @@ institution: "Instituto de Investigación Sanitaria Aragón (IIS Aragón)"
 summary: "Contributed to isolation and development of colon organoids and monitored pig fetus liver decellularization. Observed a pioneering transplantation procedure involving a revascularized pig liver scaffold."
 tags: [regenerative medicine, organoids, research]
 gradient: grad-7
+category: research
 city: "Zaragoza"
 lat: 41.6488
 lng: -0.8891
