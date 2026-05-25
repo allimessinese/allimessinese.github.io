@@ -1,9 +1,9 @@
 ---
-title: "Team Epoch — Operations & Strategy"
+title: "Team Epoch - Operations & Strategy"
 year: 2024
 role: "Co-COO → Business Mentor → Chair of Strategy Committee"
 institution: "Team Epoch, TU Delft"
-summary: "Held three successive leadership roles over nearly three years in an AI-focused student organization of 40 people — starting as Partnership Manager, rising to Co-COO overseeing 4 departments, then Business Mentor, and finally Chairperson of the Strategy Committee."
+summary: "Held three successive leadership roles over nearly three years in an AI-focused student organization of 40 people - starting as Partnership Manager, rising to Co-COO overseeing 4 departments, then Business Mentor, and finally Chairperson of the Strategy Committee."
 tags: [leadership, strategy, operations, AI]
 gradient: grad-2
 category: startup
@@ -16,7 +16,7 @@ lng: 4.3571
 
 **Team Epoch** is an AI-focused student organization at TU Delft. I spent nearly three years in successive leadership roles, growing from Partnership Manager to Co-Chief Operating Officer to Chairperson of the Strategy Committee.
 
-This was my first experience running something at scale — managing people, departments, and resources in a fast-moving, mission-driven environment.
+This was my first experience running something at scale - managing people, departments, and resources in a fast-moving, mission-driven environment.
 
 ## Roles & Progression
 

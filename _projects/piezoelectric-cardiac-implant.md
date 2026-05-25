@@ -3,7 +3,7 @@ title: "Piezoelectric Cardiac Implant"
 year: 2025
 role: "Project Manager"
 institution: "UC Berkeley"
-summary: "Led a cross-functional bioengineering team to design a cardiac implant that harvests electrical energy from heart motion via piezoelectric materials to promote cardiac regeneration — resulting in an in vitro-tested prototype."
+summary: "Led a cross-functional bioengineering team to design a cardiac implant that harvests electrical energy from heart motion via piezoelectric materials to promote cardiac regeneration - resulting in an in vitro-tested prototype."
 tags: [biomedical engineering, cardiac, piezoelectric, engineering]
 gradient: grad-1
 category: research
@@ -18,7 +18,7 @@ links:
 
 ## Overview
 
-As part of my Master of Engineering capstone at UC Berkeley, I led a cross-functional team to design a **piezoelectric cardiac implant** — a device that converts the mechanical motion of a beating heart into electrical stimulation, with the goal of promoting cardiac tissue regeneration.
+As part of my Master of Engineering capstone at UC Berkeley, I led a cross-functional team to design a **piezoelectric cardiac implant** - a device that converts the mechanical motion of a beating heart into electrical stimulation, with the goal of promoting cardiac tissue regeneration.
 
 The project spanned electrical, mechanical, and biological subsystems and culminated in a prototype validated through in vitro testing.
 

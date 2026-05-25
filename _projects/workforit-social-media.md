@@ -1,5 +1,5 @@
 ---
-title: "LinkedIn Growth Strategy — WorkForIt"
+title: "LinkedIn Growth Strategy - WorkForIt"
 year: 2023
 role: "Social Media Manager"
 institution: "WorkForIt"
@@ -14,7 +14,7 @@ lng: 9.1900
 
 ## Overview
 
-**WorkForIt** is a platform connecting students and companies. As Social Media Manager, I owned the LinkedIn channel — building an editorial strategy from scratch and growing it into an effective distribution channel.
+**WorkForIt** is a platform connecting students and companies. As Social Media Manager, I owned the LinkedIn channel - building an editorial strategy from scratch and growing it into an effective distribution channel.
 
 ## My Contribution
 
@@ -25,4 +25,4 @@ lng: 9.1900
 
 ## What I Learned
 
-This role taught me the fundamentals of content strategy and audience development — skills I've since applied to GTM work. Effective content isn't about volume; it's about resonance with a specific audience.
+This role taught me the fundamentals of content strategy and audience development - skills I've since applied to GTM work. Effective content isn't about volume; it's about resonance with a specific audience.

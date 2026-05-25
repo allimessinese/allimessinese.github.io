@@ -1,5 +1,5 @@
 ---
-title: "GTM — Mithrl"
+title: "GTM - Mithrl"
 year: 2025
 role: "GTM"
 institution: "Mithrl"
@@ -17,7 +17,7 @@ links:
 
 ## Overview
 
-**Mithrl** is an AI-enabled biotech company. As part of the Go-to-Market (GTM) team, I support the translation of early-stage research — from initial discovery through to preclinical development — by working at the intersection of science and commercial strategy.
+**Mithrl** is an AI-enabled biotech company. As part of the Go-to-Market (GTM) team, I support the translation of early-stage research - from initial discovery through to preclinical development - by working at the intersection of science and commercial strategy.
 
 ## My Role
 

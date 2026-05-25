@@ -1,9 +1,9 @@
 ---
-title: "Angel Investing — Hustle Fund Angel Squad"
+title: "Angel Investing - Hustle Fund Angel Squad"
 year: 2025
 role: "Angel Squad Member"
 institution: "Hustle Fund"
-summary: "Angel investing in early-stage startups through Hustle Fund's Angel Squad — a community of operators and builders writing their first checks into hilariously early companies."
+summary: "Angel investing in early-stage startups through Hustle Fund's Angel Squad - a community of operators and builders writing their first checks into hilariously early companies."
 tags: [investing, venture capital, startups]
 gradient: grad-5
 category: vc
@@ -27,4 +27,4 @@ links:
 
 ## Context
 
-This is part of my broader exploration of where venture capital and deep biotech intersect. I believe the best investors in biotech are those who deeply understand both the science and the commercial dynamics — which is exactly the perspective I'm building.
+This is part of my broader exploration of where venture capital and deep biotech intersect. I believe the best investors in biotech are those who deeply understand both the science and the commercial dynamics - which is exactly the perspective I'm building.

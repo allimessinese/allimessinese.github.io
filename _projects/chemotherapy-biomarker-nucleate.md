@@ -1,5 +1,5 @@
 ---
-title: "Chemotherapy Toxicity Biomarker — Nucleate Bay Area"
+title: "Chemotherapy Toxicity Biomarker - Nucleate Bay Area"
 year: 2025
 role: "Scientific Activator"
 institution: "Nucleate Bay Area"
@@ -24,11 +24,11 @@ Nucleate is a student-led organization that supports the translation of academic
 ## My Contribution
 
 - Conducted **in-depth customer discovery**, engaging with oncologists, hospital administrators, and biopharma stakeholders to identify market needs and pain points
-- Analyzed the **competitive landscape** — existing predictive tools, diagnostic competitors, and adjacent technologies
+- Analyzed the **competitive landscape** - existing predictive tools, diagnostic competitors, and adjacent technologies
 - Mapped **regulatory pathways** (FDA, CMS coverage) to inform go-to-market strategies
 - Refined the **value proposition** based on stakeholder feedback
 - Delivered a commercialization assessment informing the inventor's next steps
 
 ## Why It Matters
 
-Chemotherapy toxicity is a major clinical challenge — many patients experience severe side effects that can limit treatment or require hospitalization. A validated predictive biomarker would allow oncologists to personalize dosing, improving both outcomes and quality of life.
+Chemotherapy toxicity is a major clinical challenge - many patients experience severe side effects that can limit treatment or require hospitalization. A validated predictive biomarker would allow oncologists to personalize dosing, improving both outcomes and quality of life.

@@ -1,5 +1,5 @@
 ---
-title: "Lipid Biosynthesis Regulation in Bacillus subtilis — Bachelor Thesis"
+title: "Lipid Biosynthesis Regulation in Bacillus subtilis - Bachelor Thesis"
 year: 2024
 role: "Bachelor Thesis Student"
 institution: "Delft University of Technology"
@@ -14,7 +14,7 @@ lng: 4.3571
 
 ## Overview
 
-My bachelor thesis at TU Delft focused on understanding how a specific protein regulates **lipid biosynthesis in *Bacillus subtilis*** — a model gram-positive bacterium widely studied for both fundamental biology and biotechnology applications.
+My bachelor thesis at TU Delft focused on understanding how a specific protein regulates **lipid biosynthesis in *Bacillus subtilis*** - a model gram-positive bacterium widely studied for both fundamental biology and biotechnology applications.
 
 Lipid biosynthesis is a fundamental cellular process, and its regulation has implications for both basic science (understanding bacterial physiology) and applied research (engineering bacteria for lipid-derived products).
 

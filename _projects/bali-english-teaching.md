@@ -1,5 +1,5 @@
 ---
-title: "English Teaching — IVHQ Bali"
+title: "English Teaching - IVHQ Bali"
 year: 2022
 role: "Volunteer English Teacher"
 institution: "IVHQ"
@@ -18,9 +18,9 @@ Through **IVHQ** (International Volunteer HQ), I spent time in Bali, Indonesia a
 
 ## My Contribution
 
-I designed a comprehensive curriculum tailored to the students' level and interests — crafting engaging lesson plans and learning materials to create an immersive, practical language learning experience. Rather than teaching English in isolation, I integrated interactive activities and real-life scenarios so students could understand the genuine relevance of the language.
+I designed a comprehensive curriculum tailored to the students' level and interests - crafting engaging lesson plans and learning materials to create an immersive, practical language learning experience. Rather than teaching English in isolation, I integrated interactive activities and real-life scenarios so students could understand the genuine relevance of the language.
 
-To foster a stimulating environment, I adapted my teaching approach to resonate with the students' world. I infused local Balinese culture directly into lessons — bridging language learning with cultural appreciation rather than treating them as separate. Beyond the classroom, I engaged with the local community, learning about customs and traditions that enriched my teaching and made it more culturally sensitive and meaningful.
+To foster a stimulating environment, I adapted my teaching approach to resonate with the students' world. I infused local Balinese culture directly into lessons - bridging language learning with cultural appreciation rather than treating them as separate. Beyond the classroom, I engaged with the local community, learning about customs and traditions that enriched my teaching and made it more culturally sensitive and meaningful.
 
 ## What I Took Away
 

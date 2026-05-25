@@ -1,5 +1,5 @@
 ---
-title: "Capacitive Biosensor for GHB Detection — iGEM TU Delft"
+title: "Capacitive Biosensor for GHB Detection - iGEM TU Delft"
 year: 2023
 role: "Chief Financial Officer & Business Lead"
 institution: "TU Delft / iGEM"
@@ -17,7 +17,7 @@ links:
 
 ## Overview
 
-As part of the **iGEM (International Genetically Engineered Machine)** competition at TU Delft, our team developed a **capacitive biosensor for the detection of GHB** — a drug commonly used in drug-facilitated sexual assault (also known as the "date rape drug"). The biosensor was designed to be fast, cheap, and deployable in real-world settings such as nightclubs and social venues.
+As part of the **iGEM (International Genetically Engineered Machine)** competition at TU Delft, our team developed a **capacitive biosensor for the detection of GHB** - a drug commonly used in drug-facilitated sexual assault (also known as the "date rape drug"). The biosensor was designed to be fast, cheap, and deployable in real-world settings such as nightclubs and social venues.
 
 The project resulted in a **patent** for the biosensor design.
 
@@ -27,7 +27,7 @@ As CFO and Business Lead, I was responsible for the commercial viability and fun
 
 - **Fundraising:** Led business development efforts that secured **€100K+** in funding and **10+ partnerships**, including relationships across biotech and pharma
 - **Strategy:** Identified commercial applications, conducted market research, and shaped the go-to-market approach for a patented biosensor
-- **Stakeholder engagement:** Represented the team in 20+ customer-facing interactions — sponsor negotiations, investor pitches, and stakeholder meetings
+- **Stakeholder engagement:** Represented the team in 20+ customer-facing interactions - sponsor negotiations, investor pitches, and stakeholder meetings
 - **Web presence:** Developed the team's website using HTML, CSS, and JavaScript, increasing online visibility and engagement by 30%
 
 ## Outcomes

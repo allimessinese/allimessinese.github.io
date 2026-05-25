@@ -1,5 +1,5 @@
 ---
-title: "Girls Into VC — Berkeley Fellowship"
+title: "Girls Into VC - Berkeley Fellowship"
 year: 2025
 role: "Fellow"
 institution: "Girls Into VC at Berkeley"
@@ -21,8 +21,8 @@ links:
 
 ## My Contribution
 
-- Received training in **due diligence** — how to evaluate startups across technical, market, and team dimensions
-- Studied **VC finance** — fund mechanics, portfolio construction, carried interest, and LP dynamics
+- Received training in **due diligence** - how to evaluate startups across technical, market, and team dimensions
+- Studied **VC finance** - fund mechanics, portfolio construction, carried interest, and LP dynamics
 - Conducted **investment research** and **industry analysis** on sectors of interest
 - Built a global network of female leaders in innovation and entrepreneurship
 

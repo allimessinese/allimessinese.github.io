@@ -2,7 +2,7 @@
   year: 2023
   number: ""
   status: "Filed"
-  description: "A capacitive biosensor designed for rapid, low-cost detection of GHB (gamma-hydroxybutyrate) — a drug commonly used in drug-facilitated assault. Developed as part of the iGEM TU Delft project."
+  description: "A capacitive biosensor designed for rapid, low-cost detection of GHB (gamma-hydroxybutyrate) - a drug commonly used in drug-facilitated assault. Developed as part of the iGEM TU Delft project."
   link: ""
   projects:
     - ghb-biosensor-igem

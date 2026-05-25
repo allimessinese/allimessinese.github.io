@@ -1,5 +1,5 @@
 ---
-title: "Polyketide Synthase Engineering — JBEI"
+title: "Polyketide Synthase Engineering - JBEI"
 year: 2025
 role: "Research Affiliate"
 institution: "Joint BioEnergy Institute (Keasling Lab)"
@@ -21,7 +21,7 @@ links:
 
 At the **Joint BioEnergy Institute (JBEI)** in Emeryville, I worked as a Research Affiliate in **Jay Keasling's Lab** under the supervision of Sarah Klass. The lab is a DOE-funded research institute focused on developing sustainable biofuels and bio-based chemicals.
 
-My work centered on **engineering polyketide synthases (PKS)** — large, modular enzyme complexes — in *Bacillus subtilis* to enhance the biosynthesis of valuable bio-based compounds.
+My work centered on **engineering polyketide synthases (PKS)** - large, modular enzyme complexes - in *Bacillus subtilis* to enhance the biosynthesis of valuable bio-based compounds.
 
 ## My Contribution
 
@@ -32,4 +32,4 @@ My work centered on **engineering polyketide synthases (PKS)** — large, modula
 
 ## Technical Context
 
-Polyketide synthases are responsible for producing a wide class of natural products — including many antibiotics and anticancer agents. Engineering them to produce specific bio-based chemicals requires precise manipulation of their modular structure (loading, extension, and termination modules).
+Polyketide synthases are responsible for producing a wide class of natural products - including many antibiotics and anticancer agents. Engineering them to produce specific bio-based chemicals requires precise manipulation of their modular structure (loading, extension, and termination modules).
