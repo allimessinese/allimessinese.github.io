@@ -12,7 +12,7 @@ layout: default
     </p>
   </header>
 
-  <div class="article-hero-image {{ page.gradient | default: 'grad-1' }}{% if page.image_contain %} image-contain{% endif %}">
+  <div class="article-hero-image {{ page.gradient | default: 'grad-1' }}">
     {% if page.image %}<img src="{{ page.image | relative_url }}" alt="{{ page.title }}">{% endif %}
   </div>
 
