@@ -37,6 +37,8 @@ The format is deliberately intimate. Speakers share what actually happened in th
 
 I attended with the **Girls Into VC at Berkeley** chapter.
 
+![Camp Hustle 2025](/assets/images/camp-hustle-sign.jpg)
+
 ## How I Got In: Volunteering
 
 I got access to Camp Hustle by volunteering. That is worth saying plainly because it is both obvious in retrospect and underused in practice.
