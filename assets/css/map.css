@@ -21,6 +21,14 @@
 /* Hide default Leaflet attribution */
 .leaflet-control-attribution { display: none; }
 
+/* Suppress default markercluster backgrounds — we draw our own */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large { background: none !important; box-shadow: none !important; }
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div { background: none !important; }
+
 /* ── Custom map dots ─────────────────────────────────────── */
 .map-dot {
   border-radius: 50%;
