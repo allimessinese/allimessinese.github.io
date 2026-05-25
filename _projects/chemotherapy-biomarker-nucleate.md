@@ -4,15 +4,19 @@ year: 2025
 role: "Head of Commercialization"
 institution: "Nucleate Activator"
 summary: "Head of Commercialization for ChemoMicrobiome, a biotech startup developing a first-of-its-kind microbiome profiling test to predict chemotherapy toxicity in colon cancer patients. Built through the Nucleate Activator program in Bay Area."
-tags: [commercialization, oncology, biotech, microbiome, startup]
+tags: [commercialization, oncology, biotech, microbiome, startup, NSF I-Corps]
 gradient: grad-3
 category: startup
 city: "San Francisco"
 lat: 37.7749
 lng: -122.4194
+image: "/assets/images/chemomicrobiome-demo-day.jpg"
+image_position: "center 30%"
 links:
   - label: "Nucleate Activator"
     url: "https://nucleate.org/activator/"
+  - label: "NSF I-Corps"
+    url: "https://www.nsf.gov/funding/programs/icorps/"
   - label: "Nucleate"
     url: "https://nucleate.xyz"
 ---
@@ -60,6 +64,14 @@ I joined ChemoMicrobiome as Head of Commercialisation through the Nucleate Activ
 **Regulatory pathway.** I mapped the FDA and CMS coverage routes to understand what validation is required and in what sequence. Early FDA engagement is part of the go-to-market strategy precisely because it de-risks the timeline and creates a reimbursement anchor.
 
 **Value proposition and GTM.** The go-to-market entry point is oncology clinics and research hospitals, running pilot studies that generate both clinical validation and institutional buy-in. Payer strategy runs in parallel, positioning the diagnostic as a cost-reduction tool rather than an add-on expense.
+
+## NSF I-Corps
+
+ChemoMicrobiome also participated in the **NSF I-Corps program**, the National Science Foundation's commercialisation training initiative designed to help research teams rigorously test whether a scientific innovation has a viable path to market.
+
+I-Corps is built around a single discipline: customer discovery. Teams conduct a structured series of interviews with potential customers, partners, regulators, and payers to stress-test their assumptions before committing resources to a specific commercial direction. The process is deliberately uncomfortable. Every assumption about who needs the product, how they would buy it, and what would make them change behaviour has to survive contact with real people before it is treated as a fact.
+
+For ChemoMicrobiome, participation in I-Corps strengthened the commercial thesis considerably. The interviews confirmed the clinical pain around chemotherapy toxicity, surfaced how oncologists actually make treatment decisions, and sharpened the reimbursement framing. It also forced a more precise answer to the question of who the primary customer actually is: not the patient, not the hospital system in aggregate, but the oncologist who needs a tool that fits into a workflow they already trust.
 
 ## About the Nucleate Activator
 
