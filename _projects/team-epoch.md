@@ -10,6 +10,8 @@ category: startup
 city: "Delft"
 lat: 52.0116
 lng: 4.3571
+image: "/assets/images/team-epoch.jpg"
+image_position: "center bottom"
 links:
   - label: "Team Epoch"
     url: "https://teamepoch.ai"
