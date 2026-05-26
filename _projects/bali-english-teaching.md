@@ -35,7 +35,7 @@ I arrived in Kuta and spent the first week teaching English to two different 5th
 
 Teaching in a Balinese classroom is a different experience from anything in a European school. The environment is open, the energy is high, and the students bring a warmth to the room that makes structure feel optional. I adapted lessons around what the students were already curious about, using their world as the material rather than working against it.
 
-Between sessions, I explored. Kuta gave me the coastal side of Bali: wide beaches, busy streets, and the particular energy of a place that lives at the edge of the ocean. Ubud, further inland, was something else entirely: waterfalls in the forest, rice terraces on every hillside, and the Monkey Forest, where the monkeys treat visitors as a mild inconvenience to be tolerated.
+Between sessions, I explored: Kuta's beaches and coastal energy in the first few days, then Ubud inland, where the landscape shifts entirely into forest, rice terraces, and waterfalls.
 
 ## Week Two: Galungan and the Building Work
 
@@ -46,7 +46,5 @@ Because schools were closed for the holiday, the volunteer group moved from the 
 The highlight of the week was joining the Galungan parade. To participate properly, volunteers needed to wear a sarong, the traditional ceremonial dress. A family from across the street simply opened their door, called us in, and spent the next hour dressing us in their own clothes, explaining the significance of each element of the celebration, and sending us out into the parade as their guests. The women involved ranged across five generations. None of it had been arranged.
 
 ## About IVHQ
-
-International Volunteer HQ is one of the largest volunteer travel organisations in the world, placing volunteers in structured programmes across more than 50 countries. The Bali programme combines teaching placements with community development projects, and pairs volunteers with local coordinators who provide context and continuity.
 
 The programme worked because it did not treat volunteering as tourism with a conscience. The work was real, the relationships were real, and the discomfort was real. Four weeks is not enough time to understand a place, but it is enough time to understand that you have not understood it, which is where the learning actually starts.
