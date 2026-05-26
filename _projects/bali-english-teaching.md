@@ -1,27 +1,52 @@
 ---
-title: "English Teaching - IVHQ Bali"
+title: "English Teaching - Bali"
 year: 2022
 role: "Volunteer English Teacher"
 institution: "IVHQ"
 city: "Bali"
 lat: -8.3405
 lng: 115.0920
-gradient: grad-3
+gradient: grad-4
 category: teaching
-summary: "Developed and delivered a two-week English curriculum for a 5th-grade class in Bali, integrating local culture into lessons and fostering cross-cultural awareness."
-tags: [volunteering, teaching, community]
+summary: "Two weeks in Bali as a volunteer English teacher with IVHQ, teaching 5th-grade classes and contributing to school reconstruction during Galungan. As much about learning as teaching."
+tags: [volunteering, teaching, community, Indonesia]
+image: "/assets/images/bali-group.jpg"
+image_position: "center 55%"
+links:
+  - label: "IVHQ"
+    url: "https://www.volunteerhq.org"
 ---
 
-## Overview
+## What I Learned
 
-Through **IVHQ** (International Volunteer HQ), I spent time in Bali, Indonesia as a volunteer English teacher, developing and delivering a complete two-week study programme for a 5th-grade class.
+The most lasting thing from Bali was not anything I taught. It was a conversation with a local girl during the second week, while we were plastering a school wall together. I mentioned that I had moved to another country to study engineering at eighteen. She went quiet for a moment, then told me she found that extraordinary, almost unimaginable. For her, the idea of leaving home alone at that age to pursue a career like that was not a recognised path. It had never been presented as an option.
 
-## My Contribution
+That exchange did two things at once. It made me genuinely appreciate the freedom I had been handed without quite realising it: the freedom to choose where to study, what to study, and who to become in the process. And it made me aware that I had been treating that freedom as a baseline rather than a gift.
 
-I designed a comprehensive curriculum tailored to the students' level and interests - crafting engaging lesson plans and learning materials to create an immersive, practical language learning experience. Rather than teaching English in isolation, I integrated interactive activities and real-life scenarios so students could understand the genuine relevance of the language.
+The second lesson came from a family across the road from our hostel, who invited us in during Galungan week to lend us their traditional sarongs for the celebratory parade. Five generations of women, gathered together to dress us, explain the history of the celebration, and send us off into it. The generosity was entirely unprompted. Nobody had asked, nobody had organised it. It was simply what you do for guests, apparently.
 
-To foster a stimulating environment, I adapted my teaching approach to resonate with the students' world. I infused local Balinese culture directly into lessons - bridging language learning with cultural appreciation rather than treating them as separate. Beyond the classroom, I engaged with the local community, learning about customs and traditions that enriched my teaching and made it more culturally sensitive and meaningful.
+Teaching itself also taught me something: that explaining a subject clearly to someone who does not share your language or your assumptions forces a kind of rigour that formal education rarely demands. You cannot rely on shared vocabulary or shared context. You have to find the thing that actually connects.
 
-## What I Took Away
+## Week One: The Classroom
 
-This experience sharpened my instructional skills, adaptability, and cross-cultural awareness in a way no lab or office role could. Teaching a subject you know well to students who don't share your language or background forces a kind of clarity and empathy that I carry into everything I do.
+I arrived in Kuta and spent the first week teaching English to two different 5th-grade classes through **IVHQ** (International Volunteer HQ). The students' enthusiasm made every session easy to begin and hard to end. They were eager to learn and equally eager to share: about their daily lives, their families, their island. The exchange moved in both directions from the start.
+
+![Teaching at the school in Bali](/assets/images/bali-classroom.jpg)
+
+Teaching in a Balinese classroom is a different experience from anything in a European school. The environment is open, the energy is high, and the students bring a warmth to the room that makes structure feel optional. I adapted lessons around what the students were already curious about, using their world as the material rather than working against it.
+
+Between sessions, I explored. Kuta gave me the coastal side of Bali: wide beaches, busy streets, and the particular energy of a place that lives at the edge of the ocean. Ubud, further inland, was something else entirely: waterfalls in the forest, rice terraces on every hillside, and the Monkey Forest, where the monkeys treat visitors as a mild inconvenience to be tolerated.
+
+## Week Two: Galungan and the Building Work
+
+The second week began with Bali celebrating **Galungan and Kuningan**, a two-week festival marking the triumph of Dharma over Adharma, and one of the most important dates in the Balinese calendar. The streets filled with penjors, tall bamboo poles decorated with offerings. Families gathered. The atmosphere shifted from everyday life into something ceremonial and communal.
+
+Because schools were closed for the holiday, the volunteer group moved from the classroom to the construction site, joining the team working on the renovation of the school buildings: plastering, sanding, and painting where it was needed. It was unglamorous, physical work, and it turned out to be exactly the right context for the conversations that mattered most. Working alongside locals without the structure of a classroom removed any pretence of a hierarchy and made the exchanges genuinely equal.
+
+The highlight of the week was joining the Galungan parade. To participate properly, volunteers needed to wear a sarong, the traditional ceremonial dress. A family from across the street simply opened their door, called us in, and spent the next hour dressing us in their own clothes, explaining the significance of each element of the celebration, and sending us out into the parade as their guests. The women involved ranged across five generations. None of it had been arranged.
+
+## About IVHQ
+
+International Volunteer HQ is one of the largest volunteer travel organisations in the world, placing volunteers in structured programmes across more than 50 countries. The Bali programme combines teaching placements with community development projects, and pairs volunteers with local coordinators who provide context and continuity.
+
+The programme worked because it did not treat volunteering as tourism with a conscience. The work was real, the relationships were real, and the discomfort was real. Four weeks is not enough time to understand a place, but it is enough time to understand that you have not understood it, which is where the learning actually starts.
