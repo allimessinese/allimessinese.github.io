@@ -357,7 +357,7 @@ img { max-width: 100%; display: block; }
 }
 .article-detail-body h3 {
   font-family: var(--ff-body);
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   font-weight: 500;
   color: var(--navy);
   margin: 1.75rem 0 0.4rem;
