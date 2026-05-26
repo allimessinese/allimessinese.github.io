@@ -1,5 +1,5 @@
 ---
-title: "Team Epoch - Operations & Strategy"
+title: "Team Epoch"
 year: 2024
 role: "Co-COO → Business Mentor → Chair of Strategy Committee"
 institution: "Team Epoch, TU Delft"
@@ -35,14 +35,14 @@ The team competes in data science and machine learning competitions across secto
 
 ## Roles and Progression
 
-### Partnership Manager
+### Partnership Manager *(Aug 2021 to Dec 2021)*
 
 My entry point into Team Epoch was in partnerships, where I built and executed the team's external engagement strategy.
 
 - Raised **€15,000** in funding and secured in-kind donations and sponsorships from industry partners
 - Negotiated **5+** strategic collaborations, building the relationships that gave the team access to external resources, events, and networks
 
-### Co-Chief Operating Officer *(Aug 2021 to Sep 2022)*
+### Co-Chief Operating Officer *(Jan 2022 to Sep 2022)*
 
 As Co-COO I took on operational responsibility for the full organisation: a team of 40 across four departments (AI, Communications, Partnerships, and Finance).
 
