@@ -1,8 +1,8 @@
 ---
-title: "English Teaching - Bali"
+title: "English Teaching"
 year: 2022
 role: "Volunteer English Teacher"
-institution: "IVHQ"
+institution: "International Volunteering Headquarter (IVHQ)"
 city: "Bali"
 lat: -8.3405
 lng: 115.0920
