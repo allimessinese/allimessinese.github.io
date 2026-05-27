@@ -37,6 +37,12 @@ I joined WorkForIt as a core team member under 25, one of five people from five 
 
 Within the team, my responsibility was social media: working directly with founder Michela Andreolli to build the platform's content presence on LinkedIn and Instagram.
 
+Below is the platform launch reel, announcing the opening of the first 100 spots to join WorkForIt.
+
+<div class="ig-reel-wrap">
+  <iframe src="https://www.instagram.com/reel/Ch7raTLqPkF/embed/" frameborder="0" scrolling="no" allowtransparency="true" allowfullscreen="true"></iframe>
+</div>
+
 **Editorial strategy.** I designed and executed a content calendar that addressed both sides of the marketplace within the same channels. Content for students focused on job orientation, practical career guidance, and the kind of reassurance that early-career anxiety needs. Content for companies focused on talent quality, platform proof points, and the case for potential-first hiring. Maintaining both tones without the channel feeling split required consistent editorial judgment rather than a fixed template.
 
 **Engagement growth.** Engagement increased by 30% through content targeting and format testing. The consistent finding was that specificity outperformed generality: posts grounded in concrete situations, real decisions, and named trade-offs performed better than broad motivational content.
