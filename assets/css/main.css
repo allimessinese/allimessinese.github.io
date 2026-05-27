@@ -382,6 +382,23 @@ img { max-width: 100%; display: block; }
   height: auto;
   margin: 2rem 0;
 }
+.article-detail-body figure {
+  margin: 2rem 0;
+}
+.article-detail-body figure img {
+  margin: 0 0 0.6rem;
+}
+.article-detail-body figcaption {
+  font-size: 0.82rem;
+  color: var(--ink-light);
+  text-align: center;
+  line-height: 1.4;
+}
+.project-figure-portrait {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Pull quote */
 .article-detail-body blockquote {
   border-left: 3px solid var(--navy);
