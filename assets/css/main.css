@@ -399,6 +399,37 @@ img { max-width: 100%; display: block; }
   margin-left: auto;
   margin-right: auto;
 }
+/* Stats strip */
+.project-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+  padding: 1.5rem;
+  background: var(--cream-dark, #edeae2);
+  border-radius: 4px;
+  flex-wrap: wrap;
+}
+.project-stat {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+}
+.project-stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--ff-display);
+  color: var(--navy);
+  line-height: 1.1;
+}
+.project-stat-label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--ink-light);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0.3rem;
+}
 /* Pull quote */
 .article-detail-body blockquote {
   border-left: 3px solid var(--navy);
