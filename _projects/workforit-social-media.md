@@ -33,7 +33,9 @@ The platform refers to its student users as "hikers": people shaped by experienc
 
 ## My Role
 
-I joined WorkForIt as Social Media Manager, working directly with the founder to build the platform's content presence on LinkedIn and Instagram.
+I joined WorkForIt as a core team member under 25, one of five people from five different backgrounds across two continents and three countries, all working toward the same aim. WorkForIt introduced the team publicly on LinkedIn: *"5 background diversi, 2 continenti, 3 paesi, la stessa voglia di dimostrare che cambiare le cose in Italia è possibile."*
+
+Within the team, my responsibility was social media: working directly with founder Michela Andreolli to build the platform's content presence on LinkedIn and Instagram.
 
 **Editorial strategy.** I designed and executed a content calendar that addressed both sides of the marketplace within the same channels. Content for students focused on job orientation, practical career guidance, and the kind of reassurance that early-career anxiety needs. Content for companies focused on talent quality, platform proof points, and the case for potential-first hiring. Maintaining both tones without the channel feeling split required consistent editorial judgment rather than a fixed template.
 
