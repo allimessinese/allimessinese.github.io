@@ -50,6 +50,3 @@ As Head TA for Computational Biology, I was responsible for the full TA operatio
 
 **Weekly practicals.** I ran four-hour practical sessions each week, circulating between students to debug code, clarify concepts, and identify when a question was revealing a structural gap in the assignment rather than in the student.
 
-## Physics 2
-
-Alongside the Computational Biology role, I also served as TA for **Physics 2** (Optics and Quantum Physics), supporting 60+ students during in-class sessions and contributing to exam materials and proctoring.
