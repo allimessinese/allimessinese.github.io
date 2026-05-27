@@ -6,6 +6,8 @@ institution: "Joint BioEnergy Institute (Keasling Lab)"
 summary: "Research Affiliate in Jay Keasling's lab at JBEI, under Sarah Klass. Engineered PKS pathways in Pseudomonas putida for non-canonical amino acid biosynthesis. Pre-publication."
 tags: [synthetic biology, metabolic engineering, research]
 gradient: grad-6
+image: "/assets/images/jbei-lab.jpg"
+image_position: "center 28%"
 category: research
 city: "Emeryville"
 lat: 37.8309
