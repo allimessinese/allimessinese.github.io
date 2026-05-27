@@ -101,11 +101,6 @@ Starting from scratch meant building the infrastructure before using it.
 
 **Sales operations.** I designed and implemented the full GTM tech stack: ZoomInfo for lead generation and intent data, Salesloft for sequencing and outreach, LinkedIn Sales Navigator for prospecting and connection, Salesforce as the CRM and source of truth, and HubSpot for marketing automation. The architecture integrates all five tools, with Salesforce as the centralising layer.
 
-<figure>
-  <img src="/assets/images/mithrl-techstack.jpg" alt="Whiteboard diagram of the Mithrl GTM tech stack">
-  <figcaption>The tech stack architecture: ZoomInfo to Salesloft to Salesforce, with HubSpot for marketing. Total cost ~$43K/year for 10 seats.</figcaption>
-</figure>
-
 **Hiring.** I supported the CEO on the hiring process for AEs, SDRs, EAs, and Product Marketing roles: screening, interviewing, and evaluating candidates across the GTM org as the team scaled.
 
 **Onboarding.** I built the training and onboarding materials for new GTM hires: the product knowledge base, the buyer persona framework, the outreach playbook, and the qualification criteria. The people we hired after me had a starting point I did not have.
