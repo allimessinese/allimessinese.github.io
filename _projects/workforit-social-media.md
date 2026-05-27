@@ -7,7 +7,7 @@ summary: "Social Media Manager for WorkForIt, a Milan-based EdTech startup match
 tags: [marketing, content strategy, social media, EdTech, startups]
 gradient: grad-3
 image: "/assets/images/workforit-hero.jpg"
-image_position: "center center"
+hero_contain: true
 category: startup
 city: "Milan"
 lat: 45.4642

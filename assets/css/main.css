@@ -434,6 +434,14 @@ img { max-width: 100%; display: block; }
   border: none;
 }
 
+/* Logo hero — object-fit contain, cream background overrides gradient */
+.article-hero-image.hero-contain {
+  background: var(--cream);
+}
+.article-hero-image.hero-contain img {
+  object-fit: contain;
+}
+
 /* Instagram reel embed — centred, 9:16 */
 .ig-reel-wrap {
   margin: 2rem auto;
