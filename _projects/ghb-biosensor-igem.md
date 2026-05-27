@@ -71,6 +71,17 @@ My work sat at the intersection of commercialisation, fundraising, and stakehold
 
 By the end of the competition, SPYKE existed as a functioning prototype: a cup with an integrated sensor compartment, electrode, and LED circuit that produced a real electrical signal in response to GHB. Going from whiteboard to working device in a single competition cycle, with a student team, no prior product development experience, and a tight deadline, was the formative experience of my undergraduate years.
 
+## Patent
+
+On September 30, 2022, the team filed a priority patent covering the GHB biosensor.
+
+**P133763NL00** — *Capacitive biosensor for detection of GHB*
+
+The patent covers the detection method, the BlcR protein and DNA sequences, the interdigitated electrode hardware design, and the GHB biosensor application. The priority filing secured a one-year window to develop the concept further before committing to an international application.
+
+<a href="{{ '/assets/ghb-patent.pdf' | relative_url }}" class="pdf-download-link" target="_blank">Patent Filing (PDF) — P133763NL00</a>
+<a href="{{ '/assets/ghb-patent-figures.pdf' | relative_url }}" class="pdf-download-link" target="_blank">Patent Figures (PDF)</a>
+
 ## Awards
 
 **2nd place, Best Entrepreneurship**, iGEM Giant Jamboree 2022, Paris

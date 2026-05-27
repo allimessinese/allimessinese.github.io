@@ -17,6 +17,8 @@ permalink: /patents/
   {% if patent.description %}<p class="entry-desc">{{ patent.description }}</p>{% endif %}
   <div class="entry-links">
     {% if patent.link %}<a class="entry-link" href="{{ patent.link }}" target="_blank" rel="noopener">View filing →</a>{% endif %}
+    {% if patent.pdf %}<a class="entry-link" href="{{ patent.pdf | relative_url }}" target="_blank" rel="noopener">Patent (PDF) ↓</a>{% endif %}
+    {% if patent.pdf_figures %}<a class="entry-link" href="{{ patent.pdf_figures | relative_url }}" target="_blank" rel="noopener">Figures (PDF) ↓</a>{% endif %}
     {% for proj in patent.projects %}
     <a class="entry-link" href="/projects/{{ proj }}/">Related project →</a>
     {% endfor %}
