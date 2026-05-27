@@ -6,6 +6,8 @@ institution: "Delft University of Technology"
 summary: "Head TA for Computational Biology at TU Delft, responsible for designing course projects on GitHub, grading deliverables, and running weekly 4-hour practicals. Also TA for Physics 2 (Optics and Quantum Physics)."
 tags: [teaching, computational biology, Python, numerical methods]
 gradient: grad-5
+image: "/assets/images/tudelft-library.jpg"
+image_position: "center 55%"
 category: teaching
 city: "Delft"
 lat: 52.0116
@@ -49,4 +51,6 @@ As Head TA for Computational Biology, I was responsible for the full TA operatio
 **Grading and feedback.** I reviewed and graded student deliverables hosted on GitHub, providing code-quality feedback on correctness, vectorisation, and structure. The emphasis was on feedback that taught rather than feedback that just scored.
 
 **Weekly practicals.** I ran four-hour practical sessions each week, circulating between students to debug code, clarify concepts, and identify when a question was revealing a structural gap in the assignment rather than in the student.
+
+<p class="press-table-note">Hero image: TU Delft Library. <a href="https://commons.wikimedia.org/wiki/File:TU_Delft_Universiteitsbibliotheek.jpg">Choinowski via Wikimedia Commons</a>, CC BY-SA 4.0.</p>
 
