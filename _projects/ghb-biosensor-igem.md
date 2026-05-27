@@ -76,6 +76,54 @@ By the end of the competition, SPYKE existed as a functioning prototype: a cup w
 **2nd place, Best Entrepreneurship**, iGEM Giant Jamboree 2022, Paris
 **Finalist, Diagnostics Track**, iGEM Giant Jamboree 2022, Paris
 
+## Media Coverage
+
+SPYKE's story reached 27 outlets across five languages in the weeks following the team's announcement in August 2022, including national broadcast radio, print newspapers, and international science press.
+
+<div class="press-table-wrap">
+<table class="press-table">
+  <thead>
+    <tr>
+      <th>Outlet</th>
+      <th>Type</th>
+      <th>Language</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><a href="https://www.omroepwest.nl/nieuws/4613020/lampje-moet-waarschuwen-voor-ghb-in-drankje" target="_blank" rel="noopener">Omroep West</a></td><td>News article</td><td>Dutch</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://www.omroepwest.nl/radio/aflevering/west-wordt-wakker/270410632" target="_blank" rel="noopener">Omroep West</a></td><td>Radio show</td><td>Dutch</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://www.tudelft.nl/2022/tu-delft/delfts-igem-studententeam-wil-sensor-voor-ghb-in-drankjes-ontwikkelen" target="_blank" rel="noopener">TU Delft</a></td><td>Online article</td><td>Dutch</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://twitter.com/tudelft/status/1559474400445059072" target="_blank" rel="noopener">TU Delft</a></td><td>Tweet</td><td>Dutch</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://www.telegraaf.nl/nieuws/1357909940/gaat-deze-sensor-ons-waarschuwen-voor-verkrachtingsdrug-ghb-in-drankjes" target="_blank" rel="noopener">De Telegraaf</a></td><td>News article</td><td>Dutch</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://www.youtube.com/watch?v=PS-a-azQ8ms" target="_blank" rel="noopener">Telegraaf</a></td><td>Video segment</td><td>Dutch</td><td>17 Aug 2022</td></tr>
+    <tr><td><a href="https://nos.nl/r/296354" target="_blank" rel="noopener">NOS</a></td><td>News article</td><td>Dutch</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://www.nporadio1.nl/fragmenten/nos-radio-1-journaal/a676d01c-e628-4127-b3d6-7fe7e41e83a9/2022-08-17-uitvinding-om-ghb-in-drankje-op-te-sporen" target="_blank" rel="noopener">NOS Radio 1</a></td><td>Radio show</td><td>Dutch</td><td>17 Aug 2022</td></tr>
+    <tr><td><a href="https://www.npo3fm.nl/uitzendingen/mark-en-mai/ef8296eb-0d51-42ab-a5b0-6cf6100b662d/2022-08-17-mark-en-mai" target="_blank" rel="noopener">3FM (NOS op 3)</a></td><td>Radio segment</td><td>Dutch</td><td>17 Aug 2022</td></tr>
+    <tr><td>Radio 538</td><td>Radio segment</td><td>Dutch</td><td>17 Aug 2022</td></tr>
+    <tr><td>Q-Music</td><td>Radio show</td><td>Dutch</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://linkmagazine.nl/delfts-igem-studententeam-start-crowdfunding-om-een-sensor-te-ontwikkelen-voor-ghb-in-drankjes-te-detecteren/" target="_blank" rel="noopener">Link Magazine</a></td><td>News article</td><td>Dutch</td><td>18 Aug 2022</td></tr>
+    <tr><td><a href="https://innovationorigins.com/nl/selected/delfts-studententeam-ontwikkelt-sensor-die-waarschuwt-voor-ghb-in-je-drankje/" target="_blank" rel="noopener">Innovation Origins</a></td><td>News article</td><td>Dutch</td><td>22 Aug 2022</td></tr>
+    <tr><td><a href="https://www.ad.nl/tech/slimme-beker-moet-drogeren-met-ghb-tijdens-uitgaan-voorkomen-lampje-brandt-zodra-hij-iets-meet~a66373c3/" target="_blank" rel="noopener">AD</a></td><td>News article</td><td>Dutch</td><td>5 Sep 2022</td></tr>
+    <tr><td><a href="https://www.bndestem.nl/tech/slimme-beker-moet-drogeren-met-ghb-tijdens-uitgaan-voorkomen-lampje-brandt-zodra-hij-iets-meet~a66373c3/" target="_blank" rel="noopener">BN de Stem</a></td><td>News article</td><td>Dutch</td><td>5 Sep 2022</td></tr>
+    <tr><td><a href="https://dutchsoftrobotics.nl" target="_blank" rel="noopener">Dutch Soft Robotics</a></td><td>Repost</td><td>Dutch</td><td>5 Sep 2022</td></tr>
+    <tr><td><a href="https://www.delta.tudelft.nl/article/igem-studententeam-werkt-aan-drugsdetector" target="_blank" rel="noopener">Delta (TU Delft)</a></td><td>Article</td><td>Dutch</td><td>7 Sep 2022</td></tr>
+    <tr><td><a href="https://www.linda.nl/meiden/meiden-nieuws/ghb-bekers-waarschuwen/" target="_blank" rel="noopener">Linda Meiden</a></td><td>News article</td><td>Dutch</td><td>7 Sep 2022</td></tr>
+    <tr><td><a href="https://www.myscience.org/en/news/2021/tu_delft_igem_team_aims_to_develop_sensor_to_detect_ghb_in_drinks-2022-tudelft" target="_blank" rel="noopener">MyScience.org</a></td><td>Article</td><td>English</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://indiaeducationdiary.in/tu-delft-tu-delft-igem-team-aims-to-develop-sensor-to-detect-ghb-in-drinks/" target="_blank" rel="noopener">India Education Diary</a></td><td>Article</td><td>English</td><td>16 Aug 2022</td></tr>
+    <tr><td><a href="https://www.bullfrag.com/sensor-developed-to-detect-date-rape-drug-in-beverages/" target="_blank" rel="noopener">Bullfrag</a></td><td>News article</td><td>English</td><td>24 Aug 2022</td></tr>
+    <tr><td><a href="https://padeye.news/safer-party-nights-they-develop-a-sensor-to-detect-drugs-in-drinks/" target="_blank" rel="noopener">Padeye</a></td><td>News article</td><td>English</td><td>23 Aug 2022</td></tr>
+    <tr><td><a href="https://expansion.mx/tecnologia/2022/08/23/sensor-droga-de-la-violacion-en-tu-bebida" target="_blank" rel="noopener">Expansión</a></td><td>News article</td><td>Spanish</td><td>23 Aug 2022</td></tr>
+    <tr><td><a href="https://www.20minutos.es/tecnologia/emprendimiento/estudiantes-de-paises-bajos-crean-un-sensor-que-detecta-la-droga-en-los-vasos-5043870/" target="_blank" rel="noopener">20 Minutos</a></td><td>News article</td><td>Spanish</td><td>23 Aug 2022</td></tr>
+    <tr><td><a href="https://businessinsider.mx/detectar-droga-bebida-que-es-ghb-sensor_tecnologia/" target="_blank" rel="noopener">Business Insider Mexico</a></td><td>News article</td><td>Spanish</td><td>23 Aug 2022</td></tr>
+    <tr><td><a href="https://www.eluniversalpuebla.com.mx/viral/estudiantes-desarrollan-sensor-que-detecta-si-pusieron-droga-tu-bebida" target="_blank" rel="noopener">El Universal Puebla</a></td><td>News article</td><td>Spanish</td><td>24 Aug 2022</td></tr>
+    <tr><td><a href="https://www.elnacional.cat/ca/tecnologia/nous-vasos-detecten-droga-a-la-beguda_874950_102.html" target="_blank" rel="noopener">El Nacional</a></td><td>News article</td><td>Catalan</td><td>30 Aug 2022</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p class="press-table-note">On social media, the project reached 29,500 accounts on Instagram including a TU Delft account takeover (52K followers, 3,000 views per story across 8 posts) and 5,000 accounts on LinkedIn.</p>
+
 ---
 
 ## Team Wiki

@@ -456,6 +456,50 @@ img { max-width: 100%; display: block; }
   text-decoration: underline;
 }
 
+/* Press / Media Coverage table */
+.press-table-wrap {
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+.press-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  font-family: var(--ff-body);
+}
+.press-table thead th {
+  background: var(--navy-dark);
+  color: var(--white);
+  padding: 0.55rem 0.875rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.press-table tbody tr:nth-child(odd)  { background: var(--white); }
+.press-table tbody tr:nth-child(even) { background: var(--cream); }
+.press-table tbody tr:hover           { background: #e8e5d6; }
+.press-table td {
+  padding: 0.45rem 0.875rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--text);
+  vertical-align: middle;
+  line-height: 1.4;
+}
+.press-table td a {
+  color: var(--navy);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.press-table td a:hover { color: var(--navy-dark); }
+.press-table-note {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.75rem;
+  line-height: 1.6;
+}
+
 .article-links-section {
   margin-top: 3rem;
   padding-top: 1.5rem;
