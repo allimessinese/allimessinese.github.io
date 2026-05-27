@@ -6,6 +6,8 @@ institution: "Consiglio Nazionale delle Ricerche (CNR)"
 summary: "Two-week research placement at CNR's L.I.T.A. lab in Segrate, working with a neuroscience team studying neuromelanin and its role in Parkinson's Disease. Performed histology and agarose gel electrophoresis. The experience that confirmed the decision to study Nanobiology at TU Delft."
 tags: [neuroscience, research, histology, Parkinson's, CNR]
 gradient: grad-9
+image: "/assets/images/cnr-gel-electrophoresis.jpg"
+image_position: "center 38%"
 category: research
 city: "Milan"
 lat: 45.4642
@@ -54,3 +56,5 @@ I performed this on both my own saliva and on a mouse tissue sample, which made 
 This placement was part of the **Alternanza Scuola-Lavoro** programme, the Italian compulsory school-work transition scheme, carried out in the final year of my secondary education. I joined the research team for two weeks in June 2019, approximately 60 hours of lab time at L.I.T.A., Via Fratelli Cervi 93, Segrate. The contact researcher was Luca Pasqualetto.
 
 It was my first time in a professional research environment. The experience made the connection between laboratory science and actual disease research concrete in a way that classroom biology never had.
+
+<p class="press-table-note">Hero image: agarose gel electrophoresis under UV light. <a href="https://commons.wikimedia.org/wiki/File:Agarose_gel_electrophoresis_in_UV_light.jpg" target="_blank" rel="noopener">YTEDG72.k via Wikimedia Commons</a>, CC BY 4.0.</p>
