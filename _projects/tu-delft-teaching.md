@@ -1,37 +1,55 @@
 ---
-title: "Teaching - Delft University of Technology"
+title: "Teaching at TU Delft"
 year: 2024
 role: "Head Teaching Assistant"
 institution: "Delft University of Technology"
-summary: "Held multiple teaching roles at TU Delft over 1.5 years across Computational Science and Physics, supporting 100+ students with Python, Jupyter Notebooks, Optics, and Quantum Physics."
-tags: [teaching, computational science, physics, Python]
-gradient: grad-7
+summary: "Head TA for Computational Biology at TU Delft, responsible for designing course projects on GitHub, grading deliverables, and running weekly 4-hour practicals. Also TA for Physics 2 (Optics and Quantum Physics)."
+tags: [teaching, computational biology, Python, numerical methods]
+gradient: grad-5
 category: teaching
 city: "Delft"
 lat: 52.0116
 lng: 4.3571
 ---
 
-## Overview
+## What I Learned
 
-Over 1.5 years at TU Delft, I held four teaching roles across two disciplines: **Computational Science** and **Physics 2**. Teaching deepened my own understanding of both subjects and gave me experience designing feedback systems and improving student outcomes.
+Designing a problem is a different skill from solving one. When you solve a problem someone else wrote, you work within a structure that already knows where it is going. When you design the problem, you have to make every structural choice yourself: what prior knowledge to assume, where to put the scaffolding, how much to reveal in the assignment text and how much to leave for the student to discover. Getting that balance wrong in either direction, too much hand-holding or too little, produces either boredom or paralysis. The six course projects I helped create were a continuous exercise in threading that needle.
 
-## Roles
+The other thing the role clarified is what it actually means to understand something. Students would ask questions I thought I knew the answer to, and then, mid-explanation, I would find a gap I had not noticed before. The Euler method, finite difference schemes, Monte Carlo convergence: each of them has an edge case or a subtlety that only surfaces when someone who does not yet understand it forces you to re-derive it from first principles in real time.
 
-### Head Teaching Assistant - Computational Science *(Feb to Jun 2024)*
-- Assisted 40+ students with **Python Jupyter Notebook** assignments, providing real-time guidance and troubleshooting
-- Reviewed and graded **100+ project deliverables** hosted on GitHub, offering detailed code-quality feedback
-- Collaborated with professors to refine teaching methods, improving project completion rates by **20%**
+## The Course
 
-### Research Intern *(Feb to Jun 2024)*
-*(Ran concurrently - see [Lipid Biosynthesis Thesis](/projects/bacillus-subtilis-lipid-biosynthesis/))*
+**Modelling and Simulation in Science and Engineering** is a core course in the Nanobiology bachelor at TU Delft. Students work through numerical methods and their implementation in Python, with problems drawn from biology and biophysics. The format is practical-first: four-hour sessions each week where students work through assignments, with TAs providing real-time support and code review.
 
-### Teacher Assistant - Physics 2 *(Jul to Nov 2023)*
-- Provided in-class support to 60+ students on **Optics and Quantum Physics**
-- Assisted in creating and grading exam materials, contributing to a 15% improvement in overall course performance
-- Proctored and managed exam sessions for 60+ students
+The course covers four main skill areas, each corresponding to a project:
 
-### Teacher Assistant - Computational Science *(Jan to Jul 2023)*
-- Reviewed and gave detailed feedback on 50+ GitHub projects, improving code quality by 20%
-- Guided 40+ students through Python assignments, clarifying complex concepts
-- Collaborated with professors to assess and grade deliverables, boosting project success rates by 15%
+**Project 1: Numerical Function Analysis.** Forward, backward, and central difference methods for numerical differentiation; composite rectangle, midpoint, trapezoid, and Simpson's 1/3 rule for integration; bisection and Newton-Raphson methods for root finding. Students investigate how accuracy scales with step size using log-log analysis.
+
+**Project 2: Vectors, Matrices and Linear Algebra.** Matrix operations, linear systems, eigenvalues and eigenvectors. Emphasis on using matrix algebra as a computational primitive rather than operating element-by-element.
+
+**Project 3: Random Variables and Monte Carlo.** Probability distributions, random number generation, Monte Carlo simulation. Students model stochastic systems and reason about how many simulations are needed to characterise a distribution.
+
+**Project 4: Parameter Fitting.** Least-squares linear regression, weighted fitting with variable measurement uncertainty, and generalised polynomial fitting via the pseudo-inverse. Students implement the full chi-square minimisation from scratch before using library functions.
+
+## The Final Projects
+
+At the end of the course, students chose one of two longer projects as a final assessment. These were designed to require synthesis across all four skill areas.
+
+**Final Project A: Deterministic and Stochastic Models of Epidemic Spread (SIR Model).** Students first implemented the classic SIR model as an initial value problem solved by the Euler method, producing stacked area plots of susceptible, infected, and removed populations over 150 days. They then built a stochastic version: a 1,000-person social network encoded as an adjacency matrix, with infection propagating through the network probabilistically at each discrete time step. A Monte Carlo loop of 100 runs produced a distribution of outcomes. Students estimated R0 at the day of peak infection across simulations and fitted a gamma distribution to the R0 distribution using SciPy.
+
+**Final Project B: Worm-like Chain Model.** A biophysical model of polymer mechanics, applied to DNA and other semiflexible polymers. Students implemented the worm-like chain force-extension relationship and fitted it to simulated experimental data, combining numerical methods, parameter estimation, and physical reasoning.
+
+## My Role
+
+As Head TA for Computational Biology, I was responsible for the full TA operation on the course:
+
+**Project design and maintenance.** I created and maintained the course projects on GitHub. This included writing assignment text, scaffolding code templates, designing grading rubrics, and iterating on projects between years based on where students consistently struggled.
+
+**Grading and feedback.** I reviewed and graded student deliverables hosted on GitHub, providing code-quality feedback on correctness, vectorisation, and structure. The emphasis was on feedback that taught rather than feedback that just scored.
+
+**Weekly practicals.** I ran four-hour practical sessions each week, circulating between students to debug code, clarify concepts, and identify when a question was revealing a structural gap in the assignment rather than in the student.
+
+## Physics 2
+
+Alongside the Computational Biology role, I also served as TA for **Physics 2** (Optics and Quantum Physics), supporting 60+ students during in-class sessions and contributing to exam materials and proctoring.
