@@ -12,7 +12,7 @@ city: "Berkeley"
 lat: 37.8716
 lng: -122.2727
 image: "/assets/images/piezoelectric-team.jpg"
-image_position: "center 30%"
+image_position: "center 50%"
 pdf: "/assets/piezoelectric-capstone-report.pdf"
 links:
   - label: "Coleman Fung Institute"
