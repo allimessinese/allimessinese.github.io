@@ -425,7 +425,8 @@ img { max-width: 100%; display: block; }
   height: 0;
   overflow: hidden;
 }
-.project-video-wrap iframe {
+.project-video-wrap iframe,
+.project-video-wrap video {
   position: absolute;
   top: 0; left: 0;
   width: 100%;
