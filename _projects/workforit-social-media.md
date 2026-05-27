@@ -1,5 +1,5 @@
 ---
-title: "Social Media Strategy - WorkForIt"
+title: "Social Media Strategy"
 year: 2023
 role: "Social Media Manager"
 institution: "WorkForIt"
@@ -11,8 +11,6 @@ city: "Milan"
 lat: 45.4642
 lng: 9.1900
 links:
-  - label: "WorkForIt"
-    url: "https://www.workforit.it"
   - label: "WorkForIt on LinkedIn"
     url: "https://www.linkedin.com/company/workforit-w4it"
   - label: "WorkForIt on Instagram"
