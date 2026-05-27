@@ -6,6 +6,8 @@ institution: "WorkForIt"
 summary: "Social Media Manager for WorkForIt, a Milan-based EdTech startup matching students to real company projects. Built the editorial strategy for LinkedIn and Instagram, growing engagement by 30% and audience reach by 25% while serving two very different audiences simultaneously."
 tags: [marketing, content strategy, social media, EdTech, startups]
 gradient: grad-3
+image: "/assets/images/workforit-hero.jpg"
+image_position: "center center"
 category: startup
 city: "Milan"
 lat: 45.4642
