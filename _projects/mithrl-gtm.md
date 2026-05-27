@@ -93,13 +93,23 @@ Quota is easier to hit when the market trusts the platform. Two parallel workstr
 
 ## Product and Feedback Loop
 
-The GTM team is the closest point of contact between the market and the product. I systematically fed that signal back inward: consolidating insights from client conversations to shape the product roadmap, and surfacing bugs and feature requests directly from field interactions. Being the second GTM hire at a company this early meant that feedback loop was unusually direct. Things I reported on Monday could be in a sprint by Wednesday.
+The GTM team is the closest point of contact between the market and the product. I systematically fed that signal back inward: consolidating insights from client conversations into the product roadmap, and surfacing feature requests directly from field interactions. Being the second GTM hire at a company this early meant that feedback loop was unusually direct.
+
+Three features I proposed from client conversations shipped into the product: **ATAC-seq support**, **ChIP-seq support**, and **fully customisable graph editing**. Each came from a recurring ask I kept hearing in qualification calls with computational biology teams. Hearing the same gap from enough buyers is a product specification.
 
 ## Building the GTM Function
 
 Starting from scratch meant building the infrastructure before using it.
 
-**Sales operations.** I designed and implemented the full GTM tech stack: ZoomInfo for lead generation and intent data, Salesloft for sequencing and outreach, LinkedIn Sales Navigator for prospecting and connection, Salesforce as the CRM and source of truth, and HubSpot for marketing automation. The architecture integrates all five tools, with Salesforce as the centralising layer.
+**Sales operations.** I designed and implemented the full GTM tech stack from scratch, with Salesforce as the centralising layer:
+
+<ul class="stack-list">
+  <li><strong>ZoomInfo</strong>: lead generation and intent data</li>
+  <li><strong>Salesloft</strong>: sequencing and outreach cadences</li>
+  <li><strong>LinkedIn Sales Navigator</strong>: prospecting and connection</li>
+  <li><strong>Salesforce</strong>: CRM and source of truth</li>
+  <li><strong>HubSpot</strong>: marketing automation</li>
+</ul>
 
 **Hiring.** I supported the CEO on the hiring process for AEs, SDRs, EAs, and Product Marketing roles: screening, interviewing, and evaluating candidates across the GTM org as the team scaled.
 
