@@ -1,5 +1,5 @@
 ---
-title: "Neuromelanin Research - CNR"
+title: "Parkinson's Disease Research"
 year: 2019
 role: "Research Intern"
 institution: "Consiglio Nazionale delle Ricerche (CNR)"
