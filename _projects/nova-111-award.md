@@ -3,7 +3,7 @@ title: "Nova 111 Student List"
 year: 2025
 role: "Award"
 institution: "Nova"
-summary: "Selected as one of Italy's top 111 students in the Other Engineering and Technology vertical. Nova 111 identifies the most outstanding student talent across Europe."
+summary: "Vertical winner, Other Engineering and Technology. Nova 111 Student List Italy 2025 — identifying the most outstanding student talent across Europe."
 tags: [award, recognition]
 gradient: grad-10
 image: "/assets/images/nova-award-certificate.jpg"
@@ -24,7 +24,7 @@ Being selected alongside people from every discipline (medicine, law, engineerin
 
 The **Nova 111 Student List** is published annually by Nova, a European talent network that identifies outstanding student talent across the continent. Each country list selects 111 students across categories spanning science, technology, business, the arts, and public life. Selection is based on academic achievement, entrepreneurial activity, research, and real-world impact.
 
-I was selected in the **Other Engineering and Technology** vertical for Italy, recognised for work spanning synthetic biology research, biotech GTM, science communication, and cross-disciplinary projects across multiple countries. The credential was issued in March 2025.
+I was selected as the **vertical winner** in Other Engineering and Technology for Italy, recognised for work spanning synthetic biology research, biotech GTM, science communication, and cross-disciplinary projects across multiple countries. The credential was issued in March 2025.
 
 <figure class="project-figure-portrait">
   <img src="/assets/images/nova-award-ceremony.jpg" alt="Allegra Messinese named on the winners screen at the Nova 111 ceremony, Milan 2025">

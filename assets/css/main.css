@@ -399,6 +399,12 @@ img { max-width: 100%; display: block; }
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+.project-figure-portrait img {
+  display: block;
+  width: 100%;
+  margin: 0 auto 0.6rem;
 }
 /* Stats strip */
 .project-stats {
