@@ -78,7 +78,7 @@ My background spans wet lab research (synthetic biology, organoids, cardiac impl
   <img src="/assets/images/about-perf-greatest-showman.jpg" alt="The Greatest Showman musical, choreographed by Allegra Messinese" style="width:100%; height:200px; object-fit:cover; object-position:center 30%; border-radius:2px; display:block; margin:0;">
 </div>
 
-<p style="font-size:0.95rem; line-height:1.8; color:#333; margin-bottom:1.5rem;">
+<p style="font-size:0.95rem; line-height:1.8; color:#333; max-width:680px; margin-bottom:1.5rem;">
 Dance has been a parallel commitment since before university. In Delft I joined two crews and performed on proper stages: three pieces at IO Festival (the annual TU Delft student festival) across two years, and productions with POSE. I choreographed three full-scale musicals (The Greatest Showman, The Lion King, and Peter Pan) and performed in seven total. During university, I captained my volleyball team in the Netherlands and won regionals.
 </p>
 
