@@ -395,13 +395,13 @@ img { max-width: 100%; display: block; }
   text-align: center;
   line-height: 1.4;
 }
-.project-figure-portrait {
+.article-detail-body figure.project-figure-portrait {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-.project-figure-portrait img {
+.article-detail-body figure.project-figure-portrait img {
   display: block;
   width: 100%;
   margin: 0 auto 0.6rem;
