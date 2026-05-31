@@ -698,6 +698,16 @@ img { max-width: 100%; display: block; }
 }
 .entry-link:hover { background: var(--navy); color: var(--white); }
 
+/* Section divider label (used on Publications & Recognition page) */
+.page-section-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
 /* ── Footer ─────────────────────────────────────────────── */
 .footer {
   border-top: 3px solid var(--rule-dark);
