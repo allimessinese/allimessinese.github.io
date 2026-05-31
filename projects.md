@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function () {
       clearFilter();
       showPanel(p.city, cityGroups[p.city], false);
     });
-    clusterGroups[p.category || 'research'].addLayer(catMarker);
+    (clusterGroups[p.category] || clusterGroups['research']).addLayer(catMarker);
 
     markerMap[p.url] = { combined: combinedMarker, cat: catMarker };
   });

@@ -9,9 +9,6 @@ gradient: grad-10
 image: "/assets/images/nova-award-certificate.jpg"
 image_position: "center 55%"
 category: award
-city: "Milan"
-lat: 45.4642
-lng: 9.1900
 links:
   - label: "Nova 111 Italy 2025"
     url: "https://www.novatalent.com/111-list/the-nova-111-student-list-italy-2025"
