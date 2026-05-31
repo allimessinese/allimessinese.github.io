@@ -73,13 +73,9 @@ My background spans wet lab research (synthetic biology, organoids, cardiac impl
   <span class="section-rule-line"></span>
 </div>
 
-<div class="perf-grid">
-  <div class="perf-grid-half">
-    <img src="/assets/images/about-perf-io-festival.jpg" alt="Dance crew performing at IO Festival, Delft">
-  </div>
-  <div class="perf-grid-half">
-    <img src="/assets/images/about-perf-greatest-showman.jpg" alt="The Greatest Showman musical, choreographed by Allegra Messinese">
-  </div>
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:0.625rem; max-width:560px; margin:1.25rem 0 1.5rem;">
+  <img src="/assets/images/about-perf-io-festival.jpg" alt="Dance crew performing at IO Festival, Delft" style="width:100%; height:160px; object-fit:cover; border-radius:2px; display:block; margin:0;">
+  <img src="/assets/images/about-perf-greatest-showman.jpg" alt="The Greatest Showman musical, choreographed by Allegra Messinese" style="width:100%; height:160px; object-fit:cover; border-radius:2px; display:block; margin:0;">
 </div>
 
 <p style="font-size:0.95rem; line-height:1.8; color:#333; max-width:640px; margin-bottom:1.5rem;">
