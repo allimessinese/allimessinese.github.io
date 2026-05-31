@@ -263,6 +263,7 @@ img { max-width: 100%; display: block; }
 .grad-7 { background: linear-gradient(160deg, #1d4ed8 0%, #93c5fd 100%); }
 .grad-8 { background: linear-gradient(160deg, #0f172a 0%, #1e3a8a 100%); }
 .grad-9 { background: linear-gradient(160deg, #312e81 0%, #6366f1 100%); }
+.grad-10 { background: linear-gradient(160deg, #064e3b 0%, #10b981 100%); }
 
 /* ── Page header (non-home pages) ───────────────────────── */
 .page-header {
