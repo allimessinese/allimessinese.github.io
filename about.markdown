@@ -83,7 +83,7 @@ My background spans wet lab research (synthetic biology, organoids, cardiac impl
 </div>
 
 <p style="font-size:0.95rem; line-height:1.8; color:#333; max-width:640px; margin-bottom:1.5rem;">
-Dance has been a parallel commitment since before university. In Delft I joined two crews and performed on proper stages: three pieces at IO Festival (the annual TU Delft student festival) across two years, and productions with POSE. I choreographed three full-scale musicals (The Greatest Showman, The Lion King, and Peter Pan) and performed in seven total. Before university, I captained my volleyball team in Italy and won regionals.
+Dance has been a parallel commitment since before university. In Delft I joined two crews and performed on proper stages: three pieces at IO Festival (the annual TU Delft student festival) across two years, and productions with POSE. I choreographed three full-scale musicals (The Greatest Showman, The Lion King, and Peter Pan) and performed in seven total. During university, I captained my volleyball team in the Netherlands and won regionals.
 </p>
 
 <div class="section-rule">
