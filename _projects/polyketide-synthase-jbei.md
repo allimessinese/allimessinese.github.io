@@ -21,9 +21,13 @@ links:
 
 ## What I Learned
 
-Working in a DOE national lab is different from working in a university lab. The scale of the science, the number of people working on adjacent problems, and the institutional pressure to demonstrate translational impact all shape how the work gets done. It was the first time I worked inside a project that was explicitly pointed at a commercial endpoint: engineering biology to replace petrochemical manufacturing. That framing changed how I thought about experimental choices. Every decision had a "and then what?" attached to it.
+In a university lab, the choice of chassis is largely driven by convenience: what has established protocols, what the lab already works with, what is well-characterised. The science stays local to the experiment.
 
-The project also gave me a concrete sense of how pathway engineering differs from genetic engineering of individual parts. Building a non-canonical amino acid biosynthesis pathway in a new chassis is not one problem: it is a sequence of problems that each generate new constraints for the next, from gene integration strategy to codon optimisation to analytical validation. The iteration is slower and the failure modes are more numerous than when you are working with a single well-characterised component.
+At JBEI the logic was different. The end goal was bioplastics — a commercial, scalable material that could replace petrochemical-derived polymers and reduce the environmental footprint of plastic manufacturing. That endpoint changed every decision. The vessel we were developing the PKS in was not just a research tool. It was a candidate for industrial fermentation. *Pseudomonas putida* made sense not only because of its genome engineering protocols and codon-optimised loading modules, but because it is a chassis with a credible path to scale. The question underneath every experimental choice was: does this still make sense if we need to run it in a fermenter at volume?
+
+What surprised me was the magnitude of what that commercial goal actually requires. Synthetic biology in an academic lab is often a solo or small-team effort — one project, one organism, years of iteration. What I saw at JBEI was the institutional version: dozens of scientists working in parallel, each owning a different part of the problem, each generating constraints and inputs for the others. To move from a working pathway in a lab strain to a product that can displace something as entrenched as petrochemical plastics, you need that level of coordination. The analytical team, the engineering effort, the modelling, the fermentation development — all of it moving at the same time.
+
+It was the clearest demonstration I have seen of why the environmental problems synthetic biology is trying to solve are hard: not because the science is insufficient, but because closing the gap between a working result and a deployable product requires an infrastructure that most institutions cannot build alone.
 
 ## The Lab
 
