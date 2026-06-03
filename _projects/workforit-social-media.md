@@ -21,9 +21,13 @@ links:
 
 ## What I Learned
 
-Managing social media for a two-sided marketplace is harder than managing it for a single-audience product. WorkForIt needed to speak to students and companies simultaneously, on the same channels, without letting either group feel like an afterthought. Getting that balance right meant genuinely understanding both sides: what a student actually worries about when looking for their first real work experience, and what a company needs to see before it decides to trust an early-career person with a project that matters.
+Before this role, I thought content strategy was about finding the right message for the right channel. WorkForIt taught me something more specific: the message that works is almost always the one with a face on it.
 
-The other thing this role sharpened was discipline around measurement. It is easy to optimise for reach and follower counts when the numbers that actually matter are engagement rates and the signals that lead to conversion. I learned to distinguish between content that gets seen and content that prompts action, and to make decisions based on the second category.
+Everything that performed — the posts that drove engagement, the content that got shared — was personable. Real team members, real students, real founder moments. The content that underperformed was the content that talked about the platform: what WorkForIt does, how the matching works, why potential-first hiring is better than credential screening. All true, all relevant, all flat in terms of response.
+
+This made the two-sided marketplace problem harder, not easier. Students needed to see people like them — early-career, ambitious, figuring things out. Companies needed to see credibility and proof. Both of those things had to come through people, not through product explanations. The editorial question every time was: whose face makes this real?
+
+The discipline that followed was measurement. It is easy to optimise for reach and follower counts when the numbers that actually matter are engagement rates. I learned to distinguish between content that gets seen and content that prompts action — and to notice that those two things very rarely come from the same post.
 
 ## About WorkForIt
 
