@@ -6,7 +6,6 @@ permalink: /about/
 
 <div class="page-header">
   <h1>About</h1>
-  <p class="subtitle">Bioengineer &nbsp;·&nbsp; Operator &nbsp;·&nbsp; Berkeley, California</p>
 </div>
 
 <p class="about-intro">
