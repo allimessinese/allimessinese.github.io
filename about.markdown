@@ -10,13 +10,13 @@ permalink: /about/
 </div>
 
 <p class="about-intro">
-I'm Allegra - bioengineer, builder, and chronic learner. If you must know one thing about me: I'd rather be the dumbest person in the room than the smartest. I thrive when I'm surrounded by ambitious, curious, driven people - it keeps me sharp and always moving forward.
+I'm Allegra: bioengineer, GTM operator, and someone who is genuinely happiest when they're the least experienced person in the room. That's not modesty. It's strategy. In biotech, where every problem sits at the intersection of hard science and real human stakes, the fastest way to understand something is to stop pretending you already do.
 </p>
 <p class="about-intro">
-I graduated from UC Berkeley with an MEng in Bioengineering after a BS in Nanobiology from TU Delft. I now work in growth at Mithrl, where I get to apply everything I've learned across research, partnerships, and customer discovery to scale something that matters. I'm drawn to the intersection of deep tech and commercial impact - not just how something works, but whether and how the world needs it.
+My background starts in the lab: synthetic biology, organ regeneration, metabolic engineering. I went deep there because if you want to sell a scientific platform, you need to understand the science at the level your buyer does. Or they know. But the lab also taught me something else: discoveries don't reach people on their own. There is always a gap between what a platform can do and the moment a decision-maker trusts it enough to act. Closing that gap is a commercial, communication, and execution problem. That's where I work.
 </p>
 <p class="about-intro">
-My background spans wet lab research (synthetic biology, organoids, cardiac implants), GTM, venture capital, and running operations for a 40-person student organisation. I've worked in Italy, the Netherlands, Spain, and the United States, and I'm building toward a career at the crossroads of biotech, startups, and venture.
+For the past year I've been the second GTM hire at Mithrl, building the commercial function for an AI platform in enterprise pharma from scratch. The interesting part isn't the quota (nine consecutive months above 120%, eleven of the top twenty pharma companies engaged). It's everything that had to exist before the quota was possible: the tech stack, the buyer framework, the partnership strategy, the thought leadership, the team. I'm most useful when I'm figuring out what the system needs to be, and then building it.
 </p>
 
 <div class="section-rule">
