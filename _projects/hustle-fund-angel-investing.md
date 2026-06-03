@@ -21,13 +21,15 @@ links:
 
 ## What I Learned
 
-Camp Hustle compressed a lot of investing intuition into a short stretch of time. The speakers were practitioners in the middle of deploying capital, not theorists, and they taught accordingly: concrete numbers, named mistakes, and frameworks tested against real portfolios.
+Before Camp Hustle, I understood venture capital the way most people who have not been inside it do: investors evaluate companies and decide which ones are worth backing. The investor holds the selection power.
 
-The most durable idea from the weekend was the distinction between rivers and reservoirs. Investors who chase deals as they flow past are always one step behind. Investors who build deep networks and reputations become reservoirs: the deals come to them. The practical implication is that the work you do before you have capital to deploy is exactly the work that determines whether you will get good deals to see when you do.
+The weekend reoriented that assumption. The best founders, the ones with real options, are actively choosing which investors go on their cap table. They are evaluating reputation, domain knowledge, network usefulness, and what an investor will actually do when something goes wrong. The match goes both ways, and investors who do not understand that are misreading the room every time they sit across from a founder who has other choices.
 
-The point about AI and culture also landed hard. The technology is moving faster than most teams' ability to integrate it thoughtfully, and the limiting factor in AI adoption is almost always organisational, not technical. That framing reoriented how I think about evaluating AI-adjacent companies: the question is not just whether the model works, but whether the organisation around it can actually change.
+Sitting in on a due diligence session made this concrete in a way no framework could. Watching a deal get evaluated live, seeing the questions that actually determine whether something moves forward, is different in kind from reading about how diligence works. The room is smaller than the theory. The decisions are more specific and more human than the models suggest.
 
-Volunteering was its own lesson. Access is often treated as something you earn linearly, through credentials and titles. Camp Hustle was a reminder that there are faster paths if you are willing to do the work that others skip. Showing up early, handling logistics, being useful before the interesting conversations start: those are not consolation prizes for people who cannot get in any other way. They are often better than just attending.
+The rivers and reservoirs framing landed inside this context. Building reputation and relationships before you have capital to deploy is not just good networking advice. It is the actual mechanism by which founders eventually decide to take your money over someone else's. The pre-work is the product.
+
+Volunteering for access turned out to be its own version of the same idea. The path into high-signal rooms is rarely through the front door if you have not yet built the credentials to walk through it that way. Showing up early, handling the logistics that no one else wants to handle, being useful before the interesting conversations start: I came away with more than I would have with a paid ticket, and a clearer sense of what earning a seat actually looks like in practice.
 
 ## About Camp Hustle
 
@@ -46,18 +48,6 @@ I got access to Camp Hustle by volunteering. That is worth saying plainly becaus
 Volunteering meant arriving before the event began, handling logistics, and making myself useful in the ways that organisers need but that most attendees would rather skip. In exchange, I had access to every session, every speaker, and every conversation, often with more flexibility than a paying ticket would have provided.
 
 The lesson generalised: in high-signal environments where entry is competitive, look for the operational gaps that others are not filling. The access on the other side is real.
-
-## Key Takeaways
-
-**Rivers and reservoirs.** Investors who are constantly in motion, chasing the next deal as it flows past, are structurally disadvantaged relative to those who have built enough reputation and trust that deals arrive unsolicited. Becoming a reservoir is a long game, but it is the right game.
-
-**AI is a cultural problem as much as a technical one.** The organisations getting the most out of AI are not necessarily the ones with the best models. They are the ones that have actually changed how they work. Adoption requires cultural shifts that most companies underestimate when they budget for AI.
-
-**Case studies beat hypotheticals.** The sessions that landed best at Camp Hustle were specific: here is a company, here is what we saw, here is what we missed, here is what the numbers showed. Specificity is what makes learning transferable.
-
-**Back up your numbers.** Whether you are pitching a company or presenting a thesis, the number that cannot be sourced is the number that loses the room. Every claim needs a thread you can pull.
-
-**Volunteer for access.** The path into rooms you are not yet invited to is often through the back door. Do the work that most people skip, and you earn a seat at the table before anyone has formally offered you one.
 
 ## Angel Squad
 
