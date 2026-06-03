@@ -784,7 +784,6 @@ img { max-width: 100%; display: block; }
 
 /* ── Home — Writing piece ───────────────────────────────── */
 .home-writing-piece {
-  max-width: 680px;
   border-left: 3px solid var(--navy);
   padding-left: 1.5rem;
   margin-top: 0.75rem;
