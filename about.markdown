@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<div class="page-header">
+<div class="page-header" style="max-width:680px;">
   <h1>About</h1>
 </div>
 
