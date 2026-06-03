@@ -778,6 +778,29 @@ img { max-width: 100%; display: block; }
 }
 .home-section-label a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
+/* ── Home — Writing piece ───────────────────────────────── */
+.home-writing-piece {
+  max-width: 680px;
+  border-left: 3px solid var(--navy);
+  padding-left: 1.5rem;
+  margin-top: 0.75rem;
+}
+.home-writing-title {
+  font-family: var(--ff-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--navy);
+  margin-bottom: 0.85rem;
+}
+.home-writing-body {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--text);
+  margin-bottom: 0.9rem;
+}
+.home-writing-body:last-child { margin-bottom: 0; }
+
 /* ── Home — About snippet ───────────────────────────────── */
 .home-about-box {
   display: grid;
