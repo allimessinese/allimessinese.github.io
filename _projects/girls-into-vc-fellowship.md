@@ -19,11 +19,17 @@ links:
 
 ## What I Learned
 
-Girls Into VC gave me my first structured immersion in how venture capital actually works, from fund mechanics and portfolio construction to how early-stage investors evaluate founders. The fellowship curriculum was rigorous and the speakers were the real thing: practitioners who had made the decisions, not just studied them.
+I went into Girls Into VC with a fairly basic mental model of how investing worked. I thought it was structured like a loan: someone with money gave it to someone with an idea and expected it back with returns. I also assumed founders needed to have everything figured out before they could walk into a room and ask for capital.
 
-Organising the Summit sharpened a different set of skills. In the months before the event I owned logistics: coordinating venues, managing timelines, handling speaker communications, and keeping the moving parts of an 80-person day from falling apart. On the day itself my role shifted to speaker management, making sure each session ran on time, speakers had what they needed, and transitions were smooth. It taught me that good events feel effortless to attendees because someone absorbed all the friction beforehand.
+Both of those assumptions were wrong.
 
-The programming choices also mattered. Bringing together a biotech investor, a startup lawyer, a pitch competition, and structured networking was a deliberate design decision: the goal was a day where a first-year student and a VC partner could both leave having learned something. Watching that actually happen was its own form of validation.
+The fellowship dismantled them methodically. VC is not a loan — it is a bet on a future that does not exist yet, structured around equity, risk tranches, portfolio construction, and fund mechanics that have their own logic entirely. And the founders who raise early-stage capital often do not have certainty. They have conviction. The distinction matters. Investors are not buying proof. They are buying the argument that proof is coming.
+
+The session that landed differently for me than for most of the room was Lan Fong's on biotech investing. She talked about how science becomes a fundable thesis: how an investor evaluates a life sciences deal without necessarily being a scientist. As someone who came from the bench, I was tracking two conversations at once — what she was saying about the science, and which part of the science she chose to surface. Which technical detail became the thesis. Which result was worth naming in a room completely dissociated from the technology.
+
+That selection is a translation problem. It is also, I realised, the same problem I had been working on from the other side in GTM: not what a platform does, but which part of what it does makes a decision-maker act.
+
+Organising the Summit sharpened a different set of skills. Good events feel effortless to attendees because someone absorbed all the friction beforehand. The programming was a deliberate design decision: the goal was a day where a first-year student and a VC partner could both leave having learned something real. Watching that actually happen was its own form of validation.
 
 ## About Girls Into VC
 
