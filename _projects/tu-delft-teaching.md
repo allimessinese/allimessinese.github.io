@@ -16,9 +16,13 @@ lng: 4.3571
 
 ## What I Learned
 
-Designing a problem is a different skill from solving one. When you solve a problem someone else wrote, you work within a structure that already knows where it is going. When you design the problem, you have to make every structural choice yourself: what prior knowledge to assume, where to put the scaffolding, how much to reveal in the assignment text and how much to leave for the student to discover. Getting that balance wrong in either direction, too much hand-holding or too little, produces either boredom or paralysis. The six course projects I helped create were a continuous exercise in threading that needle.
+Designing a problem is a different skill from solving one. When you solve a problem someone else wrote, you work within a structure that already knows where it is going. When you design the problem, you have to make every structural choice yourself: what prior knowledge to assume, where to put the scaffolding, how much to reveal in the assignment text and how much to leave for the student to discover. Getting that balance wrong in either direction produces either boredom or paralysis. The six course projects I helped create were a continuous exercise in threading that needle.
 
-The other thing the role clarified is what it actually means to understand something. Students would ask questions I thought I knew the answer to, and then, mid-explanation, I would find a gap I had not noticed before. The Euler method, finite difference schemes, Monte Carlo convergence: each of them has an edge case or a subtlety that only surfaces when someone who does not yet understand it forces you to re-derive it from first principles in real time.
+The second year taught me something the first year could not. I ran the same course with a different cohort, using largely the same materials, and watched concepts that had landed cleanly the first time fail to register with the second group. The students were different. Their prior preparation was different. What read as clear scaffolding to one cohort read as ambiguous to the next.
+
+I rewrote sections of assignments between years not because the content was wrong but because the framing was wrong for who was in the room. That distinction — between an idea being sound and the framing being right for this specific audience — is one I have carried into every communication problem since.
+
+The role also clarified what it actually means to understand something. Students would ask questions I thought I knew the answer to, and then, mid-explanation, I would find a gap I had not noticed before. The Euler method, finite difference schemes, Monte Carlo convergence: each of them has an edge case that only surfaces when someone who does not yet understand it forces you to re-derive it from first principles in real time.
 
 ## The Course
 
