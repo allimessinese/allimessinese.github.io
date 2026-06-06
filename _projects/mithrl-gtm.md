@@ -19,11 +19,20 @@ links:
     url: "https://www.mithrl.com/news/elephas-biosciences-and-mithrl-pair-real-time-tumor-profiling-with-agentic-ai"
 ---
 
+## What I Learned
+
+Joining as the second member of a GTM team means you are not executing a playbook. You are writing it. There is no inherited territory, no established outreach cadence, no onboarding deck that tells you who the buyer is. You figure all of that out while simultaneously hitting quota.
+
+The scientific background mattered more than I expected. Selling an AI platform into pharma R&D organisations requires you to speak fluently about omics data, computational biology bottlenecks, and therapeutic programme timelines. It is not enough to know the product. You have to understand the problem at the level your buyer does, or they will not trust that the platform does either. Every conversation I had with a Dir/VP of Computational Biology or a Therapeutic Area lead was also a scientific conversation.
+
+The JPM event was the clearest proof of a principle I had started to believe: the most effective positioning is the one that has nothing to prove. We did not build a typical conference event. We built something people actually wanted to attend. The queue around the block was the result.
+
 ## The Company
 
 **Mithrl** is the Scientific Decision Engine for enterprise R&D. The platform ingests omics and multi-modal data and outputs comprehensive biological insights, reduction in analysis time of up to 32x compared to manual workflows. The problem it solves is structural: computational biology teams at large pharma companies are overwhelmed with incoming requests, while bench scientists cannot self-serve on data lookups and therapeutic area leaders wait weeks for insights that should take days. Mithrl eliminates that bottleneck.
 
 I joined as the **10th hire** and **second GTM team member**, working directly with the CEO.
+
 
 <div class="project-stats">
   <div class="project-stat">
@@ -121,11 +130,3 @@ I also represented Mithrl at conferences including AACR and DataDrivenPharma, pr
   <img src="/assets/images/mithrl-aacr-booth.jpg" alt="Allegra at the Mithrl booth at AACR 2026">
   <figcaption>Mithrl booth at the AACR Annual Meeting 2026, San Diego.</figcaption>
 </figure>
-
-## What I Learned
-
-Joining as the second member of a GTM team means you are not executing a playbook. You are writing it. There is no inherited territory, no established outreach cadence, no onboarding deck that tells you who the buyer is. You figure all of that out while simultaneously hitting quota.
-
-The scientific background mattered more than I expected. Selling an AI platform into pharma R&D organisations requires you to speak fluently about omics data, computational biology bottlenecks, and therapeutic programme timelines. It is not enough to know the product. You have to understand the problem at the level your buyer does, or they will not trust that the platform does either. Every conversation I had with a Dir/VP of Computational Biology or a Therapeutic Area lead was also a scientific conversation.
-
-The JPM event was the clearest proof of a principle I had started to believe: the most effective positioning is the one that has nothing to prove. We did not build a typical conference event. We built something people actually wanted to attend. The queue around the block was the result.
