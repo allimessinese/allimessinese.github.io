@@ -23,7 +23,7 @@ The most lasting thing this placement gave me was a calibration. Before it, rese
 
 The second thing I took away was more personal. The team was studying neuromelanin in the context of Parkinson's Disease. The connection between a dark pigment in the brain, the cells it protects, and the degeneration that eventually defines the disease is not obvious until you see it being investigated up close. That specificity, that gap between what is known and what remains to be understood, was what made me want to work in biomedical science rather than just study it.
 
-This was the experience that confirmed my decision to study Nanobiology at TU Delft.
+The third thing I took away wasn't about the science at all. The PI I spent time with was doing work that mattered. The questions she was pursuing were the kind that could genuinely change how Parkinson's is understood and treated. And she was struggling to continue. Not because the science had stalled. Because the funding had. Watching someone with that level of expertise and that quality of work face a constraint that had nothing to do with the research itself was the first time I understood that the gap between a discovery and the people it could help isn't only scientific. It's also structural. Someone has to build the bridge.
 
 ## The Lab
 
