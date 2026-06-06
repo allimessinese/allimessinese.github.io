@@ -41,7 +41,7 @@ The format is deliberately intimate. Speakers share what actually happened in th
 
 I attended with the **[Girls Into VC at Berkeley](/projects/girls-into-vc-fellowship/)** chapter.
 
-![Camp Hustle 2025](/assets/images/camp-hustle-sign.jpg)
+![Camp Hustle 2025](/assets/images/camp-hustle-event.jpg)
 
 ## How I Got In: Volunteering
 
