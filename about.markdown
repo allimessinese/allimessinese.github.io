@@ -9,7 +9,7 @@ permalink: /about/
 </div>
 
 <p class="about-intro">
-I'm Allegra: bioengineer, translator, and someone who is genuinely happiest when they're the least experienced person in the room. That's not modesty. It's strategy. In biotech, where every problem sits at the intersection of hard science and real human stakes, the fastest way to understand something is to stop pretending you already do.
+I'm Allegra: bioengineer, builder, and someone who is genuinely happiest when they're the least experienced person in the room. That's not modesty. It's strategy. In biotech, where every problem sits at the intersection of hard science and real human stakes, the fastest way to understand something is to stop pretending you already do.
 </p>
 <p class="about-intro">
 The lab is where I learned the first language. I went deep into synthetic biology, organ regeneration, and metabolic engineering because without that fluency you cannot follow where the science actually goes, and if you cannot follow it, you cannot make it legible to someone who needs to act on it. The gap between what a platform can do and what a decision-maker will trust is almost always a translation problem. That is what I trained to solve.
