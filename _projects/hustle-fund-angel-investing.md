@@ -29,6 +29,8 @@ Sitting in on a due diligence session made this concrete in a way no framework c
 
 The rivers and reservoirs framing landed inside this context. Building reputation and relationships before you have capital to deploy is not just good networking advice. It is the actual mechanism by which founders eventually decide to take your money over someone else's. The pre-work is the product.
 
+The most practical thing I built from the weekend was a framework for investor selection from the founder's side. When the time comes to build a cap table, the question is not just who wants to invest. It is who is actually useful. What I look for: someone with direct experience in the vertical you are trying to break into, not adjacent experience but the same terrain. Someone who functions as a coach rather than just a validator. And a genuine brainstorming partner, willing to think through the hard problems rather than pattern-match from a distance. Those three qualities are not equally common. Being able to name them is the first step toward choosing deliberately.
+
 Volunteering for access turned out to be its own version of the same idea. The path into high-signal rooms is rarely through the front door if you have not yet built the credentials to walk through it that way. Showing up early, handling the logistics that no one else wants to handle, being useful before the interesting conversations start: I came away with more than I would have with a paid ticket, and a clearer sense of what earning a seat actually looks like in practice.
 
 ## About Camp Hustle
