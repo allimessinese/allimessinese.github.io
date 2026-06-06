@@ -135,6 +135,9 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
+  const isMobile = L.Browser.mobile || window.innerWidth < 700;
+  const dotSize  = isMobile ? 24 : 16;
+
   const map = L.map('home-map', {
     center: [30, 12],
     zoom: 2,
@@ -142,14 +145,19 @@ document.addEventListener('DOMContentLoaded', function () {
     minZoom: 2,
     maxZoom: 10,
     scrollWheelZoom: false,
-    worldCopyJump: true
+    worldCopyJump: true,
+    dragging:        !isMobile,
+    touchZoom:       !isMobile,
+    doubleClickZoom: false,
+    boxZoom:         false,
+    keyboard:        false
   });
 
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     subdomains: 'abcd', maxZoom: 19
   }).addTo(map);
 
-  L.control.zoom({ position: 'bottomright' }).addTo(map);
+  if (!isMobile) L.control.zoom({ position: 'bottomright' }).addTo(map);
 
   const cluster = L.markerClusterGroup({
     maxClusterRadius: 60,
@@ -172,8 +180,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const marker = L.marker([p._lat, p._lng], {
       icon: L.divIcon({
         className: '',
-        html: `<div class="hmap-dot" style="width:16px;height:16px;background:${cat.color};border-color:${cat.border};cursor:pointer;"></div>`,
-        iconSize: [16, 16], iconAnchor: [8, 8]
+        html: `<div class="hmap-dot" style="width:${dotSize}px;height:${dotSize}px;background:${cat.color};border-color:${cat.border};cursor:pointer;"></div>`,
+        iconSize: [dotSize, dotSize], iconAnchor: [dotSize/2, dotSize/2]
       })
     });
     marker.bindTooltip(p.title, { direction: 'top', offset: [0, -10], className: 'hmap-tooltip' });

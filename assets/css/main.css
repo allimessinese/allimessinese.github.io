@@ -1063,8 +1063,10 @@ img { max-width: 100%; display: block; }
   .main { padding: 0 1.25rem 4rem; }
   .article-hero-image { height: 220px; }
   .home-about-box { grid-template-columns: 1fr; }
-  .home-about-initial { display: none; }
+  .home-about-photo { height: 200px; border-right: none; border-bottom: 1px solid var(--rule-dark); }
+  .home-about-text { padding: 1.25rem; }
   .home-pub-grid, .home-patent-grid { grid-template-columns: 1fr; }
   .home-pub-entry, .home-patent-entry { border-right: none; }
-  #home-map { height: 300px; }
+  #home-map { height: 320px; }
+  .home-map-cta { text-align: left; }
 }
