@@ -4,7 +4,7 @@ year: 2025
 role: "GTM"
 institution: "Mithrl"
 summary: "Second GTM hire at Mithrl, the Scientific Decision Engine for enterprise pharma R&D. 9 consecutive months at 120%+ quota. Organized one of the largest JPM 2026 satellite events. Initiated conversations with 11 of the top 20 pharma companies."
-tags: [GTM, biotech, sales, AI, current]
+tags: [GTM, biotech, operations, AI, current]
 gradient: grad-8
 image: "/assets/images/mithrl-jpm-crowd.jpg"
 image_position: "center 60%"
