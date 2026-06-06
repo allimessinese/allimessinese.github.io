@@ -25,6 +25,8 @@ The most disorienting part of this visit was realising how much the actual scien
 
 The visit also clarified why regenerative medicine is hard to accelerate. The timelines for getting from a decellularized scaffold to something clinically useful are long not because the science is immature, but because every step, the decellularization, the recellularisation, the vascularisation, the immune management, has to be solved to a high standard simultaneously. Watching the full spectrum of the lab's work, from pig fetus liver to lung to colon, made that interdependence concrete.
 
+The third thing the visit clarified was about conditions. The same protocol, run in two different labs by two different scientists, rarely produces identical results. Not because anyone made an error, but because conditions that feel controlled are not fully controlled: the timing, the exact concentration of a reagent, the particular habits of the person running it. None of that gets written into the paper. Regenerative medicine is especially sensitive to this because the material is biological and the variance is real. What I took from it was a new respect for knowledge transfer as its own discipline. Tracking everything precisely and making the implicit explicit is not administrative work. It is the infrastructure that lets the science move.
+
 ## The Context
 
 During my Minor in Regenerative Medicine at TU Delft, one module required students to design an original research proposal. My proposal, co-written with **Lieke van Dongen**, was titled **"Pig Liver Scaffold Modification to Enhance Compatibility with Human Recipients."**
