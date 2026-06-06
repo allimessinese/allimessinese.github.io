@@ -751,7 +751,10 @@ img { max-width: 100%; display: block; }
 /* ── Press blocks (Recognition page) ───────────────────── */
 .press-project-block {
   border-top: 1px solid var(--rule);
-  padding: 1.5rem 0;
+  padding: 2rem 0;
+}
+.press-project-block + .press-project-block {
+  margin-top: 1.5rem;
 }
 .press-project-header {
   display: flex;
