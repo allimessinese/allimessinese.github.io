@@ -31,17 +31,20 @@ permalink: /publications/
 {% for item in site.data.press %}
 <div class="press-project-block">
   <div class="press-project-header">
-    <span class="press-project-name"><a href="{{ item.project_url | relative_url }}">{{ item.project }}</a></span>
+    <span class="press-project-name">{{ item.project }}</span>
     <span class="press-project-meta">{{ item.total_outlets }} outlets &nbsp;·&nbsp; {{ item.languages }} &nbsp;·&nbsp; {{ item.year }}</span>
   </div>
   <p class="press-project-summary">{{ item.summary }}</p>
-  <div class="press-highlight-list">
-    {% for hit in item.highlights %}
-    <a class="press-highlight-chip" href="{{ hit.url }}" target="_blank" rel="noopener">
-      <span class="press-chip-outlet">{{ hit.outlet }}</span>
-      <span class="press-chip-type">{{ hit.type }}</span>
-    </a>
-    {% endfor %}
+  <div class="press-table-wrap">
+    <table class="press-table">
+      <thead><tr><th>Outlet</th><th>Type</th></tr></thead>
+      <tbody>
+        {% for hit in item.highlights %}
+        <tr><td>{{ hit.outlet }}</td><td>{{ hit.type }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
+  <a class="press-project-cta" href="{{ item.project_url | relative_url }}">Full press coverage →</a>
 </div>
 {% endfor %}
