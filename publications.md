@@ -1,36 +1,16 @@
 ---
 layout: page
-title: Publications & Recognition
+title: Recognition
 permalink: /publications/
 ---
 
 <div class="page-header">
-  <h1>Publications &amp; Recognition</h1>
-  <p class="subtitle">Papers, articles, and awards.</p>
+  <h1>Recognition</h1>
 </div>
 
-<div class="page-section-label">Publications</div>
-
-{% if site.data.publications.size > 0 %}
-<div class="entry-list">
-{% for pub in site.data.publications %}
-<div class="entry-card">
-  <h3>{{ pub.title }}</h3>
-  <div class="entry-meta">{{ pub.year }}{% if pub.venue %} · {{ pub.venue }}{% endif %}{% if pub.authors %} · {{ pub.authors }}{% endif %}</div>
-  {% if pub.description %}<p class="entry-desc">{{ pub.description }}</p>{% endif %}
-  <div class="entry-links">
-    {% if pub.link %}<a class="entry-link" href="{{ pub.link }}" target="_blank" rel="noopener">Read →</a>{% endif %}
-    {% if pub.pdf %}<a class="entry-link" href="{{ pub.pdf }}" target="_blank" rel="noopener">PDF →</a>{% endif %}
-  </div>
-</div>
-{% endfor %}
-</div>
-{% else %}
-<p style="color:#94a3b8;font-size:0.9rem;">Publications will appear here — add entries to <code>_data/publications.yml</code>.</p>
-{% endif %}
+<div class="page-section-label">Awards</div>
 
 {% if site.data.awards.size > 0 %}
-<div class="page-section-label" style="margin-top:3rem;">Awards &amp; Recognition</div>
 <div class="entry-list">
 {% for award in site.data.awards %}
 <div class="entry-card">
@@ -45,3 +25,23 @@ permalink: /publications/
 {% endfor %}
 </div>
 {% endif %}
+
+<div class="page-section-label" style="margin-top:3rem;">In the Press</div>
+
+{% for item in site.data.press %}
+<div class="press-project-block">
+  <div class="press-project-header">
+    <span class="press-project-name"><a href="{{ item.project_url | relative_url }}">{{ item.project }}</a></span>
+    <span class="press-project-meta">{{ item.total_outlets }} outlets &nbsp;·&nbsp; {{ item.languages }} &nbsp;·&nbsp; {{ item.year }}</span>
+  </div>
+  <p class="press-project-summary">{{ item.summary }}</p>
+  <div class="press-highlight-list">
+    {% for hit in item.highlights %}
+    <a class="press-highlight-chip" href="{{ hit.url }}" target="_blank" rel="noopener">
+      <span class="press-chip-outlet">{{ hit.outlet }}</span>
+      <span class="press-chip-type">{{ hit.type }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endfor %}

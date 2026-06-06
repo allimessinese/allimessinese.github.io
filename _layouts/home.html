@@ -13,7 +13,7 @@ layout: default
   <ul class="masthead-nav">
     <li><a href="{{ '/about/' | relative_url }}">About</a></li>
     <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-    <li><a href="{{ '/publications/' | relative_url }}">Publications &amp; Recognition</a></li>
+    <li><a href="{{ '/publications/' | relative_url }}">Recognition</a></li>
     <li><a href="{{ '/patents/' | relative_url }}">Patents</a></li>
   </ul>
   <hr class="masthead-rule-thin">
@@ -62,19 +62,22 @@ layout: default
 <div class="home-section">
   <div class="home-section-label">
     <span>The Recognition</span>
-    <a href="{{ '/publications/' | relative_url }}">All publications →</a>
+    <a href="{{ '/publications/' | relative_url }}">All recognition →</a>
   </div>
-  {% if site.data.publications and site.data.publications.size > 0 %}
-  <div class="home-pub-grid">
-    {% for pub in site.data.publications %}
-    <div class="home-pub-entry">
-      <span class="home-pub-journal">{{ pub.venue }}</span>
-      <div class="home-pub-title">{{ pub.title }}</div>
-      <div class="home-pub-meta">{% if pub.authors %}{{ pub.authors }} · {% endif %}{{ pub.year }}{% if pub.institution %} · {{ pub.institution }}{% endif %}</div>
-    </div>
-    {% endfor %}
+  {% for award in site.data.awards %}
+  <div class="home-recognition-entry">
+    <span class="home-recognition-badge">{{ award.year }} · {{ award.issuer }}</span>
+    <div class="home-recognition-title">{{ award.title }}</div>
+    {% if award.description %}<div class="home-recognition-desc">{{ award.description }}</div>{% endif %}
   </div>
-  {% endif %}
+  {% endfor %}
+  {% for item in site.data.press %}
+  <div class="home-recognition-entry">
+    <span class="home-recognition-badge">{{ item.year }} · {{ item.total_outlets }} outlets</span>
+    <div class="home-recognition-title"><a href="{{ item.project_url | relative_url }}">{{ item.project }}</a></div>
+    <div class="home-recognition-desc">{{ item.summary | truncate: 120 }}</div>
+  </div>
+  {% endfor %}
 </div>
 
 <!-- ── The IP ── -->

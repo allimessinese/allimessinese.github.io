@@ -718,6 +718,102 @@ img { max-width: 100%; display: block; }
   margin-bottom: 0.5rem;
 }
 
+/* ── Home — Recognition entries ─────────────────────────── */
+.home-recognition-entry {
+  border-top: 1px solid var(--rule);
+  padding: 0.9rem 0;
+}
+.home-recognition-entry:last-child { border-bottom: 1px solid var(--rule); }
+.home-recognition-badge {
+  font-size: 0.58rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  display: block;
+  margin-bottom: 0.3rem;
+}
+.home-recognition-title {
+  font-family: var(--ff-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+  margin-bottom: 0.2rem;
+}
+.home-recognition-title a { color: inherit; text-decoration: none; }
+.home-recognition-title a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.home-recognition-desc {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+/* ── Press blocks (Recognition page) ───────────────────── */
+.press-project-block {
+  border-top: 1px solid var(--rule);
+  padding: 1.5rem 0;
+}
+.press-project-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+.press-project-name {
+  font-family: var(--ff-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+}
+.press-project-name a {
+  color: inherit;
+  text-decoration: none;
+}
+.press-project-name a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.press-project-meta {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+.press-project-summary {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: #555;
+  margin-bottom: 1rem;
+  max-width: 680px;
+}
+.press-highlight-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.press-highlight-chip {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  border: 1px solid var(--rule-dark);
+  padding: 0.45rem 0.75rem;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.press-highlight-chip:hover { background: var(--navy); }
+.press-highlight-chip:hover .press-chip-outlet,
+.press-highlight-chip:hover .press-chip-type { color: #fff; }
+.press-chip-outlet {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.press-chip-type {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
 /* ── Footer ─────────────────────────────────────────────── */
 .footer {
   border-top: 3px solid var(--rule-dark);
