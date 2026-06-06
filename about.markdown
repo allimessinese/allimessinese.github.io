@@ -9,13 +9,13 @@ permalink: /about/
 </div>
 
 <p class="about-intro">
-I'm Allegra: bioengineer, GTM operator, and someone who is genuinely happiest when they're the least experienced person in the room. That's not modesty. It's strategy. In biotech, where every problem sits at the intersection of hard science and real human stakes, the fastest way to understand something is to stop pretending you already do.
+I'm Allegra: bioengineer, translator, and someone who is genuinely happiest when they're the least experienced person in the room. That's not modesty. It's strategy. In biotech, where every problem sits at the intersection of hard science and real human stakes, the fastest way to understand something is to stop pretending you already do.
 </p>
 <p class="about-intro">
-My background starts in the lab: synthetic biology, organ regeneration, metabolic engineering. I went deep there because if you want to sell a scientific platform, you need to understand the science at the level your buyer does. Or they know. But the lab also taught me something else: discoveries don't reach people on their own. There is always a gap between what a platform can do and the moment a decision-maker trusts it enough to act. Closing that gap is a commercial, communication, and execution problem. That's where I work.
+The lab is where I learned the first language. I went deep into synthetic biology, organ regeneration, and metabolic engineering because without that fluency you cannot follow where the science actually goes, and if you cannot follow it, you cannot make it legible to someone who needs to act on it. The gap between what a platform can do and what a decision-maker will trust is almost always a translation problem. That is what I trained to solve.
 </p>
 <p class="about-intro">
-For the past year I've been the second GTM hire at Mithrl, building the commercial function for an AI platform in enterprise pharma from scratch. The interesting part isn't the quota (nine consecutive months above 120%, eleven of the top twenty pharma companies engaged). It's everything that had to exist before the quota was possible: the tech stack, the buyer framework, the partnership strategy, the thought leadership, the team. I'm most useful when I'm figuring out what the system needs to be, and then building it.
+At Mithrl I have been doing that work in practice for the past year. Second GTM hire, commercial function built from scratch for an AI platform in enterprise pharma. Nine consecutive months above 120% quota, eleven of the top twenty pharma companies engaged. What made those numbers possible was understanding the science well enough to earn trust from the people building it, and understanding the buyer well enough to earn trust from the people deciding. The job is knowing both rooms.
 </p>
 
 <div class="section-rule">
