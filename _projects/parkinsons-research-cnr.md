@@ -53,7 +53,7 @@ I performed this on both my own saliva and on a mouse tissue sample, which made 
 
 ## My Role
 
-This placement was part of the **Alternanza Scuola-Lavoro** programme, the Italian compulsory school-work transition scheme, carried out in the final year of my secondary education. I joined the research team for two weeks in June 2019, approximately 60 hours of lab time at L.I.T.A., Via Fratelli Cervi 93, Segrate. The contact researcher was Luca Pasqualetto.
+This placement was part of the **Alternanza Scuola-Lavoro** programme, the Italian compulsory school-work transition scheme, carried out in the final year of my secondary education. I joined the research team for two weeks in June 2019, approximately 60 hours of lab time at L.I.T.A., Via Fratelli Cervi 93, Segrate.
 
 It was my first time in a professional research environment. The experience made the connection between laboratory science and actual disease research concrete in a way that classroom biology never had.
 
