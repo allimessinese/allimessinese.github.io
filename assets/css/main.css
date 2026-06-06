@@ -954,6 +954,19 @@ img { max-width: 100%; display: block; }
   transition: transform 0.18s ease;
 }
 .hmap-dot:hover { transform: scale(1.5); }
+.hmap-tooltip {
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-family: var(--ff-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  padding: 4px 8px;
+  white-space: nowrap;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+}
+.hmap-tooltip::before { display: none; }
 
 /* Leaflet tile tint + suppress attribution + cluster chrome */
 .leaflet-tile-pane { filter: sepia(0.08) contrast(0.92) brightness(1.04) saturate(0.85); }
