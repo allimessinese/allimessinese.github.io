@@ -18,7 +18,9 @@ links:
 
 ## What I Learned
 
-Being selected alongside people from every discipline (medicine, law, engineering, economics) clarified something about how I want to work. The students on this list are not specialists who stayed inside one lane. They moved between fields, built things, and took on problems that did not come with a defined method. Seeing that pattern reflected back as the selection criterion made me more deliberate about continuing to do the same.
+The ceremony was the first time I was in a room where cross-disciplinary work wasn't something I had to explain. It was the selection criterion. The people there had built in medicine, law, finance, and engineering, often in spaces adjacent to but not identical to where they had trained. What they shared wasn't a specific expertise. It was a framework: structured in method, flexible in application. They knew how to enter a new problem space, orient quickly, and build toward something real. Not because they had studied everything, but because they had learned how to learn and how to build.
+
+Most of the people I spoke to assumed I was in the professional category, 25 and above. When they found out I was a student, it registered differently than I expected. Not as a compliment but as a recalibration. I had been measuring myself against a finish line that kept moving, treating everything I had built as preparation for something that hadn't started yet. The room made me stop and look at what was already behind me.
 
 ## The Award
 
