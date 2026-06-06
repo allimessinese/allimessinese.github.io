@@ -25,7 +25,7 @@ That exchange did two things at once. It made me genuinely appreciate the freedo
 
 The second lesson came from a family across the road from our hostel, who invited us in during Galungan week to lend us their traditional sarongs for the celebratory parade. Five generations of women, gathered together to dress us, explain the history of the celebration, and send us off into it. The generosity was entirely unprompted. Nobody had asked, nobody had organised it. It was simply what you do for guests, apparently.
 
-Teaching itself also taught me something: that explaining a subject clearly to someone who does not share your language or your assumptions forces a kind of rigour that formal education rarely demands. You cannot rely on shared vocabulary or shared context. You have to find the thing that actually connects.
+Teaching itself taught me something I had not expected. I had no experience in front of children who did not share my language, and the usual tools did not work. Explaining a concept assumes shared vocabulary. We did not have that. What I had to figure out instead was how to break in: how to make myself legible to a room that could not yet use the words I was trying to teach. What worked was not more explanation. It was gesture, demonstration, and reading the room closely enough to find what actually connected. That is a translation problem before it is a teaching problem. You have to find the entry point before you can build anything on top of it.
 
 ## Week One: The Classroom
 
