@@ -810,21 +810,16 @@ img { max-width: 100%; display: block; }
   grid-template-columns: 140px 1fr;
   border: 1px solid var(--rule-dark);
 }
-.home-about-initial {
-  padding: 1.75rem 1.25rem;
+.home-about-photo {
   border-right: 1px solid var(--rule-dark);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  overflow: hidden;
 }
-.home-about-initial span {
-  font-family: var(--ff-display);
-  font-size: 3rem;
-  font-weight: 800;
-  color: var(--navy-dark);
-  letter-spacing: -0.05em;
-  line-height: 1;
-  opacity: 0.15;
+.home-about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 15%;
+  display: block;
 }
 .home-about-text {
   padding: 1.75rem 2rem;
