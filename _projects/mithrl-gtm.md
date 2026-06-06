@@ -19,14 +19,6 @@ links:
     url: "https://www.mithrl.com/news/elephas-biosciences-and-mithrl-pair-real-time-tumor-profiling-with-agentic-ai"
 ---
 
-## What I Learned
-
-Joining as the second member of a GTM team means you are not executing a playbook. You are writing it. There is no inherited territory, no established outreach cadence, no onboarding deck that tells you who the buyer is. You figure all of that out while simultaneously hitting quota.
-
-The scientific background mattered more than I expected. Selling an AI platform into pharma R&D organisations requires you to speak fluently about omics data, computational biology bottlenecks, and therapeutic programme timelines. It is not enough to know the product. You have to understand the problem at the level your buyer does, or they will not trust that the platform does either. Every conversation I had with a Dir/VP of Computational Biology or a Therapeutic Area lead was also a scientific conversation.
-
-The JPM event was the clearest proof of a principle I had started to believe: the most effective positioning is the one that has nothing to prove. We did not build a typical conference event. We built something people actually wanted to attend. The queue around the block was the result.
-
 ## The Company
 
 **Mithrl** is the Scientific Decision Engine for enterprise R&D. The platform ingests omics and multi-modal data and outputs comprehensive biological insights, reduction in analysis time of up to 32x compared to manual workflows. The problem it solves is structural: computational biology teams at large pharma companies are overwhelmed with incoming requests, while bench scientists cannot self-serve on data lookups and therapeutic area leaders wait weeks for insights that should take days. Mithrl eliminates that bottleneck.
@@ -52,18 +44,29 @@ I joined as the **10th hire** and **second GTM team member**, working directly w
   </div>
 </div>
 
-## Revenue and Market Development
+## Building the GTM Function
 
-Quota at Mithrl is measured in qualified demos booked. Over nine consecutive months I exceeded 120%, running the full outbound motion from prospecting to qualification to handoff.
+Starting from scratch meant building the infrastructure before using it.
 
-The pharma enterprise cycle is long and stakeholder-dense. I initiated conversations with **11 of the top 20 pharma companies**, navigating the three-persona buying committee: the Dir/VP of External Innovation who champions new tools, the Therapeutic Area leader who owns the budget, and the Dir/VP of Computational Biology who makes the technical decision. Understanding what each persona cares about, and why their pain points differ even within the same organisation, was the core skill.
+**Sales operations.** I designed and implemented the full GTM tech stack from scratch, with Salesforce as the centralising layer:
 
-I also represented Mithrl at conferences including AACR and DataDrivenPharma, presenting the company and running live product demos during speeches and booth sessions.
+<ul class="stack-list">
+  <li><strong>ZoomInfo</strong>: lead generation and intent data</li>
+  <li><strong>Salesloft</strong>: sequencing and outreach cadences</li>
+  <li><strong>LinkedIn Sales Navigator</strong>: prospecting and connection</li>
+  <li><strong>Salesforce</strong>: CRM and source of truth</li>
+  <li><strong>HubSpot</strong>: marketing automation</li>
+</ul>
 
-<figure>
-  <img src="/assets/images/mithrl-aacr-booth.jpg" alt="Allegra at the Mithrl booth at AACR 2026">
-  <figcaption>Mithrl booth at the AACR Annual Meeting 2026, San Diego.</figcaption>
-</figure>
+**Hiring.** I supported the CEO on the hiring process for AEs, SDRs, EAs, and Product Marketing roles: screening, interviewing, and evaluating candidates across the GTM org as the team scaled.
+
+**Onboarding.** I built the training and onboarding materials for new GTM hires: the product knowledge base, the buyer persona framework, the outreach playbook, and the qualification criteria. The people we hired after me had a starting point I did not have.
+
+## Product and Feedback Loop
+
+The GTM team is the closest point of contact between the market and the product. I systematically fed that signal back inward: consolidating insights from client conversations into the product roadmap, and surfacing feature requests directly from field interactions. Being the second GTM hire at a company this early meant that feedback loop was unusually direct.
+
+Three features I proposed from client conversations shipped into the product: **ATAC-seq support**, **ChIP-seq support**, and **fully customisable graph editing**. Each came from a recurring ask I kept hearing in qualification calls with computational biology teams. Hearing the same gap from enough buyers is a product specification.
 
 ## Credibility Infrastructure
 
@@ -91,30 +94,6 @@ Quota is easier to hit when the market trusts the platform. Two parallel workstr
 </table>
 </div>
 
-## Product and Feedback Loop
-
-The GTM team is the closest point of contact between the market and the product. I systematically fed that signal back inward: consolidating insights from client conversations into the product roadmap, and surfacing feature requests directly from field interactions. Being the second GTM hire at a company this early meant that feedback loop was unusually direct.
-
-Three features I proposed from client conversations shipped into the product: **ATAC-seq support**, **ChIP-seq support**, and **fully customisable graph editing**. Each came from a recurring ask I kept hearing in qualification calls with computational biology teams. Hearing the same gap from enough buyers is a product specification.
-
-## Building the GTM Function
-
-Starting from scratch meant building the infrastructure before using it.
-
-**Sales operations.** I designed and implemented the full GTM tech stack from scratch, with Salesforce as the centralising layer:
-
-<ul class="stack-list">
-  <li><strong>ZoomInfo</strong>: lead generation and intent data</li>
-  <li><strong>Salesloft</strong>: sequencing and outreach cadences</li>
-  <li><strong>LinkedIn Sales Navigator</strong>: prospecting and connection</li>
-  <li><strong>Salesforce</strong>: CRM and source of truth</li>
-  <li><strong>HubSpot</strong>: marketing automation</li>
-</ul>
-
-**Hiring.** I supported the CEO on the hiring process for AEs, SDRs, EAs, and Product Marketing roles: screening, interviewing, and evaluating candidates across the GTM org as the team scaled.
-
-**Onboarding.** I built the training and onboarding materials for new GTM hires: the product knowledge base, the buyer persona framework, the outreach playbook, and the qualification criteria. The people we hired after me had a starting point I did not have.
-
 ## The End of Slow Science
 
 In January 2026, I co-organised one of the largest satellite events at the **J.P. Morgan Healthcare Conference**.
@@ -129,3 +108,24 @@ Speakers included: Uli Stilz, Mia Nease, Christopher Szeto, Mark Budde, Steven H
   <img src="/assets/images/mithrl-jpm-panel.jpg" alt="Panel discussion at The End of Slow Science event, JPM 2026">
   <figcaption>"The End of Slow Science" panel session at the JPM 2026 satellite event, January 2026, San Francisco.</figcaption>
 </figure>
+
+## Revenue and Market Development
+
+Over nine consecutive months I exceeded 120%, running the full outbound motion from prospecting to qualification to handoff.
+
+The pharma enterprise cycle is long and stakeholder-dense. I initiated conversations with **11 of the top 20 pharma companies**, navigating the three-persona buying committee: the Dir/VP of External Innovation who champions new tools, the Therapeutic Area leader who owns the budget, and the Dir/VP of Computational Biology who makes the technical decision. Understanding what each persona cares about, and why their pain points differ even within the same organisation, was the core skill.
+
+I also represented Mithrl at conferences including AACR and DataDrivenPharma, presenting the company and running live product demos during speeches and booth sessions.
+
+<figure>
+  <img src="/assets/images/mithrl-aacr-booth.jpg" alt="Allegra at the Mithrl booth at AACR 2026">
+  <figcaption>Mithrl booth at the AACR Annual Meeting 2026, San Diego.</figcaption>
+</figure>
+
+## What I Learned
+
+Joining as the second member of a GTM team means you are not executing a playbook. You are writing it. There is no inherited territory, no established outreach cadence, no onboarding deck that tells you who the buyer is. You figure all of that out while simultaneously hitting quota.
+
+The scientific background mattered more than I expected. Selling an AI platform into pharma R&D organisations requires you to speak fluently about omics data, computational biology bottlenecks, and therapeutic programme timelines. It is not enough to know the product. You have to understand the problem at the level your buyer does, or they will not trust that the platform does either. Every conversation I had with a Dir/VP of Computational Biology or a Therapeutic Area lead was also a scientific conversation.
+
+The JPM event was the clearest proof of a principle I had started to believe: the most effective positioning is the one that has nothing to prove. We did not build a typical conference event. We built something people actually wanted to attend. The queue around the block was the result.
